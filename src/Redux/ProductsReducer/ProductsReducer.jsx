@@ -1,7 +1,6 @@
-const products = {
-       phones: {
-              productsComapanys :['Apple','Samsung','Xiaomi'],
-              iphone: [
+const products = [
+      {title:'گوشی موبایل',products:[
+              {title:'اپل',products:[
                      {
                             id: 1,
                             cardName: 'گوشی موبایل اپل مدل iPhone 13 Pro Max A2644',
@@ -427,8 +426,8 @@ const products = {
                                    'گوشی موبایل',
                             ],
                      },
-              ],
-              samsung: [
+              ]},
+              {title:'سامسونگ',products:[
                      {
                             id: 1,
                             cardName: 'گوشی موبایل سامسونگ مدل Galaxy S23',
@@ -870,8 +869,8 @@ const products = {
                                    'گوشی موبایل',
                             ],
                      },
-              ],
-              xiaomi: [
+              ]},
+              {title:'شیائومی',products:[
                      {
                             id: 1,
                             cardName: 'گوشی موبایل شیائومی مدل Poco F5 ',
@@ -1314,9 +1313,9 @@ const products = {
                                    'گوشی موبایل',
                             ],
                      },
-              ]
-       },
-       laptops: [
+              ]}
+       ]} ,
+      {title:'لپ تاپ',products:[
               {
                      id: 1,
                      cardName: 'لپ تاپ 13.3 اینچی اپل مدل MacBook Air MGN63 2020 LLA',
@@ -1753,8 +1752,8 @@ const products = {
                      ],
 
               },
-       ],
-       hardExternal: [
+       ]} ,
+       {title:'هارد اکسترنال',products: [
               {
                      id: 1,
                      cardName: 'هارد اکسترنال ای دیتا مدل HD770G ظرفیت 2 ترابایت',
@@ -2132,8 +2131,8 @@ const products = {
                             'هارد اکسترنال',
                      ],
               },
-       ],
-       mouseAndKeyboard: [
+       ]},
+       { title: 'موس و کیبورد',products:[
               {
                      id: 1,
                      cardName: 'موس بی‌سیم اپل مدل Magic Mouse 2',
@@ -2524,8 +2523,8 @@ const products = {
                             'کیبورد',
                      ],
               },
-       ],
-       consule: [
+       ]},
+        { title: 'کنسول بازی',products:[
               {
                      id: 1,
                      cardName: 'کنسول بازی سونی مدل Playstation 4 Slim',
@@ -2770,8 +2769,8 @@ const products = {
                      ],
                      link: 'https://www.digikala.com/product/dkp-3738743/%DA%A9%D9%86%D8%B3%D9%88%D9%84-%D8%A8%D8%A7%D8%B2%DB%8C-%D9%85%D8%A7%DB%8C%DA%A9%D8%B1%D9%88%D8%B3%D8%A7%D9%81%D8%AA-%D9%85%D8%AF%D9%84-xbox-series-x-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-1-%D8%AA%D8%B1%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/#gallery'
               },
-       ],
-       smartWatches: [
+       ]},
+       { title: 'ساعت هوشمند',products:[
               {
                      id: 1,
                      cardName: 'ساعت هوشمند اپل واچ  مدل Alpine Loop',
@@ -3095,8 +3094,8 @@ const products = {
                             'ساعت هوشمند',
                      ],
               },
-       ],
-       camera: [
+       ]},
+       { title: 'دوربین',products:[
               {
                      id: 1,
                      cardName: 'دوربین دیجیتال کانن مدل EOS 90D',
@@ -3359,8 +3358,8 @@ const products = {
                             'دوربین',
                      ],
               },
-       ]
-}
+       ]}
+]
 
 
 
