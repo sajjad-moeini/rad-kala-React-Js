@@ -1,9 +1,10 @@
 .navbar {
-       background: url(../../public/images/navbarBg.avif);
+       background: #444444;
        background-size: cover;
-       position: fixed;
+       position: sticky;
        top: 0;
        width: 100%;
+       z-index: 2;
 }
 .navbar-toggler{   
        background-color: #fff;

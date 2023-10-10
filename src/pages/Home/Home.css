@@ -1,0 +1,15 @@
+.homeHeaderBg{
+       background: url(../../../public/images/bg/homeBg2.jpg);
+       height: 70vh;
+       background-size: cover;
+}
+.homeHeaderBg-layout{
+       background-color: #302f2faf;
+}
+.welcomeNote{
+       background:linear-gradient(135deg,rgb(163, 179, 193),rgb(142, 196, 240)) ;
+       font-size: 2.5rem;
+       /* mix-blend-mode: multiply; */
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}
