@@ -1,5 +1,6 @@
 const products = {
        phones: {
+              productsComapanys :['Apple','Samsung','Xiaomi'],
               iphone: [
                      {
                             id: 1,
@@ -8,6 +9,8 @@ const products = {
                             colors: ['lightskyblue', 'gray'],
                             price: 89000000,
                             rate: 4.5,
+                            mainImg: 'images/phones/iphone/1/004b2ef1e85f619e9332b096626ff33cbfa44d9f_1634457491.webp',
+                            allImages: ['images/phones/iphone/1/22a8aaa333a74bf9dafac86bd8e81c13ee4f6742_1688802329.jpg', 'images/phones/iphone/1/22a8aaa333a74bf9dafac86bd8e81c13ee4f6742_16883802329.jpg', 'images/phones/iphone/1/277be5cdedb6559c938d22516cb495f5e7d2b3d8_1634457492.jpg', 'images/phones/iphone/1/8603a9b2326f9083f6855349697d67b05b241d04_1634457489.jpg', 'images/phones/iphone/1/fdf511aa3cb9bc9f2a6debda81f69185b41013a2_1693382189.jpg', 'images/phones/iphone/1/ff86ba309153a221e26c69a39ae0731f4083eb8e_1693382180.jpg'],
                             comments: [
                                    {
                                           title: 'آیفون فوق العادس تو استفاده دراز مدت ، اینو من نسخه ۲۵۶ رو دارم خیلی راضی هستم. ولی کاش دیگه همرو با حافظه ۵۱۲یا یک ترا بززن، آخه صدو بیست هشت، واقعا اختلاف قیمت زیادی داره ، و خیلی ها مجبورن از ۱۲۸ بخواطر بودجه شون بگیرن،',
@@ -62,6 +65,8 @@ const products = {
                             colors: ['white'],
                             price: 28413000,
                             rate: 4.4,
+                            mainImg: 'images/phones/iphone/2/06f296efbe3ef2d9bd879942d79b81a5569873f1_1669196797.jpg',
+                            allImages: ['images/phones/iphone/2/8e566ee59e86bdce202471c618d9b0361a25aa5f_1669196804.jpg', 'images/phones/iphone/2/6cd2f0c6197e2e872769c97c90ec58d027f2c41a_1669196791.jpg', 'images/phones/iphone/2/fd1907543c532985c82511fab9bd9d6bf4625f7d_1669196824.jpg', 'images/phones/iphone/2/06f296efbe3ef2d9bd879942d79b81a5569873f1_1669196797.jpg'],
                             comments: [
                                    {
                                           title: 'آیفون فوق العادس تو استفاده دراز مدت ، اینو من نسخه ۲۵۶ رو دارم خیلی راضی هستم. ولی کاش دیگه همرو با حافظه ۵۱۲یا یک ترا بززن، آخه صدو بیست هشت، واقعا اختلاف قیمت زیادی داره ، و خیلی ها مجبورن از ۱۲۸ بخواطر بودجه شون بگیرن،',
@@ -116,6 +121,13 @@ const products = {
                             colors: ['gray', 'lightseagreen', 'gold', 'lightskyblue'],
                             price: 95000000,
                             rate: 5,
+                            mainImg: 'images/phones/iphone/3/dcd6e4e843bea3f070614a95d27b1181fdf23008_1677071626.webp',
+                            allImages: [
+                                   'images/phones/iphone/3/a5a5288fe2f1679583bf6b0370b341daec47c48a_1689485471.jpg',
+                                   'images/phones/iphone/3/8b4e91f19587a62ed93c92a050f430aa81b8fc19_1691495795.jpg',
+                                   'images/phones/iphone/3/7ce2572e29b47590ebacc3cd1b994958bed33a10_1688801355.jpg',
+                                   'images/phones/iphone/3/dcd6e4e843bea3f070614a95d27b1181fdf23008_1677071626.webp'
+                            ],
                             comments: [
                                    {
                                           title: 'آیفون فوق العادس تو استفاده دراز مدت ، اینو من نسخه ۲۵۶ رو دارم خیلی راضی هستم. ولی کاش دیگه همرو با حافظه ۵۱۲یا یک ترا بززن، آخه صدو بیست هشت، واقعا اختلاف قیمت زیادی داره ، و خیلی ها مجبورن از ۱۲۸ بخواطر بودجه شون بگیرن،',
@@ -170,6 +182,13 @@ const products = {
                             colors: ['gray'],
                             price: 45000000,
                             rate: 4.6,
+                            mainImg: 'images/phones/iphone/4/1ca3790feb75619815625ba0a01cc949c6851523_1693122088.webp',
+                            allImages: [
+                                   'images/phones/iphone/4/05796dca6c85c53ac3afd089937b80d11d46e657_1693122091.jpg',
+                                   'images/phones/iphone/4/7541dd4ee4b2c7edc3a9250addddc20ed87a1932_1693122092.jpg',
+                                   'images/phones/iphone/4/e7102150cfc00ea66418f4c9452fab354a31c15a_1693122092.jpg',
+                                   'images/phones/iphone/4/1ca3790feb75619815625ba0a01cc949c6851523_1693122088.webp'
+                            ],
                             comments: [
                                    {
                                           title: 'آیفون فوق العادس تو استفاده دراز مدت ، اینو من نسخه ۲۵۶ رو دارم خیلی راضی هستم. ولی کاش دیگه همرو با حافظه ۵۱۲یا یک ترا بززن، آخه صدو بیست هشت، واقعا اختلاف قیمت زیادی داره ، و خیلی ها مجبورن از ۱۲۸ بخواطر بودجه شون بگیرن،',
@@ -224,6 +243,13 @@ const products = {
                             colors: ['white'],
                             price: 30000000,
                             rate: 4.1,
+                            mainImg: 'images/phones/iphone/5/f7f8ffb33f96cb971bec78e2ee1d84dbb09a2a00_1667123447.webp',
+                            allImages: [
+                                   'images/phones/iphone/5/7dfe8202716e74870f56046bd08ba239519f6ecd_1692528600.jpg',
+                                   'images/phones/iphone/5/30d0963951b79deec418fc4e5d7843a5abc1cee0_1692528600.jpg',
+                                   'images/phones/iphone/5/3208aa60f3e1813c8e4f2614b54b37c6fb2944dc_1692528599.jpg',
+                                   'images/phones/iphone/5/f7f8ffb33f96cb971bec78e2ee1d84dbb09a2a00_1667123447.webp'
+                            ],
                             comments: [
                                    {
                                           title: 'آیفون فوق العادس تو استفاده دراز مدت ، اینو من نسخه ۲۵۶ رو دارم خیلی راضی هستم. ولی کاش دیگه همرو با حافظه ۵۱۲یا یک ترا بززن، آخه صدو بیست هشت، واقعا اختلاف قیمت زیادی داره ، و خیلی ها مجبورن از ۱۲۸ بخواطر بودجه شون بگیرن،',
@@ -278,6 +304,13 @@ const products = {
                             colors: ['teal'],
                             price: 55000000,
                             rate: 4.2,
+                            mainImg: 'images/phones/iphone/6/6321937e1dbcceb9d9c9af6b1a05a767c3f91f49_1656423549.webp',
+                            allImages: [
+                                   'images/phones/iphone/6/b47a402ed5a05189400e2d650ebefa4979a3417d_1632115656.jpg',
+                                   'images/phones/iphone/6/77f7dbf62f16795381e816a61b44456301e7c010_1631699594.jpg',
+                                   'images/phones/iphone/6/a7648b83793007dc304a0bee49d5f535cc83fff2_1631699574.jpg',
+                                   'images/phones/iphone/6/6321937e1dbcceb9d9c9af6b1a05a767c3f91f49_1656423549.webp',
+                            ],
                             comments: [
                                    {
                                           title: 'آیفون فوق العادس تو استفاده دراز مدت ، اینو من نسخه ۲۵۶ رو دارم خیلی راضی هستم. ولی کاش دیگه همرو با حافظه ۵۱۲یا یک ترا بززن، آخه صدو بیست هشت، واقعا اختلاف قیمت زیادی داره ، و خیلی ها مجبورن از ۱۲۸ بخواطر بودجه شون بگیرن،',
@@ -332,6 +365,14 @@ const products = {
                             colors: ['gray'],
                             price: 60000000,
                             rate: 4.4,
+                            mainImg: 'images/phones/iphone/7/40026b18c2b053ac4a68c3288556dc899a77aecd_1677070081.webp',
+                            allImages: [
+                                   'images/phones/iphone/7/cff12e0ff7292eb8e3e816962fe4adb7f929c7e4_1691492034.jpg',
+                                   'images/phones/iphone/7/f32372d326f11271aef44fa73356eaecade74200_1691492034.jpg',
+                                   'images/phones/iphone/7/951bd823563fbabf6d53e84dada90d2f4c953e2b_1688801322.jpg',
+                                   'images/phones/iphone/7/56e62d83d42e559e72ab30fe7a324120e28a1798_1689485002.jpg',
+                                   'images/phones/iphone/7/40026b18c2b053ac4a68c3288556dc899a77aecd_1677070081.webp',
+                            ],
                             comments: [
                                    {
                                           title: 'آیفون فوق العادس تو استفاده دراز مدت ، اینو من نسخه ۲۵۶ رو دارم خیلی راضی هستم. ولی کاش دیگه همرو با حافظه ۵۱۲یا یک ترا بززن، آخه صدو بیست هشت، واقعا اختلاف قیمت زیادی داره ، و خیلی ها مجبورن از ۱۲۸ بخواطر بودجه شون بگیرن،',
@@ -388,6 +429,13 @@ const products = {
                             colors: ['black', 'green', 'cream'],
                             price: 39900000,
                             rate: 4.3,
+                            mainImg: 'images/phones/samsung/1/7f721f6e724dc1039c1c452d3b7f2b78e3afb5e8_1675840217.webp',
+                            allImages: [
+                                   'images/phones/samsung/1/b363cac1236169ba67c70fdcee590eed94cb3dfc_1675840221.jpg',
+                                   'images/phones/samsung/1/082fe0baa22bc99a1b0fe3cb884fb8cab4a1083b_1675754548.jpg',
+                                   'images/phones/samsung/1/7fed8a8b51fefdbc14a0388ee276d19066d49d8e_1688800706.jpg',
+                                   'images/phones/samsung/1/7f721f6e724dc1039c1c452d3b7f2b78e3afb5e8_1675840217.webp',
+                            ],
                             comments: [
                                    {
                                           title: 'دوستان همه میگن عالیه پس عالیه',
@@ -443,6 +491,13 @@ const products = {
                             colors: ['black'],
                             price: 76399000,
                             rate: 4.5,
+                            mainImg: 'images/phones/samsung/2/deeb10f86832cb8e7cc0152905e553c1f9b240c6_1690807189.webp',
+                            allImages: [
+                                   'images/phones/samsung/2/42f9b1cf130e01882b83bb123f6abd51c1077862_1690807189.jpg',
+                                   'images/phones/samsung/2/791e4619f1a96972477d2e141840b822d8a7ac0a_1690807189.jpg',
+                                   'images/phones/samsung/2/30ec45570f624a06de36b1c82d33d933bf0a5436_1690807189.jpg',
+                                   'images/phones/samsung/2/deeb10f86832cb8e7cc0152905e553c1f9b240c6_1690807189.webp',
+                            ],
                             comments: [
                                    {
                                           title: 'دوستان همه میگن عالیه پس عالیه',
@@ -498,6 +553,13 @@ const products = {
                             colors: ['black'],
                             price: 7770000,
                             rate: 4.4,
+                            mainImg: 'images/phones/samsung/3/fd1245cea9fe271a77b4ab11c0da9f679555f95a_1684074229.webp',
+                            allImages: [
+                                   'images/phones/samsung/3/630f123489dfed3c38b9c674961ee27067d3eb54_1684074224.jpg',
+                                   'images/phones/samsung/3/53d9115f4df31069bb6720996ca81815a86c7926_1684074220.jpg',
+                                   'images/phones/samsung/3/e6f1a223970ccba8c24b210f0cd999a445dbefd0_1684074226.jpg',
+                                   'images/phones/samsung/3/fd1245cea9fe271a77b4ab11c0da9f679555f95a_1684074229.webp',
+                            ],
                             comments: [
                                    {
                                           title: 'دوستان همه میگن عالیه پس عالیه',
@@ -553,6 +615,14 @@ const products = {
                             colors: ['black'],
                             price: 7770000,
                             rate: 4.3,
+                            mainImg: 'images/phones/samsung/4/f1c52ab36a753464bb6a17919f6b3f781acc44b5_1679766683.webp',
+                            allImages: [
+                                   'images/phones/samsung/4/e85a5bfd1b885220c6226b2f7da501458960aa19_1679766722.jpg',
+                                   'images/phones/samsung/4/40854b71889b57dfd0f8dcaee1f9b35b90b1e577_1679766721.jpg',
+                                   'images/phones/samsung/4/527e0c6d4fb05d32ee4f9e7e42c3e2201374f4cb_1679766724.jpg',
+                                   'images/phones/samsung/4/37ddbc9f94ab38cb1b734d1146dc25e9d59a317a_1681651283.jpg',
+                                   'images/phones/samsung/4/f1c52ab36a753464bb6a17919f6b3f781acc44b5_1679766683.webp',
+                            ],
                             comments: [
                                    {
                                           title: 'دوستان همه میگن عالیه پس عالیه',
@@ -607,6 +677,14 @@ const products = {
                             colors: ['black'],
                             price: 6899000,
                             rate: 4.3,
+                            mainImg: 'images/phones/samsung/5/06aaa82b2af4b71992683701769b0afa4fa169bf_1666160815.webp',
+                            allImages: [
+                                   'images/phones/samsung/5/e55d865ccca88085d9969290dbfbd9a04516b219_1666160822.jpg',
+                                   'images/phones/samsung/5/ee00d8b5e58f3dce5de11b0d25222cd4b06c0fee_1666160824.jpg',
+                                   'images/phones/samsung/5/a47ea25afb863a03e61cbcde2d24633b1d0aaec1_1666160820.jpg',
+                                   'images/phones/samsung/5/04cc6a1b09091cf132d16a12ceb82e562cdbb3e8_1666160813.jpg',
+                                   'images/phones/samsung/5/06aaa82b2af4b71992683701769b0afa4fa169bf_1666160815.webp',
+                            ],
                             comments: [
                                    {
                                           title: 'دوستان همه میگن عالیه پس عالیه',
@@ -661,6 +739,14 @@ const products = {
                             colors: ['black', 'silver', 'lightgreen'],
                             price: 6950000,
                             rate: 4.4,
+                            mainImg: 'images/phones/samsung/6/373cf0add6b2964b30a9a59b2ce2f5f2c8ea976f_1681110679.webp',
+                            allImages: [
+                                   'images/phones/samsung/6/3f2d71e259f829c71dc418b930f77b08b36e2384_1681110746.jpg',
+                                   'images/phones/samsung/6/3334e584f85affdfb8b6482a56267bc247e5baa9_1681110688.jpg',
+                                   'images/phones/samsung/6/4067e104aa2bce3ccd34c6f7f8b83544f9e566f4_1681110706.jpg',
+                                   'images/phones/samsung/6/90424517b4fa93751c03a8befd2917a3b7628d0b_1681110726.jpg',
+                                   'images/phones/samsung/6/373cf0add6b2964b30a9a59b2ce2f5f2c8ea976f_1681110679.webp',
+                            ],
                             comments: [
                                    {
                                           title: 'دوستان همه میگن عالیه پس عالیه',
@@ -715,6 +801,14 @@ const products = {
                             colors: ['yellow'],
                             price: 10530000,
                             rate: 4.3,
+                            mainImg: 'images/phones/samsung/7/1fafefa0ce8c0e6af33566ca8ac89c3893a65d17_1684153225.webp',
+                            allImages: [
+                                   'images/phones/samsung/7/3282611d07ac79cc52851ae7368a6649a2b284c7_1679767013.jpg',
+                                   'images/phones/samsung/7/2c5d962c38276ea88bb81855f86bb9bcb3844054_1679767025.jpg',
+                                   'images/phones/samsung/7/2dff570fab8fe605022d24911a6e109770769989_1684153232.jpg',
+                                   'images/phones/samsung/7/6ef1b2efe1be096d29ddd556e8a28ccf6a3a3d90_1684153231.jpg',
+                                   'images/phones/samsung/7/1fafefa0ce8c0e6af33566ca8ac89c3893a65d17_1684153225.webp',
+                            ],
                             comments: [
                                    {
                                           title: 'دوستان همه میگن عالیه پس عالیه',
@@ -763,7 +857,7 @@ const products = {
                             ],
                      },
               ],
-              xiamo: [
+              xiaomi: [
                      {
                             id: 1,
                             cardName: 'گوشی موبایل شیائومی مدل Poco F5 ',
@@ -771,6 +865,13 @@ const products = {
                             colors: ['yellow'],
                             price: 18199000,
                             rate: 4.6,
+                            mainImg: 'images/phones/xiaomi/1/51008a33fca771176386054eeb8c3d7e6c38df64_1686050787.webp',
+                            allImages: [
+                                   'images/phones/xiaomi/1/dc437c14319cedc2071e68831e69c499d6db6bd4_1686050788.jpg',
+                                   'images/phones/xiaomi/1/c545301e90a10b65daf7bea4ab9526fd27df867c_1686050783.jpg',
+                                   'images/phones/xiaomi/1/c5b2bdb22f98105fe348cad6619c4bc6efa90020_1686050782.jpg',
+                                   'images/phones/xiaomi/1/51008a33fca771176386054eeb8c3d7e6c38df64_1686050787.webp',
+                            ],
                             comments: [
                                    {
                                           title: 'دوستان همه میگن عالیه پس عالیه',
@@ -825,6 +926,13 @@ const products = {
                             colors: ['lightgreen', 'black'],
                             price: 3850000,
                             rate: 4.3,
+                            mainImg: 'images/phones/xiaomi/2/9195e7d7ca87e8dac34d10c2af9a7567a0048363_1663692449.webp',
+                            allImages: [
+                                   'images/phones/xiaomi/2/bf993f00a2f51c29a269457ff9fbf51302030545_1666777263.jpg',
+                                   'images/phones/xiaomi/2/45f6bc5648d244d7f96d34b5825b620a157053d1_1663692436.jpg',
+                                   'images/phones/xiaomi/2/f9b7a916d3e7ae410013e2e4601ae524566bfaa1_1663692439.jpg',
+                                   'images/phones/xiaomi/2/9195e7d7ca87e8dac34d10c2af9a7567a0048363_1663692449.webp',
+                            ],
                             comments: [
                                    {
                                           title: 'دوستان همه میگن عالیه پس عالیه',
@@ -880,6 +988,14 @@ const products = {
                             colors: ['lightskyblue', 'gray', 'white'],
                             price: 10399000,
                             rate: 4.4,
+                            mainImg: 'images/phones/xiaomi/3/17d3e3e2197e283e28d25813a962a48d101553cb_1683026595.webp',
+                            allImages: [
+                                   'images/phones/xiaomi/3/c40cc9c9083e1677053c277e4501f258115c34ae_1683026613.jpg',
+                                   'images/phones/xiaomi/3/a96a97c5cd6914fd2eb56d27530d93c1ebf92c1d_1683026584.jpg',
+                                   'images/phones/xiaomi/3/137499a479533eda1a68a79f5511187bc4f048f9_1692107001.jpg',
+                                   'images/phones/xiaomi/3/c191dd4ca5a4dc6fbeef2e98ff373fb8d7784bad_1692107000.jpg',
+                                   'images/phones/xiaomi/3/17d3e3e2197e283e28d25813a962a48d101553cb_1683026595.webp',
+                            ],
                             comments: [
                                    {
                                           title: 'دوستان همه میگن عالیه پس عالیه',
@@ -934,6 +1050,14 @@ const products = {
                             colors: ['lightskyblue', 'lightgreen', 'gray'],
                             price: 7199000,
                             rate: 4.4,
+                            mainImg: 'images/phones/xiaomi/4/348e17f0fe855cb25127298fd5003460b3d29297_1682344501.webp',
+                            allImages: [
+                                   'images/phones/xiaomi/4/f1ac7f5da7a71d0c1bb7fe33e4162ad25b68d620_1682344498.jpg',
+                                   'images/phones/xiaomi/4/071324fc20b3b94374f83376eae1d878abd87dae_1682344485.jpg',
+                                   'images/phones/xiaomi/4/7e0647befcfa2575fdd6a908d7aa3353ebb749dd_1682344488.jpg',
+                                   'images/phones/xiaomi/4/a70eee508ee539493fcaeedbb2e44f53652f9467_1682344493.jpg',
+                                   'images/phones/xiaomi/4/348e17f0fe855cb25127298fd5003460b3d29297_1682344501.webp',
+                            ],
                             comments: [
                                    {
                                           title: 'دوستان همه میگن عالیه پس عالیه',
@@ -989,6 +1113,13 @@ const products = {
                             colors: ['black'],
                             price: 24700000,
                             rate: 4.8,
+                            mainImg: 'images/phones/xiaomi/5/4119f69945582b18ab9907ebe48201994716f1ab_1690266735.webp',
+                            allImages: [
+                                   'images/phones/xiaomi/5/73c3fe98e833eafdfe08c3c18ccccc47cf16af78_1690266735.jpg',
+                                   'images/phones/xiaomi/5/4a807e67b2ba6139838b9e5f2726cfca6618b5a1_1690266736.jpg',
+                                   'images/phones/xiaomi/5/0b6d86ee98a4d73e5e6e7713145dfccd987f7b88_1690266735.jpg',
+                                   'images/phones/xiaomi/5/4119f69945582b18ab9907ebe48201994716f1ab_1690266735.webp',
+                            ],
                             comments: [
                                    {
                                           title: 'دوستان همه میگن عالیه پس عالیه',
@@ -1044,6 +1175,14 @@ const products = {
                             colors: ['black'],
                             price: 21450000,
                             rate: 3.9,
+                            mainImg: 'images/phones/xiaomi/6/a02408c516275b7f0d6eabcf6cd5a1c5ee568945_1681559157.webp',
+                            allImages: [
+                                   'images/phones/xiaomi/6/88370c106b5c5dd138bf0035894825c1754008da_1681559154.jpg',
+                                   'images/phones/xiaomi/6/33f8c19251887bc81c684b7f38f78a9f7a7e2d10_1681559143.jpg',
+                                   'images/phones/xiaomi/6/53507267c6be15a16374d2315f9bbd720700b2c7_1681559152.jpg',
+                                   'images/phones/xiaomi/6/479595b05f882d75ba23e8f151a159b23866b213_1681559147.jpg',
+                                   'images/phones/xiaomi/6/a02408c516275b7f0d6eabcf6cd5a1c5ee568945_1681559157.webp',
+                            ],
                             comments: [
                                    {
                                           title: 'دوستان همه میگن عالیه پس عالیه',
@@ -1099,6 +1238,14 @@ const products = {
                             colors: ['black', 'gray'],
                             price: 17000000,
                             rate: 1,
+                            mainImg: 'images/phones/xiaomi/7/8d35901240c395271a9d9a375c66949052356110_1691569607.webp',
+                            allImages: [
+                                   'images/phones/xiaomi/7/1c1cb09c65bfe1afad555e36d7c9d1d71e4f627f_1691569607.jpg',
+                                   'images/phones/xiaomi/7/17960fbb6e2777670668f9fe5fed7b524fa537b0_1691569605.jpg',
+                                   'images/phones/xiaomi/7/bdaf285af17d5718ba4244e578f8f01b645598c7_1691569601.jpg',
+                                   'images/phones/xiaomi/7/7e5b43a09eef1046518607fea29cba596a5d949c_1691569604.jpg',
+                                   'images/phones/xiaomi/7/8d35901240c395271a9d9a375c66949052356110_1691569607.webp',
+                            ],
                             comments: [
                                    {
                                           title: 'دوستان همه میگن عالیه پس عالیه',
@@ -1156,6 +1303,13 @@ const products = {
 
                      price: 44490000,
                      rate: 4.4,
+                     mainImg: 'images/laptops/1/b2c0eb53f0eeacdefb8771155bf5e4887222a654_1672051046.webp',
+                     allImages: [
+                            'images/laptops/1/0202d7a1d7993db0b364ffa5cc54e64867a63b4c_1605085572.jpg',
+                            'images/laptops/1/3eed287014b410ac773e38278ab894c858de843a_1605085572.jpg',
+                            'images/laptops/1/8954477f4d8dacfd6dbe1bef80faaffc51d36790_1605085574.jpg',
+                            'images/laptops/1/b2c0eb53f0eeacdefb8771155bf5e4887222a654_1672051046.webp',
+                     ],
                      comments: [
                             {
                                    title: 'چند روز پیش با تخفیف یک میلیون و هشتصد هزار تومانی شگفت انگیزش کردید تا من پولم جور بشه برای خریدش از شگفت انگیز خارجش کردید',
@@ -1177,7 +1331,7 @@ const products = {
                      ],
                      propertys: [
                             { title: 'سری پردازنده', subtitle: 'M1' },
-                            { title: 'ظرفیت حافظه RAM', subtitle:'هشت گیگابایت' },
+                            { title: 'ظرفیت حافظه RAM', subtitle: 'هشت گیگابایت' },
                             { title: 'ظرفیت حافظه داخلی', subtitle: '256 گیگابایت' },
                             { title: 'سازنده پردازنده گرافیکی', subtitle: 'Apple' },
                             { title: 'دقت صفحه نمایش', subtitle: 'QHD|2560x1600' },
@@ -1188,7 +1342,7 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۱.۲۹ کیلوگرم' },
-                            { title: 'ابعاد', subtitle:'۳۰۴.۱x۲۱۲.۴x۱۶.۱ میلی‌متر' },
+                            { title: 'ابعاد', subtitle: '۳۰۴.۱x۲۱۲.۴x۱۶.۱ میلی‌متر' },
                             { title: 'سازنده پردازنده', subtitle: 'Apple' },
                             { title: 'سری پردازنده', subtitle: 'M1' },
                             { title: 'مدل پردازنده', subtitle: 'Apple M۱ chip' },
@@ -1205,11 +1359,19 @@ const products = {
               },
               {
                      id: 2,
-                     cardName:'لپ تاپ 13.6 اینچی اپل مدل MacBook Air-B M2 2022',
+                     cardName: 'لپ تاپ 13.6 اینچی اپل مدل MacBook Air-B M2 2022',
                      name: 'لپ تاپ 13.6 اینچی اپل مدل MacBook Air-B M2 2022',
 
                      price: 56490000,
                      rate: 4.1,
+                     mainImg: 'images/laptops/2/0453261f5778b624dae7dda88a414fe8fcf8d109_1671472045.webp',
+                     allImages: [
+                            'images/laptops/2/10161b38b93e78bc822387dde10b05239a083800_1660729665.jpg',
+                            'images/laptops/2/d81bde4ba671c6f552ec1d7d4b225b22eb911556_1660729674.jpg',
+                            'images/laptops/2/dc2bd7e8e8f76bf90ff6382feac12c03f57213a1_1660729680.jpg',
+                            'images/laptops/2/d1e1047ab0de827a4ea91c997a9665f5cfcc0260_1660729685.jpg',
+                            'images/laptops/2/0453261f5778b624dae7dda88a414fe8fcf8d109_1671472045.webp',
+                     ],
                      comments: [
                             {
                                    title: 'چند روز پیش با تخفیف یک میلیون و هشتصد هزار تومانی شگفت انگیزش کردید تا من پولم جور بشه برای خریدش از شگفت انگیز خارجش کردید',
@@ -1231,7 +1393,7 @@ const products = {
                      ],
                      propertys: [
                             { title: 'سری پردازنده', subtitle: 'M1' },
-                            { title: 'ظرفیت حافظه RAM', subtitle:'هشت گیگابایت' },
+                            { title: 'ظرفیت حافظه RAM', subtitle: 'هشت گیگابایت' },
                             { title: 'ظرفیت حافظه داخلی', subtitle: '256 گیگابایت' },
                             { title: 'سازنده پردازنده گرافیکی', subtitle: 'Apple' },
                             { title: 'دقت صفحه نمایش', subtitle: 'QHD|2560x1600' },
@@ -1242,7 +1404,7 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۱.۲۹ کیلوگرم' },
-                            { title: 'ابعاد', subtitle:'۳۰۴.۱x۲۱۲.۴x۱۶.۱ میلی‌متر' },
+                            { title: 'ابعاد', subtitle: '۳۰۴.۱x۲۱۲.۴x۱۶.۱ میلی‌متر' },
                             { title: 'سازنده پردازنده', subtitle: 'Apple' },
                             { title: 'سری پردازنده', subtitle: 'M1' },
                             { title: 'مدل پردازنده', subtitle: 'Apple M۱ chip' },
@@ -1259,11 +1421,19 @@ const products = {
               },
               {
                      id: 3,
-                     cardName:'لپ تاپ 14.1 اینچی ایسوس مدل Vivobook R465EA-EB1592',
+                     cardName: 'لپ تاپ 14.1 اینچی ایسوس مدل Vivobook R465EA-EB1592',
                      name: 'لپ تاپ 14.1 اینچی ایسوس مدل Vivobook R465EA-EB1592',
 
                      price: 18990000,
                      rate: 4.1,
+                     mainImg: 'images/laptops/3/174590d431e79eba2df1d9792f4ae8a1bacda4db_1667123257.webp',
+                     allImages: [
+                            'images/laptops/3/b6ab4928390b600ef0176be3a14eb861b9484f97_1667123260.jpg',
+                            'images/laptops/3/1ac08f916d24c3ffcf71542c5e26ef16ef553250_1667123258.jpg',
+                            'images/laptops/3/c2428d816c681820eccdbd0910d50dd154b7f512_1667123261.jpg',
+                            'images/laptops/3/6fd636f45d81937615faacf7f8022e2d8de133b7_1667123259.jpg',
+                            'images/laptops/3/174590d431e79eba2df1d9792f4ae8a1bacda4db_1667123257.webp',
+                     ],
                      comments: [
                             {
                                    title: 'چند روز پیش با تخفیف یک میلیون و هشتصد هزار تومانی شگفت انگیزش کردید تا من پولم جور بشه برای خریدش از شگفت انگیز خارجش کردید',
@@ -1285,7 +1455,7 @@ const products = {
                      ],
                      propertys: [
                             { title: 'سری پردازنده', subtitle: 'M1' },
-                            { title: 'ظرفیت حافظه RAM', subtitle:'هشت گیگابایت' },
+                            { title: 'ظرفیت حافظه RAM', subtitle: 'هشت گیگابایت' },
                             { title: 'ظرفیت حافظه داخلی', subtitle: '256 گیگابایت' },
                             { title: 'سازنده پردازنده گرافیکی', subtitle: 'Apple' },
                             { title: 'دقت صفحه نمایش', subtitle: 'QHD|2560x1600' },
@@ -1296,7 +1466,7 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۱.۲۹ کیلوگرم' },
-                            { title: 'ابعاد', subtitle:'۳۰۴.۱x۲۱۲.۴x۱۶.۱ میلی‌متر' },
+                            { title: 'ابعاد', subtitle: '۳۰۴.۱x۲۱۲.۴x۱۶.۱ میلی‌متر' },
                             { title: 'سازنده پردازنده', subtitle: 'Apple' },
                             { title: 'سری پردازنده', subtitle: 'M1' },
                             { title: 'مدل پردازنده', subtitle: 'Apple M۱ chip' },
@@ -1310,15 +1480,22 @@ const products = {
                             'راد کالا',
                             'لپ تاپ',
                      ],
-                     
+
               },
               {
                      id: 4,
-                     cardName:'لپ تاپ 15.6 اینچی ایسوس مدل R565EP-EJ617',
+                     cardName: 'لپ تاپ 15.6 اینچی ایسوس مدل R565EP-EJ617',
                      name: 'لپ تاپ 15.6 اینچی ایسوس مدل R565EP-EJ617',
 
                      price: 27400000,
                      rate: 3.9,
+                     mainImg: 'images/laptops/4/f51582f001604b5c494e61e802d872fa923d5cab_1668337903.webp',
+                     allImages: [
+                            'images/laptops/4/49e85bed64228d96ef00ed477c5446d87e108f03_1668337908.jpg',
+                            'images/laptops/4/6be6f079b81ef8499d5f8eaf5939d63fc19bc348_1668337906.jpg',
+                            'images/laptops/4/0e98484c548ffd475d04c490eeeafe3f18932919_1668495787.jpg',
+                            'images/laptops/4/f51582f001604b5c494e61e802d872fa923d5cab_1668337903.webp',
+                     ],
                      comments: [
                             {
                                    title: 'چند روز پیش با تخفیف یک میلیون و هشتصد هزار تومانی شگفت انگیزش کردید تا من پولم جور بشه برای خریدش از شگفت انگیز خارجش کردید',
@@ -1340,7 +1517,7 @@ const products = {
                      ],
                      propertys: [
                             { title: 'سری پردازنده', subtitle: 'M1' },
-                            { title: 'ظرفیت حافظه RAM', subtitle:'هشت گیگابایت' },
+                            { title: 'ظرفیت حافظه RAM', subtitle: 'هشت گیگابایت' },
                             { title: 'ظرفیت حافظه داخلی', subtitle: '256 گیگابایت' },
                             { title: 'سازنده پردازنده گرافیکی', subtitle: 'Apple' },
                             { title: 'دقت صفحه نمایش', subtitle: 'QHD|2560x1600' },
@@ -1351,7 +1528,7 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۱.۲۹ کیلوگرم' },
-                            { title: 'ابعاد', subtitle:'۳۰۴.۱x۲۱۲.۴x۱۶.۱ میلی‌متر' },
+                            { title: 'ابعاد', subtitle: '۳۰۴.۱x۲۱۲.۴x۱۶.۱ میلی‌متر' },
                             { title: 'سازنده پردازنده', subtitle: 'Apple' },
                             { title: 'سری پردازنده', subtitle: 'M1' },
                             { title: 'مدل پردازنده', subtitle: 'Apple M۱ chip' },
@@ -1365,13 +1542,20 @@ const products = {
                             'راد کالا',
                             'لپ تاپ',
                      ],
-                     
+
               },
               {
                      id: 5,
-                     cardName:'لپ تاپ 12.4 اینچی مایکروسافت مدل Surface Laptop Go-i5 16GB 256SSD',
+                     cardName: 'لپ تاپ 12.4 اینچی مایکروسافت مدل Surface Laptop Go-i5 16GB 256SSD',
                      name: 'لپ تاپ 12.4 اینچی مایکروسافت مدل Surface Laptop Go-i5 16GB 256SSD',
-
+                     mainImg: 'images/laptops/5/a0d2725ba7a8e257a92c77583788f54b8f16e8a2_1671477227.webp',
+                     allImages: [
+                            'images/laptops/5/a4f7efe6c227f4a5c6b349fe1a3741c5c2099fc9_1666696248.jpg',
+                            'images/laptops/5/8af40d6172b5587fbcf5f007fe217c8805b16a05_1666696245.jpg',
+                            'images/laptops/5/0cc60bb7bd0cb449bb92f47726ba4a5b4a089a3d_1666696244.jpg',
+                            'images/laptops/5/fcfe7eecc47b0bc0c01372459c66b4fcce71a1dd_1666696243.jpg',
+                            'images/laptops/5/a0d2725ba7a8e257a92c77583788f54b8f16e8a2_1671477227.webp',
+                     ],
                      price: 35200000,
                      rate: 4,
                      comments: [
@@ -1395,7 +1579,7 @@ const products = {
                      ],
                      propertys: [
                             { title: 'سری پردازنده', subtitle: 'M1' },
-                            { title: 'ظرفیت حافظه RAM', subtitle:'هشت گیگابایت' },
+                            { title: 'ظرفیت حافظه RAM', subtitle: 'هشت گیگابایت' },
                             { title: 'ظرفیت حافظه داخلی', subtitle: '256 گیگابایت' },
                             { title: 'سازنده پردازنده گرافیکی', subtitle: 'Apple' },
                             { title: 'دقت صفحه نمایش', subtitle: 'QHD|2560x1600' },
@@ -1406,7 +1590,7 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۱.۲۹ کیلوگرم' },
-                            { title: 'ابعاد', subtitle:'۳۰۴.۱x۲۱۲.۴x۱۶.۱ میلی‌متر' },
+                            { title: 'ابعاد', subtitle: '۳۰۴.۱x۲۱۲.۴x۱۶.۱ میلی‌متر' },
                             { title: 'سازنده پردازنده', subtitle: 'Apple' },
                             { title: 'سری پردازنده', subtitle: 'M1' },
                             { title: 'مدل پردازنده', subtitle: 'Apple M۱ chip' },
@@ -1423,9 +1607,16 @@ const products = {
               },
               {
                      id: 6,
-                     cardName:'لپ تاپ 15.6 اینچی لنوو مدل IdeaPad 5 15ITL05-i5 8GB 512SSD MX450',
+                     cardName: 'لپ تاپ 15.6 اینچی لنوو مدل IdeaPad 5 15ITL05-i5 8GB 512SSD MX450',
                      name: 'لپ تاپ 15.6 اینچی لنوو مدل IdeaPad 5 15ITL05-i5 8GB 512SSD MX450',
-
+                     mainImg: 'images/laptops/6/1a9ee444e9ea094c62ff065da77cdbd78eb70641_1671471393.webp',
+                     allImages: [
+                            'images/laptops/6/9052189abe114041f9f37b8f93120a6a60c22128_1660548650.jpg',
+                            'images/laptops/6/e0184e93f9fff2cba1e5d6876a88ded1dc348251_1660548644.jpg',
+                            'images/laptops/6/c9c71e808de0f0fb75c50b8690a5b312c64afc73_1660548646.jpg',
+                            'images/laptops/6/d2e60b0d32e8b6813ccf218157d986d64be6732f_1661780737.jpg',
+                            'images/laptops/6/1a9ee444e9ea094c62ff065da77cdbd78eb70641_1671471393.webp',
+                     ],
                      price: 26000000,
                      rate: 4.2,
                      comments: [
@@ -1449,7 +1640,7 @@ const products = {
                      ],
                      propertys: [
                             { title: 'سری پردازنده', subtitle: 'M1' },
-                            { title: 'ظرفیت حافظه RAM', subtitle:'هشت گیگابایت' },
+                            { title: 'ظرفیت حافظه RAM', subtitle: 'هشت گیگابایت' },
                             { title: 'ظرفیت حافظه داخلی', subtitle: '256 گیگابایت' },
                             { title: 'سازنده پردازنده گرافیکی', subtitle: 'Apple' },
                             { title: 'دقت صفحه نمایش', subtitle: 'QHD|2560x1600' },
@@ -1460,7 +1651,7 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۱.۲۹ کیلوگرم' },
-                            { title: 'ابعاد', subtitle:'۳۰۴.۱x۲۱۲.۴x۱۶.۱ میلی‌متر' },
+                            { title: 'ابعاد', subtitle: '۳۰۴.۱x۲۱۲.۴x۱۶.۱ میلی‌متر' },
                             { title: 'سازنده پردازنده', subtitle: 'Apple' },
                             { title: 'سری پردازنده', subtitle: 'M1' },
                             { title: 'مدل پردازنده', subtitle: 'Apple M۱ chip' },
@@ -1474,13 +1665,20 @@ const products = {
                             'راد کالا',
                             'لپ تاپ',
                      ],
-           
+
               },
               {
                      id: 7,
-                     cardName:'لپ تاپ 14.2 اینچی اپل مدل 2023 MacBook Pro MPHG3',
+                     cardName: 'لپ تاپ 14.2 اینچی اپل مدل 2023 MacBook Pro MPHG3',
                      name: 'لپ تاپ 14.2 اینچی اپل مدل 2023 MacBook Pro MPHG3',
-
+                     mainImg: 'images/laptops/7/c9ef6c9e1d515040259b0d765bbd06de2371a22d_1683360088.webp',
+                     allImages: [
+                            'images/laptops/7/fe96873e2a44b1f50de138050f62b0bb6f7b8133_1683360090.jpg',
+                            'images/laptops/7/6b545026b962b54c6912c7501e5bd41b0450170d_1683360095.jpg',
+                            'images/laptops/7/deaccd797394492f071ed1d14f7d277f3130b39b_1683360093.jpg',
+                            'images/laptops/7/6ce349334b6f537d2269fbc827a1cdcb9529198c_1683360096.jpg',
+                            'images/laptops/7/c9ef6c9e1d515040259b0d765bbd06de2371a22d_1683360088.webp',
+                     ],
                      price: 179790000,
                      rate: 4.2,
                      comments: [
@@ -1504,7 +1702,7 @@ const products = {
                      ],
                      propertys: [
                             { title: 'سری پردازنده', subtitle: 'M1' },
-                            { title: 'ظرفیت حافظه RAM', subtitle:'هشت گیگابایت' },
+                            { title: 'ظرفیت حافظه RAM', subtitle: 'هشت گیگابایت' },
                             { title: 'ظرفیت حافظه داخلی', subtitle: '256 گیگابایت' },
                             { title: 'سازنده پردازنده گرافیکی', subtitle: 'Apple' },
                             { title: 'دقت صفحه نمایش', subtitle: 'QHD|2560x1600' },
@@ -1515,7 +1713,7 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۱.۲۹ کیلوگرم' },
-                            { title: 'ابعاد', subtitle:'۳۰۴.۱x۲۱۲.۴x۱۶.۱ میلی‌متر' },
+                            { title: 'ابعاد', subtitle: '۳۰۴.۱x۲۱۲.۴x۱۶.۱ میلی‌متر' },
                             { title: 'سازنده پردازنده', subtitle: 'Apple' },
                             { title: 'سری پردازنده', subtitle: 'M1' },
                             { title: 'مدل پردازنده', subtitle: 'Apple M۱ chip' },
@@ -1529,19 +1727,25 @@ const products = {
                             'راد کالا',
                             'لپ تاپ',
                      ],
-                   
+
               },
        ],
        hardExternal: [
               {
                      id: 1,
-                     cardName:'هارد اکسترنال ای دیتا مدل HD770G ظرفیت 2 ترابایت',
+                     cardName: 'هارد اکسترنال ای دیتا مدل HD770G ظرفیت 2 ترابایت',
                      name: 'هارد اکسترنال ای دیتا مدل HD770G ظرفیت 2 ترابایت',
-
+                     mainImg: 'images/hardExternal/1/119607459.webp',
+                     allImages: [
+                            'images/hardExternal/1/119607476.jpg',
+                            'images/hardExternal/1/119607475.jpg',
+                            'images/hardExternal/1/119607455.jpg',
+                            'images/hardExternal/1/119607459.webp',
+                     ],
                      price: 4280000,
                      rate: 4.4,
-                     colors:[
-                            {title:'مشکی',subTitle:'black',ordered:true},
+                     colors: [
+                            { title: 'مشکی', subTitle: 'black', ordered: true },
                      ],
                      comments: [
                             {
@@ -1564,8 +1768,8 @@ const products = {
                      ],
                      propertys: [
                             { title: 'ظرفیت', subtitle: 'دو ترابایت' },
-                            { title: 'قابلیت‌های مقاومتی', subtitle:'مقاوم در برابر گرد و غبار' },
-                            
+                            { title: 'قابلیت‌های مقاومتی', subtitle: 'مقاوم در برابر گرد و غبار' },
+
                      ],
                      moreInfo: {
                             title: 'هارد اکسترنال',
@@ -1573,7 +1777,7 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۲۷۰ گرم' },
-                            { title: 'سایر قابلیت‌ها', subtitle:'دارای چراغ RGB' },
+                            { title: 'سایر قابلیت‌ها', subtitle: 'دارای چراغ RGB' },
                             { title: 'نوع اتصال', subtitle: 'باسیم' },
                             { title: 'ظرفیت', subtitle: 'دو ترابایت' },
                             { title: 'قابلیت‌های مقاومتی', subtitle: 'مقاوم در برابر گرد و غبار' },
@@ -1589,17 +1793,24 @@ const products = {
               },
               {
                      id: 2,
-                       cardName:'هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 1 ترابایت',
+                     cardName: 'هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 1 ترابایت',
                      name: 'هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 1 ترابایت',
-
+                     mainImg: 'images/hardExternal/2/728333.webp',
+                     allImages: [
+                            'images/hardExternal/2/728726.jpg',
+                            'images/hardExternal/2/728495.jpg',
+                            'images/hardExternal/2/729041.jpg',
+                            'images/hardExternal/2/728823.jpg',
+                            'images/hardExternal/2/728333.webp',
+                     ],
                      price: 2670000,
                      rate: 4.3,
-                     colors:[
-                            {title:'مشکی',subTitle:'black',ordered:false},
-                            {title:'قرمز',subTitle:'red',ordered:true},
-                            {title:'آبی',subTitle:'lightskyblue',ordered:false},
-                            {title:'زرد',subTitle:'yellow',ordered:false},
-                            {title:'قهوه ای',subTitle:'brown',ordered:false},
+                     colors: [
+                            { title: 'مشکی', subTitle: 'black', ordered: false },
+                            { title: 'قرمز', subTitle: 'red', ordered: true },
+                            { title: 'آبی', subTitle: 'lightskyblue', ordered: false },
+                            { title: 'زرد', subTitle: 'yellow', ordered: false },
+                            { title: 'قهوه ای', subTitle: 'brown', ordered: false },
                      ],
                      comments: [
                             {
@@ -1622,8 +1833,8 @@ const products = {
                      ],
                      propertys: [
                             { title: 'ظرفیت', subtitle: 'دو ترابایت' },
-                            { title: 'قابلیت‌های مقاومتی', subtitle:'مقاوم در برابر گرد و غبار' },
-                            
+                            { title: 'قابلیت‌های مقاومتی', subtitle: 'مقاوم در برابر گرد و غبار' },
+
                      ],
                      moreInfo: {
                             title: 'هارد اکسترنال',
@@ -1631,7 +1842,7 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۲۷۰ گرم' },
-                            { title: 'سایر قابلیت‌ها', subtitle:'دارای چراغ RGB' },
+                            { title: 'سایر قابلیت‌ها', subtitle: 'دارای چراغ RGB' },
                             { title: 'نوع اتصال', subtitle: 'باسیم' },
                             { title: 'ظرفیت', subtitle: 'دو ترابایت' },
                             { title: 'قابلیت‌های مقاومتی', subtitle: 'مقاوم در برابر گرد و غبار' },
@@ -1647,9 +1858,13 @@ const products = {
               },
               {
                      id: 3,
-                       cardName:'هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 2 ترابایت',
+                     cardName: 'هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 2 ترابایت',
                      name: 'هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 2 ترابایت',
-
+                     mainImg: 'images/hardExternal/3/826947.webp',
+                     allImages: [
+                            'images/hardExternal/3/981bb3f2b0435a0b9d1f050175745abfd105ec32_1672823607.jpg',
+                            'images/hardExternal/3/826947.webp',
+                     ],
                      price: 3750000,
                      rate: 4.3,
                      comments: [
@@ -1671,16 +1886,16 @@ const products = {
                             }
 
                      ],
-                     colors:[
-                            {title:'مشکی',subTitle:'black',ordered:false},
-                            {title:'قرمز',subTitle:'red',ordered:true},
-                            {title:'آبی',subTitle:'lightskyblue',ordered:false},
-                            {title:'زرد',subTitle:'yellow',ordered:false},
+                     colors: [
+                            { title: 'مشکی', subTitle: 'black', ordered: false },
+                            { title: 'قرمز', subTitle: 'red', ordered: true },
+                            { title: 'آبی', subTitle: 'lightskyblue', ordered: false },
+                            { title: 'زرد', subTitle: 'yellow', ordered: false },
                      ],
                      propertys: [
                             { title: 'ظرفیت', subtitle: 'دو ترابایت' },
-                            { title: 'قابلیت‌های مقاومتی', subtitle:'مقاوم در برابر گرد و غبار' },
-                            
+                            { title: 'قابلیت‌های مقاومتی', subtitle: 'مقاوم در برابر گرد و غبار' },
+
                      ],
                      moreInfo: {
                             title: 'هارد اکسترنال',
@@ -1688,7 +1903,7 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۲۷۰ گرم' },
-                            { title: 'سایر قابلیت‌ها', subtitle:'دارای چراغ RGB' },
+                            { title: 'سایر قابلیت‌ها', subtitle: 'دارای چراغ RGB' },
                             { title: 'نوع اتصال', subtitle: 'باسیم' },
                             { title: 'ظرفیت', subtitle: 'دو ترابایت' },
                             { title: 'قابلیت‌های مقاومتی', subtitle: 'مقاوم در برابر گرد و غبار' },
@@ -1704,9 +1919,17 @@ const products = {
               },
               {
                      id: 4,
-                       cardName:'هارد اکسترنال سیلیکون پاور مدل Armor A30 ظرفیت 1 ترابایت',
+                     cardName: 'هارد اکسترنال سیلیکون پاور مدل Armor A30 ظرفیت 1 ترابایت',
                      name: 'هارد اکسترنال سیلیکون پاور مدل Armor A30 ظرفیت 1 ترابایت',
-
+                     mainImg: 'images/hardExternal/4/11712.webp',
+                     allImages: [
+                            'images/hardExternal/4/11810.jpg',
+                            'images/hardExternal/4/11874.jpg',
+                            'images/hardExternal/4/11946.jpg',
+                            'images/hardExternal/4/12259.jpg',
+                            'images/hardExternal/4/12632.jpg',
+                            'images/hardExternal/4/11712.webp',
+                     ],
                      price: 2650000,
                      rate: 4.2,
                      comments: [
@@ -1728,15 +1951,15 @@ const products = {
                             }
 
                      ],
-                     colors:[
-                            {title:'سفید',subTitle:'white',ordered:false},
-                            {title:'مشکی',subTitle:'black',ordered:true},
-                       
+                     colors: [
+                            { title: 'سفید', subTitle: 'white', ordered: false },
+                            { title: 'مشکی', subTitle: 'black', ordered: true },
+
                      ],
                      propertys: [
                             { title: 'ظرفیت', subtitle: 'دو ترابایت' },
-                            { title: 'قابلیت‌های مقاومتی', subtitle:'مقاوم در برابر گرد و غبار' },
-                            
+                            { title: 'قابلیت‌های مقاومتی', subtitle: 'مقاوم در برابر گرد و غبار' },
+
                      ],
                      moreInfo: {
                             title: 'هارد اکسترنال',
@@ -1744,7 +1967,7 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۲۷۰ گرم' },
-                            { title: 'سایر قابلیت‌ها', subtitle:'دارای چراغ RGB' },
+                            { title: 'سایر قابلیت‌ها', subtitle: 'دارای چراغ RGB' },
                             { title: 'نوع اتصال', subtitle: 'باسیم' },
                             { title: 'ظرفیت', subtitle: 'دو ترابایت' },
                             { title: 'قابلیت‌های مقاومتی', subtitle: 'مقاوم در برابر گرد و غبار' },
@@ -1760,9 +1983,14 @@ const products = {
               },
               {
                      id: 5,
-                       cardName:'هارد اکسترنال توشیبا مدل Canvio ‌‌Basics ظرفیت 4 ترابایت',
+                     cardName: 'هارد اکسترنال توشیبا مدل Canvio ‌‌Basics ظرفیت 4 ترابایت',
                      name: 'هارد اکسترنال توشیبا مدل Canvio ‌‌Basics ظرفیت 4 ترابایت',
-
+                     mainImg: 'images/hardExternal/5/a7e54716106af00cf54d2676936338a6c63571e8_1614873165.webp',
+                     allImages: [
+                            'images/hardExternal/5/d84f1ae714d7fc3cd6a581c3a778bd732df3b4f5_1614873146.jpg',
+                            'images/hardExternal/5/ba00dd77d44fc5a83881d9fe462f8b8874d87b47_1672838089.jpg',
+                            'images/hardExternal/5/a7e54716106af00cf54d2676936338a6c63571e8_1614873165.webp',
+                     ],
                      price: 4130000,
                      rate: 4.3,
                      comments: [
@@ -1784,14 +2012,14 @@ const products = {
                             }
 
                      ],
-                     colors:[
-                            {title:'مشکی',subTitle:'black',ordered:true},
-                            
+                     colors: [
+                            { title: 'مشکی', subTitle: 'black', ordered: true },
+
                      ],
                      propertys: [
                             { title: 'ظرفیت', subtitle: 'دو ترابایت' },
-                            { title: 'قابلیت‌های مقاومتی', subtitle:'مقاوم در برابر گرد و غبار' },
-                            
+                            { title: 'قابلیت‌های مقاومتی', subtitle: 'مقاوم در برابر گرد و غبار' },
+
                      ],
                      moreInfo: {
                             title: 'هارد اکسترنال',
@@ -1799,7 +2027,7 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۲۷۰ گرم' },
-                            { title: 'سایر قابلیت‌ها', subtitle:'دارای چراغ RGB' },
+                            { title: 'سایر قابلیت‌ها', subtitle: 'دارای چراغ RGB' },
                             { title: 'نوع اتصال', subtitle: 'باسیم' },
                             { title: 'ظرفیت', subtitle: 'دو ترابایت' },
                             { title: 'قابلیت‌های مقاومتی', subtitle: 'مقاوم در برابر گرد و غبار' },
@@ -1812,13 +2040,19 @@ const products = {
                             'راد کالا',
                             'هارد اکسترنال',
                      ],
-                    
+
               },
               {
                      id: 6,
-                       cardName:'هارددیسک اکسترنال وسترن دیجیتال مدل My Book Desktop ظرفیت 4 ترابایت',
+                     cardName: 'هارددیسک اکسترنال وسترن دیجیتال مدل My Book Desktop ظرفیت 4 ترابایت',
                      name: 'هارددیسک اکسترنال وسترن دیجیتال مدل My Book Desktop ظرفیت 4 ترابایت',
-
+                     mainImg: 'images/hardExternal/6/1540506.webp',
+                     allImages: [
+                            'images/hardExternal/6/1540561.jpg',
+                            'images/hardExternal/6/1540577.jpg',
+                            'images/hardExternal/6/ba8a99a6d4529f579df38ad8e6ef64f10be8adb3_1673154020.jpg',
+                            'images/hardExternal/6/1540506.webp',
+                     ],
                      price: 5570000,
                      rate: 4.2,
                      comments: [
@@ -1840,13 +2074,13 @@ const products = {
                             }
 
                      ],
-                     colors:[
-                            {title:'مشکی',subTitle:'black',ordered:true},         
+                     colors: [
+                            { title: 'مشکی', subTitle: 'black', ordered: true },
                      ],
                      propertys: [
                             { title: 'ظرفیت', subtitle: 'دو ترابایت' },
-                            { title: 'قابلیت‌های مقاومتی', subtitle:'مقاوم در برابر گرد و غبار' },
-                            
+                            { title: 'قابلیت‌های مقاومتی', subtitle: 'مقاوم در برابر گرد و غبار' },
+
                      ],
                      moreInfo: {
                             title: 'هارد اکسترنال',
@@ -1854,7 +2088,7 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۲۷۰ گرم' },
-                            { title: 'سایر قابلیت‌ها', subtitle:'دارای چراغ RGB' },
+                            { title: 'سایر قابلیت‌ها', subtitle: 'دارای چراغ RGB' },
                             { title: 'نوع اتصال', subtitle: 'باسیم' },
                             { title: 'ظرفیت', subtitle: 'دو ترابایت' },
                             { title: 'قابلیت‌های مقاومتی', subtitle: 'مقاوم در برابر گرد و غبار' },
@@ -1872,9 +2106,14 @@ const products = {
        mouseAndKeyboard: [
               {
                      id: 1,
-                     cardName:'موس بی‌سیم اپل مدل Magic Mouse 2',
+                     cardName: 'موس بی‌سیم اپل مدل Magic Mouse 2',
                      name: 'موس بی‌سیم اپل مدل Magic Mouse 2',
-
+                     mainImg: 'images/mouseAndKeyboard/1/995853.webp',
+                     allImages: [
+                            'images/mouseAndKeyboard/1/995980.jpg',
+                            'images/mouseAndKeyboard/1/996044.jpg',
+                            'images/mouseAndKeyboard/1/995853.webp',
+                     ],
                      price: 4550000,
                      rate: 4.3,
                      comments: [
@@ -1896,16 +2135,16 @@ const products = {
                             }
 
                      ],
-                     colors:[
-                            {title:'سفید',subTitle:'white',ordered:true},
+                     colors: [
+                            { title: 'سفید', subTitle: 'white', ordered: true },
                      ],
                      propertys: [
                             { title: 'نوع رابط', subtitle: 'USB' },
-                            { title: 'نوع حسگر ', subtitle:'لیزری' },
-                            { title: 'محدوده دقت', subtitle:'800 تا 1600' },
-                            { title: 'تعداد باتری', subtitle:'یک عدد' },
-                            { title: 'نوع و سایز باتری', subtitle:'باتری لیتیوم-یونی' },
-                            
+                            { title: 'نوع حسگر ', subtitle: 'لیزری' },
+                            { title: 'محدوده دقت', subtitle: '800 تا 1600' },
+                            { title: 'تعداد باتری', subtitle: 'یک عدد' },
+                            { title: 'نوع و سایز باتری', subtitle: 'باتری لیتیوم-یونی' },
+
                      ],
                      moreInfo: {
                             title: 'موس',
@@ -1913,15 +2152,15 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۹۹ گرم' },
-                            { title: 'ابعاد', subtitle:'۲۱.۶ × ۲۲.۵ × ۴۴.۷ میلی‌متر'},
+                            { title: 'ابعاد', subtitle: '۲۱.۶ × ۲۲.۵ × ۴۴.۷ میلی‌متر' },
                             { title: 'نوع اتصال', subtitle: 'بی‌سیم' },
                             { title: 'تعداد کلید', subtitle: 'دو عدد' },
                             { title: 'قابلیت‌های ماوس', subtitle: 'کلید روشن و خاموش' },
                      ],
                      questions: [
                             'تفاوت این مدل با مدل Magic Mouse MMMQ3ZM/A چیه؟ کدوم بهتره؟',
-                           'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
-                           'با Bluetooth متصل میشه یا دانگل USB داره ¿'
+                            'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
+                            'با Bluetooth متصل میشه یا دانگل USB داره ¿'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -1931,10 +2170,16 @@ const products = {
               },
               {
                      id: 2,
-                       cardName:'ماوس مخصوص بازی ایفورتک مدل V8M',
+                     cardName: 'ماوس مخصوص بازی ایفورتک مدل V8M',
                      name: 'ماوس مخصوص بازی ایفورتک مدل V8M',
-
-                     price:1555000,
+                     mainImg: 'images/mouseAndKeyboard/2/2369809.webp',
+                     allImages: [
+                            'images/mouseAndKeyboard/2/2369883.jpg',
+                            'images/mouseAndKeyboard/2/2369920.jpg',
+                            'images/mouseAndKeyboard/2/2369955.jpg',
+                            'images/mouseAndKeyboard/2/2369809.webp',
+                     ],
+                     price: 1555000,
                      rate: 4.5,
                      comments: [
                             {
@@ -1955,16 +2200,16 @@ const products = {
                             }
 
                      ],
-                     colors:[
-                            {title:'مشکی',subTitle:'black',ordered:true},
+                     colors: [
+                            { title: 'مشکی', subTitle: 'black', ordered: true },
                      ],
                      propertys: [
                             { title: 'نوع رابط', subtitle: 'USB' },
-                            { title: 'نوع حسگر ', subtitle:'لیزری' },
-                            { title: 'محدوده دقت', subtitle:'800 تا 1600' },
-                            { title: 'تعداد باتری', subtitle:'یک عدد' },
-                            { title: 'نوع و سایز باتری', subtitle:'باتری لیتیوم-یونی' },
-                            
+                            { title: 'نوع حسگر ', subtitle: 'لیزری' },
+                            { title: 'محدوده دقت', subtitle: '800 تا 1600' },
+                            { title: 'تعداد باتری', subtitle: 'یک عدد' },
+                            { title: 'نوع و سایز باتری', subtitle: 'باتری لیتیوم-یونی' },
+
                      ],
                      moreInfo: {
                             title: 'موس',
@@ -1972,15 +2217,15 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۹۹ گرم' },
-                            { title: 'ابعاد', subtitle:'۲۱.۶ × ۲۲.۵ × ۴۴.۷ میلی‌متر'},
+                            { title: 'ابعاد', subtitle: '۲۱.۶ × ۲۲.۵ × ۴۴.۷ میلی‌متر' },
                             { title: 'نوع اتصال', subtitle: 'بی‌سیم' },
                             { title: 'تعداد کلید', subtitle: 'دو عدد' },
                             { title: 'قابلیت‌های ماوس', subtitle: 'کلید روشن و خاموش' },
                      ],
                      questions: [
                             'تفاوت این مدل با مدل Magic Mouse MMMQ3ZM/A چیه؟ کدوم بهتره؟',
-                           'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
-                           'با Bluetooth متصل میشه یا دانگل USB داره ¿'
+                            'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
+                            'با Bluetooth متصل میشه یا دانگل USB داره ¿'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -1989,9 +2234,16 @@ const products = {
               },
               {
                      id: 3,
-                       cardName:'ماوس مخصوص بازی لاجیتک مدل G402 Hyperion Fury',
+                     cardName: 'ماوس مخصوص بازی لاجیتک مدل G402 Hyperion Fury',
                      name: 'ماوس مخصوص بازی لاجیتک مدل G402 Hyperion Fury',
-
+                     mainImg: 'images/mouseAndKeyboard/3/26683.webp',
+                     allImages: [
+                            'images/mouseAndKeyboard/3/26752.jpg',
+                            'images/mouseAndKeyboard/3/26809.jpg',
+                            'images/mouseAndKeyboard/3/26860.jpg',
+                            'images/mouseAndKeyboard/3/26879.jpg',
+                            'images/mouseAndKeyboard/3/26683.webp',
+                     ],
                      price: 2840000,
                      rate: 4.4,
                      comments: [
@@ -2013,17 +2265,17 @@ const products = {
                             }
 
                      ],
-                     colors:[
-                            {title:'مشکی',subTitle:'black',ordered:true},
+                     colors: [
+                            { title: 'مشکی', subTitle: 'black', ordered: true },
 
                      ],
                      propertys: [
                             { title: 'نوع رابط', subtitle: 'USB' },
-                            { title: 'نوع حسگر ', subtitle:'لیزری' },
-                            { title: 'محدوده دقت', subtitle:'800 تا 1600' },
-                            { title: 'تعداد باتری', subtitle:'یک عدد' },
-                            { title: 'نوع و سایز باتری', subtitle:'باتری لیتیوم-یونی' },
-                            
+                            { title: 'نوع حسگر ', subtitle: 'لیزری' },
+                            { title: 'محدوده دقت', subtitle: '800 تا 1600' },
+                            { title: 'تعداد باتری', subtitle: 'یک عدد' },
+                            { title: 'نوع و سایز باتری', subtitle: 'باتری لیتیوم-یونی' },
+
                      ],
                      moreInfo: {
                             title: 'موس',
@@ -2031,15 +2283,15 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۹۹ گرم' },
-                            { title: 'ابعاد', subtitle:'۲۱.۶ × ۲۲.۵ × ۴۴.۷ میلی‌متر'},
+                            { title: 'ابعاد', subtitle: '۲۱.۶ × ۲۲.۵ × ۴۴.۷ میلی‌متر' },
                             { title: 'نوع اتصال', subtitle: 'بی‌سیم' },
                             { title: 'تعداد کلید', subtitle: 'دو عدد' },
                             { title: 'قابلیت‌های ماوس', subtitle: 'کلید روشن و خاموش' },
                      ],
                      questions: [
                             'تفاوت این مدل با مدل Magic Mouse MMMQ3ZM/A چیه؟ کدوم بهتره؟',
-                           'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
-                           'با Bluetooth متصل میشه یا دانگل USB داره ¿'
+                            'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
+                            'با Bluetooth متصل میشه یا دانگل USB داره ¿'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -2048,9 +2300,15 @@ const products = {
               },
               {
                      id: 4,
-                       cardName:'کیبورد مخصوص بازی کورسیر مدل K100 RGB optical-mechanical',
+                     cardName: 'کیبورد مخصوص بازی کورسیر مدل K100 RGB optical-mechanical',
                      name: 'کیبورد مخصوص بازی کورسیر مدل K100 RGB optical-mechanical',
-
+                     mainImg: 'images/mouseAndKeyboard/4/2feb00723bb60108a6898b93de60b5d9b294cad7_1631627114.webp',
+                     allImages: [
+                            'images/mouseAndKeyboard/4/988820cb8f9fa9be8591dbe3f63d481432c70b10_1631627213.jpg',
+                            'images/mouseAndKeyboard/4/274fb545877ec2455d895cef75980beae6ed1468_1631627235.jpg',
+                            'images/mouseAndKeyboard/4/d7647f2a4b32ec7e876401ee723eb16c7b2c64cc_1631627280.jpg',
+                            'images/mouseAndKeyboard/4/2feb00723bb60108a6898b93de60b5d9b294cad7_1631627114.webp',
+                     ],
                      price: 24550000,
                      rate: 5,
                      comments: [
@@ -2072,17 +2330,17 @@ const products = {
                             }
 
                      ],
-                     colors:[
-                            {title:'مشکی',subTitle:'black',ordered:false},
-                            {title:'قرمز',subTitle:'red',ordered:true},
+                     colors: [
+                            { title: 'مشکی', subTitle: 'black', ordered: false },
+                            { title: 'قرمز', subTitle: 'red', ordered: true },
                      ],
                      propertys: [
                             { title: 'نوع رابط', subtitle: 'USB' },
-                            { title: 'نوع حسگر ', subtitle:'لیزری' },
-                            { title: 'محدوده دقت', subtitle:'800 تا 1600' },
-                            { title: 'تعداد باتری', subtitle:'یک عدد' },
-                            { title: 'نوع و سایز باتری', subtitle:'باتری لیتیوم-یونی' },
-                            
+                            { title: 'نوع حسگر ', subtitle: 'لیزری' },
+                            { title: 'محدوده دقت', subtitle: '800 تا 1600' },
+                            { title: 'تعداد باتری', subtitle: 'یک عدد' },
+                            { title: 'نوع و سایز باتری', subtitle: 'باتری لیتیوم-یونی' },
+
                      ],
                      moreInfo: {
                             title: 'کیبورد',
@@ -2090,15 +2348,15 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۹۹ گرم' },
-                            { title: 'ابعاد', subtitle:'۲۱.۶ × ۲۲.۵ × ۴۴.۷ میلی‌متر'},
+                            { title: 'ابعاد', subtitle: '۲۱.۶ × ۲۲.۵ × ۴۴.۷ میلی‌متر' },
                             { title: 'نوع اتصال', subtitle: 'بی‌سیم' },
                             { title: 'تعداد کلید', subtitle: 'دو عدد' },
                             { title: 'قابلیت‌های ماوس', subtitle: 'کلید روشن و خاموش' },
                      ],
                      questions: [
                             'تفاوت این مدل با مدل Magic Mouse MMMQ3ZM/A چیه؟ کدوم بهتره؟',
-                           'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
-                           'با Bluetooth متصل میشه یا دانگل USB داره ¿'
+                            'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
+                            'با Bluetooth متصل میشه یا دانگل USB داره ¿'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -2107,9 +2365,14 @@ const products = {
               },
               {
                      id: 5,
-                       cardName:'کیبورد بی سیم مدل I8 Backlit',
+                     cardName: 'کیبورد بی سیم مدل I8 Backlit',
                      name: 'کیبورد بی سیم مدل I8 Backlit',
-
+                     mainImg: 'images/mouseAndKeyboard/5/822859.webp',
+                     allImages: [
+                            'images/mouseAndKeyboard/5/833039.jpg',
+                            'images/mouseAndKeyboard/5/823116.jpg',
+                            'images/mouseAndKeyboard/5/822859.webp',
+                     ],
                      price: 298000,
                      rate: 4,
                      comments: [
@@ -2131,16 +2394,16 @@ const products = {
                             }
 
                      ],
-                     colors:[
-                            {title:'مشکی',subTitle:'black',ordered:true},
+                     colors: [
+                            { title: 'مشکی', subTitle: 'black', ordered: true },
                      ],
                      propertys: [
                             { title: 'نوع رابط', subtitle: 'USB' },
-                            { title: 'نوع حسگر ', subtitle:'لیزری' },
-                            { title: 'محدوده دقت', subtitle:'800 تا 1600' },
-                            { title: 'تعداد باتری', subtitle:'یک عدد' },
-                            { title: 'نوع و سایز باتری', subtitle:'باتری لیتیوم-یونی' },
-                            
+                            { title: 'نوع حسگر ', subtitle: 'لیزری' },
+                            { title: 'محدوده دقت', subtitle: '800 تا 1600' },
+                            { title: 'تعداد باتری', subtitle: 'یک عدد' },
+                            { title: 'نوع و سایز باتری', subtitle: 'باتری لیتیوم-یونی' },
+
                      ],
                      moreInfo: {
                             title: 'کیبورد',
@@ -2148,15 +2411,15 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۹۹ گرم' },
-                            { title: 'ابعاد', subtitle:'۲۱.۶ × ۲۲.۵ × ۴۴.۷ میلی‌متر'},
+                            { title: 'ابعاد', subtitle: '۲۱.۶ × ۲۲.۵ × ۴۴.۷ میلی‌متر' },
                             { title: 'نوع اتصال', subtitle: 'بی‌سیم' },
                             { title: 'تعداد کلید', subtitle: 'دو عدد' },
                             { title: 'قابلیت‌های ماوس', subtitle: 'کلید روشن و خاموش' },
                      ],
                      questions: [
                             'تفاوت این مدل با مدل Magic Mouse MMMQ3ZM/A چیه؟ کدوم بهتره؟',
-                           'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
-                           'با Bluetooth متصل میشه یا دانگل USB داره ¿'
+                            'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
+                            'با Bluetooth متصل میشه یا دانگل USB داره ¿'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -2165,9 +2428,13 @@ const products = {
               },
               {
                      id: 6,
-                     cardName:'کیبورد مخصوص بازی پرودو مدل pdx212',
+                     cardName: 'کیبورد مخصوص بازی پرودو مدل pdx212',
                      name: 'کیبورد مخصوص بازی پرودو مدل pdx212',
-
+                     mainImg: 'images/mouseAndKeyboard/6/6b0b212bcd236c91c957114cc6be97a69775c4f9_1625059957.webp',
+                     allImages: [
+                            'images/mouseAndKeyboard/6/8a9ada7bfbcf11033e049305001ecd2314343238_1625060226.jpg',
+                            'images/mouseAndKeyboard/6/6b0b212bcd236c91c957114cc6be97a69775c4f9_1625059957.webp',
+                     ],
                      price: 839000,
                      rate: 3.8,
                      comments: [
@@ -2189,16 +2456,16 @@ const products = {
                             }
 
                      ],
-                     colors:[
-                            {title:'مشکی',subTitle:'black',ordered:true},
+                     colors: [
+                            { title: 'مشکی', subTitle: 'black', ordered: true },
                      ],
                      propertys: [
                             { title: 'نوع رابط', subtitle: 'USB' },
-                            { title: 'نوع حسگر ', subtitle:'لیزری' },
-                            { title: 'محدوده دقت', subtitle:'800 تا 1600' },
-                            { title: 'تعداد باتری', subtitle:'یک عدد' },
-                            { title: 'نوع و سایز باتری', subtitle:'باتری لیتیوم-یونی' },
-                            
+                            { title: 'نوع حسگر ', subtitle: 'لیزری' },
+                            { title: 'محدوده دقت', subtitle: '800 تا 1600' },
+                            { title: 'تعداد باتری', subtitle: 'یک عدد' },
+                            { title: 'نوع و سایز باتری', subtitle: 'باتری لیتیوم-یونی' },
+
                      ],
                      moreInfo: {
                             title: 'کیبورد',
@@ -2206,15 +2473,15 @@ const products = {
                      },
                      Specifications: [
                             { title: 'وزن', subtitle: '۹۹ گرم' },
-                            { title: 'ابعاد', subtitle:'۲۱.۶ × ۲۲.۵ × ۴۴.۷ میلی‌متر'},
+                            { title: 'ابعاد', subtitle: '۲۱.۶ × ۲۲.۵ × ۴۴.۷ میلی‌متر' },
                             { title: 'نوع اتصال', subtitle: 'بی‌سیم' },
                             { title: 'تعداد کلید', subtitle: 'دو عدد' },
                             { title: 'قابلیت‌های ماوس', subtitle: 'کلید روشن و خاموش' },
                      ],
                      questions: [
                             'تفاوت این مدل با مدل Magic Mouse MMMQ3ZM/A چیه؟ کدوم بهتره؟',
-                           'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
-                           'با Bluetooth متصل میشه یا دانگل USB داره ¿'
+                            'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
+                            'با Bluetooth متصل میشه یا دانگل USB داره ¿'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -2225,9 +2492,16 @@ const products = {
        consule: [
               {
                      id: 1,
-                     cardName:'کنسول بازی سونی مدل Playstation 4 Slim',
+                     cardName: 'کنسول بازی سونی مدل Playstation 4 Slim',
                      name: 'کنسول بازی سونی مدل Playstation 4 Slim ریجن 3 کد CUH-2218B ظرفیت 1 ترابایت',
-
+                     mainImg: 'images/gameConsule/1/111223356.jpg',
+                     allImages: [
+                            'images/gameConsule/1/111223510.jpg',
+                            'images/gameConsule/1/111223516.jpg',
+                            'images/gameConsule/1/111223513.jpg',
+                            'images/gameConsule/1/111223519.jpg',
+                            'images/gameConsule/1/111223356.jpg',
+                     ],
                      price: 16000000,
                      rate: 4,
                      comments: [
@@ -2251,25 +2525,25 @@ const products = {
                      ],
                      propertys: [
                             { title: 'امکانات ظاهری', subtitle: 'دسته بی سیم' },
-                            { title: 'تعداد دسته ', subtitle:'یک عدد' },
-                            { title: 'فناوری‌های ارتباطی', subtitle:'بلوتوث' },
-                            
+                            { title: 'تعداد دسته ', subtitle: 'یک عدد' },
+                            { title: 'فناوری‌های ارتباطی', subtitle: 'بلوتوث' },
+
                      ],
                      moreInfo: {
                             title: 'طراحی کوچک‌تر از یک کنسول قدرتمند',
                             text: 'شرکت سونی به عنوان رقیب دیرینه‌ی شرکت مایکروسافت، در سال 2013 کنسول نسل هشتمی PlayStation 4 را روانه‌ی بازار کرد. در سال 2016 این شرکت کنسول بازی PlayStation 4 Slim را با اعمال تغییرات ظاهری نسبت به مدل PS4 به بازار عرضه نمود که ابعاد آن 30 درصد کوچکتر  و از نظر ضخامت، باریک‌تر از کنسول PS4 بود؛ بدنه‌ی این کنسول جدید از روکش مشکی مات همراه با لبه‌های زاویه‌دار و منحنی شکل طراحی شده است. شرکت سونی یکی از بهترین تولیدکنندگان کنسول‌های قدرتمند بازی در جهان بوده که طرفداران زیادی دارد. علاقه‌مندان به کنسول‌های بازی را می‌توان به عنوان متعصب‌ترین افراد به حساب آورد.این مدل از کنسول جدید سونی را می‌توان در مقایسه با سری اول، سبک‌تر دانست و به نظر می‌رسد این موضوع به یک سبک برای شرکت سونی تبدیل شده است. در گذشته هم ابتدا نسخه بزرگ‌تر پلی استیشن 3 معرفی شد و پس از مدتی شاهد عرضه مدل اسلیم یا کوچک‌تر بودیم.طراحی دستگاه باعث می‌شود علاقه‌مندان به کنسول‌های بازی، سریعا جذب آن شوند. البته این دستگاه سبک‌تر بوده و وزن آن معادل 2.1 کیلوگرم است. همچنین روی دستگاه لوگوی مخصوص پلی استیشن قرار گرفته است. طراحی دسته‌های پلی استیشن 4 زیبایی خاص خود را دارد، اما دیگر نمی‌توان آن‌ها را همانند دسته‌های قدیمی سونی به حساب آورد و پیشرفته‌تر شده‌اند. طراحی ارگونومیک این دسته‌ها باعث می‌شود به راحتی درون دست قرار بگیرند و بتوان ساعت‌ها بدون احساس خستگی، بازی‌ها را ادامه داد'
                      },
                      Specifications: [
-                            { title: 'انواع حافظه', subtitle:'هارد دیسک' },
-                            { title: 'ابعاد', subtitle:'۲۸۸x۲۶۵x۳۹ سانتی‌متر'},
+                            { title: 'انواع حافظه', subtitle: 'هارد دیسک' },
+                            { title: 'ابعاد', subtitle: '۲۸۸x۲۶۵x۳۹ سانتی‌متر' },
                             { title: 'ظرفیت هارد دیسک', subtitle: '۱ ترابایت' },
-                            { title: 'امکانات ظاهری', subtitle:'دسته بی سیم' },
-                            { title: 'تعداد دسته', subtitle:'یک عدد' },
+                            { title: 'امکانات ظاهری', subtitle: 'دسته بی سیم' },
+                            { title: 'تعداد دسته', subtitle: 'یک عدد' },
                      ],
                      questions: [
                             'تفاوت این مدل با مدل Magic Mouse MMMQ3ZM/A چیه؟ کدوم بهتره؟',
-                           'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
-                           'با Bluetooth متصل میشه یا دانگل USB داره ¿'
+                            'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
+                            'با Bluetooth متصل میشه یا دانگل USB داره ¿'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -2278,9 +2552,15 @@ const products = {
               },
               {
                      id: 2,
-                      cardName:'کنسول بازی سونی مدل Playstation 5 ',
+                     cardName: 'کنسول بازی سونی مدل Playstation 5 ',
                      name: 'کنسول بازی سونی مدل Playstation 5 سری 1216A ظرفیت 825 گیگابایت',
-
+                     mainImg: 'images/gameConsule/2/e8db003acadad2a677e7bef5c7b73601b3e53d68_1674206472.webp',
+                     allImages: [
+                            'images/gameConsule/2/27c728908a58039cd4a193f058493a55dab27d36_1674206481.jpg',
+                            'images/gameConsule/2/aba2c8f74f30040ad1598d8de2f816cb0d630cd1_1674203631.jpg',
+                            'images/gameConsule/2/c041fe24c578f491e98f5fd9c20d8fcdc78c4e5d_1674206460.jpg',
+                            'images/gameConsule/2/e8db003acadad2a677e7bef5c7b73601b3e53d68_1674206472.webp',
+                     ],
                      price: 28500000,
                      rate: 4.2,
                      comments: [
@@ -2304,25 +2584,25 @@ const products = {
                      ],
                      propertys: [
                             { title: 'امکانات ظاهری', subtitle: 'دسته بی سیم' },
-                            { title: 'تعداد دسته ', subtitle:'یک عدد' },
-                            { title: 'فناوری‌های ارتباطی', subtitle:'بلوتوث' },
-                            
+                            { title: 'تعداد دسته ', subtitle: 'یک عدد' },
+                            { title: 'فناوری‌های ارتباطی', subtitle: 'بلوتوث' },
+
                      ],
                      moreInfo: {
                             title: 'طراحی کوچک‌تر از یک کنسول قدرتمند',
                             text: 'شرکت سونی به عنوان رقیب دیرینه‌ی شرکت مایکروسافت، در سال 2013 کنسول نسل هشتمی PlayStation 4 را روانه‌ی بازار کرد. در سال 2016 این شرکت کنسول بازی PlayStation 4 Slim را با اعمال تغییرات ظاهری نسبت به مدل PS4 به بازار عرضه نمود که ابعاد آن 30 درصد کوچکتر  و از نظر ضخامت، باریک‌تر از کنسول PS4 بود؛ بدنه‌ی این کنسول جدید از روکش مشکی مات همراه با لبه‌های زاویه‌دار و منحنی شکل طراحی شده است. شرکت سونی یکی از بهترین تولیدکنندگان کنسول‌های قدرتمند بازی در جهان بوده که طرفداران زیادی دارد. علاقه‌مندان به کنسول‌های بازی را می‌توان به عنوان متعصب‌ترین افراد به حساب آورد.این مدل از کنسول جدید سونی را می‌توان در مقایسه با سری اول، سبک‌تر دانست و به نظر می‌رسد این موضوع به یک سبک برای شرکت سونی تبدیل شده است. در گذشته هم ابتدا نسخه بزرگ‌تر پلی استیشن 3 معرفی شد و پس از مدتی شاهد عرضه مدل اسلیم یا کوچک‌تر بودیم.طراحی دستگاه باعث می‌شود علاقه‌مندان به کنسول‌های بازی، سریعا جذب آن شوند. البته این دستگاه سبک‌تر بوده و وزن آن معادل 2.1 کیلوگرم است. همچنین روی دستگاه لوگوی مخصوص پلی استیشن قرار گرفته است. طراحی دسته‌های پلی استیشن 4 زیبایی خاص خود را دارد، اما دیگر نمی‌توان آن‌ها را همانند دسته‌های قدیمی سونی به حساب آورد و پیشرفته‌تر شده‌اند. طراحی ارگونومیک این دسته‌ها باعث می‌شود به راحتی درون دست قرار بگیرند و بتوان ساعت‌ها بدون احساس خستگی، بازی‌ها را ادامه داد'
                      },
                      Specifications: [
-                            { title: 'انواع حافظه', subtitle:'هارد دیسک' },
-                            { title: 'ابعاد', subtitle:'۲۸۸x۲۶۵x۳۹ سانتی‌متر'},
+                            { title: 'انواع حافظه', subtitle: 'هارد دیسک' },
+                            { title: 'ابعاد', subtitle: '۲۸۸x۲۶۵x۳۹ سانتی‌متر' },
                             { title: 'ظرفیت هارد دیسک', subtitle: '۱ ترابایت' },
-                            { title: 'امکانات ظاهری', subtitle:'دسته بی سیم' },
-                            { title: 'تعداد دسته', subtitle:'یک عدد' },
+                            { title: 'امکانات ظاهری', subtitle: 'دسته بی سیم' },
+                            { title: 'تعداد دسته', subtitle: 'یک عدد' },
                      ],
                      questions: [
                             'تفاوت این مدل با مدل Magic Mouse MMMQ3ZM/A چیه؟ کدوم بهتره؟',
-                           'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
-                           'با Bluetooth متصل میشه یا دانگل USB داره ¿'
+                            'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
+                            'با Bluetooth متصل میشه یا دانگل USB داره ¿'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -2331,9 +2611,16 @@ const products = {
               },
               {
                      id: 3,
-                      cardName:'دسته بازی پلی استیشن 5 سونی',
+                     cardName: 'دسته بازی پلی استیشن 5 سونی',
                      name: 'دسته بازی پلی استیشن 5 سونی مدل DUALSENSE CFI-ZCT1W',
-
+                     mainImg: 'images/gameConsule/3/75cbfcfa869da4b8e602d5de8ce94be3afbff627_1634713820.jpg',
+                     allImages: [
+                            'images/gameConsule/3/0e19c5dbca24d8b14d7ba3919b448f164d3c3bbd_1634713829.jpg',
+                            'images/gameConsule/3/662b5b82a30a53a4dfa57a1b4fea1dbdd4cba288_1634713821.jpg',
+                            'images/gameConsule/3/582fbbdc88a6bf4910005d894d4a33c9583976cb_1634713827.jpg',
+                            'images/gameConsule/3/ce40c387ec103e3e46e19774a4d37670524cd4be_1634713831.jpg',
+                            'images/gameConsule/3/75cbfcfa869da4b8e602d5de8ce94be3afbff627_1634713820.jpg',
+                     ],
                      price: 3344440,
                      rate: 4,
                      comments: [
@@ -2357,25 +2644,25 @@ const products = {
                      ],
                      propertys: [
                             { title: 'امکانات ظاهری', subtitle: 'دسته بی سیم' },
-                            { title: 'تعداد دسته ', subtitle:'یک عدد' },
-                            { title: 'فناوری‌های ارتباطی', subtitle:'بلوتوث' },
-                            
+                            { title: 'تعداد دسته ', subtitle: 'یک عدد' },
+                            { title: 'فناوری‌های ارتباطی', subtitle: 'بلوتوث' },
+
                      ],
                      moreInfo: {
                             title: 'طراحی کوچک‌تر از یک کنسول قدرتمند',
                             text: 'شرکت سونی به عنوان رقیب دیرینه‌ی شرکت مایکروسافت، در سال 2013 کنسول نسل هشتمی PlayStation 4 را روانه‌ی بازار کرد. در سال 2016 این شرکت کنسول بازی PlayStation 4 Slim را با اعمال تغییرات ظاهری نسبت به مدل PS4 به بازار عرضه نمود که ابعاد آن 30 درصد کوچکتر  و از نظر ضخامت، باریک‌تر از کنسول PS4 بود؛ بدنه‌ی این کنسول جدید از روکش مشکی مات همراه با لبه‌های زاویه‌دار و منحنی شکل طراحی شده است. شرکت سونی یکی از بهترین تولیدکنندگان کنسول‌های قدرتمند بازی در جهان بوده که طرفداران زیادی دارد. علاقه‌مندان به کنسول‌های بازی را می‌توان به عنوان متعصب‌ترین افراد به حساب آورد.این مدل از کنسول جدید سونی را می‌توان در مقایسه با سری اول، سبک‌تر دانست و به نظر می‌رسد این موضوع به یک سبک برای شرکت سونی تبدیل شده است. در گذشته هم ابتدا نسخه بزرگ‌تر پلی استیشن 3 معرفی شد و پس از مدتی شاهد عرضه مدل اسلیم یا کوچک‌تر بودیم.طراحی دستگاه باعث می‌شود علاقه‌مندان به کنسول‌های بازی، سریعا جذب آن شوند. البته این دستگاه سبک‌تر بوده و وزن آن معادل 2.1 کیلوگرم است. همچنین روی دستگاه لوگوی مخصوص پلی استیشن قرار گرفته است. طراحی دسته‌های پلی استیشن 4 زیبایی خاص خود را دارد، اما دیگر نمی‌توان آن‌ها را همانند دسته‌های قدیمی سونی به حساب آورد و پیشرفته‌تر شده‌اند. طراحی ارگونومیک این دسته‌ها باعث می‌شود به راحتی درون دست قرار بگیرند و بتوان ساعت‌ها بدون احساس خستگی، بازی‌ها را ادامه داد'
                      },
                      Specifications: [
-                            { title: 'انواع حافظه', subtitle:'هارد دیسک' },
-                            { title: 'ابعاد', subtitle:'۲۸۸x۲۶۵x۳۹ سانتی‌متر'},
+                            { title: 'انواع حافظه', subtitle: 'هارد دیسک' },
+                            { title: 'ابعاد', subtitle: '۲۸۸x۲۶۵x۳۹ سانتی‌متر' },
                             { title: 'ظرفیت هارد دیسک', subtitle: '۱ ترابایت' },
-                            { title: 'امکانات ظاهری', subtitle:'دسته بی سیم' },
-                            { title: 'تعداد دسته', subtitle:'یک عدد' },
+                            { title: 'امکانات ظاهری', subtitle: 'دسته بی سیم' },
+                            { title: 'تعداد دسته', subtitle: 'یک عدد' },
                      ],
                      questions: [
                             'تفاوت این مدل با مدل Magic Mouse MMMQ3ZM/A چیه؟ کدوم بهتره؟',
-                           'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
-                           'با Bluetooth متصل میشه یا دانگل USB داره ¿'
+                            'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
+                            'با Bluetooth متصل میشه یا دانگل USB داره ¿'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -2385,9 +2672,15 @@ const products = {
               },
               {
                      id: 4,
-                      cardName:'کنسول بازی مایکروسافت مدل XBOX SERIES X',
+                     cardName: 'کنسول بازی مایکروسافت مدل XBOX SERIES X',
                      name: 'کنسول بازی مایکروسافت مدل XBOX SERIES X ظرفیت 1 ترابایت',
-
+                     mainImg: 'images/gameConsule/1/2df666aba8e4fd8ae4bd75c814b5ea1e2f076f00_1605103287.webp',
+                     allImages: [
+                            'images/gameConsule/1/10e8b1e22f712cf6a38a2798c96d5d6e0f5573e5_1605102843.jpg',
+                            'images/gameConsule/1/706497154c71b9478ec87317c64d117640b48e87_1605102844.jpg',
+                            'images/gameConsule/1/e404cd1d8ccadb269fce210e72c94278605fb938_1609680211.jpg',
+                            'images/gameConsule/1/2df666aba8e4fd8ae4bd75c814b5ea1e2f076f00_1605103287.webp',
+                     ],
                      price: 26350000,
                      rate: 4.2,
                      comments: [
@@ -2411,25 +2704,25 @@ const products = {
                      ],
                      propertys: [
                             { title: 'امکانات ظاهری', subtitle: 'دسته بی سیم' },
-                            { title: 'تعداد دسته ', subtitle:'یک عدد' },
-                            { title: 'فناوری‌های ارتباطی', subtitle:'بلوتوث' },
-                            
+                            { title: 'تعداد دسته ', subtitle: 'یک عدد' },
+                            { title: 'فناوری‌های ارتباطی', subtitle: 'بلوتوث' },
+
                      ],
                      moreInfo: {
                             title: 'طراحی کوچک‌تر از یک کنسول قدرتمند',
                             text: 'شرکت سونی به عنوان رقیب دیرینه‌ی شرکت مایکروسافت، در سال 2013 کنسول نسل هشتمی PlayStation 4 را روانه‌ی بازار کرد. در سال 2016 این شرکت کنسول بازی PlayStation 4 Slim را با اعمال تغییرات ظاهری نسبت به مدل PS4 به بازار عرضه نمود که ابعاد آن 30 درصد کوچکتر  و از نظر ضخامت، باریک‌تر از کنسول PS4 بود؛ بدنه‌ی این کنسول جدید از روکش مشکی مات همراه با لبه‌های زاویه‌دار و منحنی شکل طراحی شده است. شرکت سونی یکی از بهترین تولیدکنندگان کنسول‌های قدرتمند بازی در جهان بوده که طرفداران زیادی دارد. علاقه‌مندان به کنسول‌های بازی را می‌توان به عنوان متعصب‌ترین افراد به حساب آورد.این مدل از کنسول جدید سونی را می‌توان در مقایسه با سری اول، سبک‌تر دانست و به نظر می‌رسد این موضوع به یک سبک برای شرکت سونی تبدیل شده است. در گذشته هم ابتدا نسخه بزرگ‌تر پلی استیشن 3 معرفی شد و پس از مدتی شاهد عرضه مدل اسلیم یا کوچک‌تر بودیم.طراحی دستگاه باعث می‌شود علاقه‌مندان به کنسول‌های بازی، سریعا جذب آن شوند. البته این دستگاه سبک‌تر بوده و وزن آن معادل 2.1 کیلوگرم است. همچنین روی دستگاه لوگوی مخصوص پلی استیشن قرار گرفته است. طراحی دسته‌های پلی استیشن 4 زیبایی خاص خود را دارد، اما دیگر نمی‌توان آن‌ها را همانند دسته‌های قدیمی سونی به حساب آورد و پیشرفته‌تر شده‌اند. طراحی ارگونومیک این دسته‌ها باعث می‌شود به راحتی درون دست قرار بگیرند و بتوان ساعت‌ها بدون احساس خستگی، بازی‌ها را ادامه داد'
                      },
                      Specifications: [
-                            { title: 'انواع حافظه', subtitle:'هارد دیسک' },
-                            { title: 'ابعاد', subtitle:'۲۸۸x۲۶۵x۳۹ سانتی‌متر'},
+                            { title: 'انواع حافظه', subtitle: 'هارد دیسک' },
+                            { title: 'ابعاد', subtitle: '۲۸۸x۲۶۵x۳۹ سانتی‌متر' },
                             { title: 'ظرفیت هارد دیسک', subtitle: '۱ ترابایت' },
-                            { title: 'امکانات ظاهری', subtitle:'دسته بی سیم' },
-                            { title: 'تعداد دسته', subtitle:'یک عدد' },
+                            { title: 'امکانات ظاهری', subtitle: 'دسته بی سیم' },
+                            { title: 'تعداد دسته', subtitle: 'یک عدد' },
                      ],
                      questions: [
                             'تفاوت این مدل با مدل Magic Mouse MMMQ3ZM/A چیه؟ کدوم بهتره؟',
-                           'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
-                           'با Bluetooth متصل میشه یا دانگل USB داره ¿'
+                            'سلام نسل ٢٠٢١ هست؟! و اينكه رابطش taype c هست؟! ',
+                            'با Bluetooth متصل میشه یا دانگل USB داره ¿'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -2441,9 +2734,15 @@ const products = {
        smartWatches: [
               {
                      id: 1,
-                     cardName:'ساعت هوشمند اپل واچ  مدل Alpine Loop',
+                     cardName: 'ساعت هوشمند اپل واچ  مدل Alpine Loop',
                      name: 'ساعت هوشمند اپل واچ مدل Ultra 49 mm Alpine Loop',
-
+                     mainImg: 'images/smartWatch/1/b0af2ec78668c85506c1edc260b42ff447f019c8_1667201885.webp',
+                     allImages: [
+                            'images/smartWatch/1/a58a7a518de6d1b3634003ba336e8195473dbafd_1689583216.jpg',
+                            'images/smartWatch/1/c71052e33cf678e1aa841aac6fd1340656dc83dc_1689583214.jpg',
+                            'images/smartWatch/1/3850f5995c49c0f61c6a237ff40de24a84e459af_1662801807.jpg',
+                            'images/smartWatch/1/b0af2ec78668c85506c1edc260b42ff447f019c8_1667201885.webp',
+                     ],
                      price: 44990000,
                      rate: 4,
                      comments: [
@@ -2465,43 +2764,49 @@ const products = {
                             }
 
                      ],
-                     colors:[
-                            {title:'سبز',subTitle:'green',ordered:false},         
-                            {title:'نارنجی',subTitle:'orange',ordered:true},         
+                     colors: [
+                            { title: 'سبز', subTitle: 'green', ordered: false },
+                            { title: 'نارنجی', subTitle: 'orange', ordered: true },
                      ],
                      propertys: [
                             { title: 'نوع کاربری', subtitle: 'ورزشی، رسمی، روزمره' },
-                            { title: 'فرم صفحه', subtitle:'مستطیل' },
-                            { title: 'جنس بند', subtitle:'برزنت' },
-                            
+                            { title: 'فرم صفحه', subtitle: 'مستطیل' },
+                            { title: 'جنس بند', subtitle: 'برزنت' },
+
                      ],
                      moreInfo: {
                             title: 'ساعت هوشمند',
                             text: 'بدون شک ساعت‌های هوشمند اپل توانسته‌اند تا به امروز عملکرد بهتری به نسبت شرکت‌های دیگر داشته باشند. اما این بار اپل در کنار رونمایی از ساعت‌های هوشمند جدید خود، اپل واچ Ultra را معرفی کرد که مشخصات قدرتمند و قابلیت‌های بسیار جذاب و کاربردی را با خود به‌همراه داشته است. در نمای رو‌به‌رویی این گوشی به صفحه‌نمایش با ابعاد 1.92 اینچ و رزولوشن 410×520 پیکسل از نوع Retina LTPO OLED مجهز شده که بدون شک کیفیت تصاویر فوق العاده‌ای را ارائه می‌کند. از طرفی باید بدانید که این صفحه‌نمایش جذاب و دوست‌ داشتنی، توانایی ارائه حداکثر روشنایی 2000 نیت (شمع در متر مربع) را دارد. چنین میزان روشنایی را در هیچ ساعت هوشمندی پیش از این ندیده بودیم و همین روشنایی بسیار بالا سبب شده تا در شرایط نوری متنوع و زیر تابش مستقیم نور خورشید هم، وضوح تصویر بسیار خوبی را شاهد باشید. قابلیت‌های بسیار جذاب ECG که تمام فعالیت‌های بدنی شما را لحظه به لحظه بررسی می‌کند و در صورت مشاهده هرگونه فعالیت‌ بدنی که منجر به آسیب رسیدن به شما شود، به سرعت هشدار می‌دهد. قابلیت‌های Fall Detection و Crash Detectionfootnote این ساعت هم اگر برای مثال زمین بخورید و یا تصادفی داشته باشید، به سرعت متوجه می‌شود و در نهایت اقدامات لازم برای اطمینان از سلامت شما را انجام می‌دهد. باتری با میزان ظرفیت 542 میلی‌آمپر‌ساعت هم به ازای هر بار شارژ صد درصدی، توانایی ارائه طول عمر مفید (زمان آماده به‌کار) 36 ساعت را به ازای هر بار شارژ صد درصدی دارد'
                      },
                      Specifications: [
-                            { title: 'مناسب برای', subtitle:'ورزش' },
-                            { title: 'نوع کاربری', subtitle:'ورزشی / زسمی / روزمره'},
+                            { title: 'مناسب برای', subtitle: 'ورزش' },
+                            { title: 'نوع کاربری', subtitle: 'ورزشی / زسمی / روزمره' },
                             { title: 'ابعاد قاب', subtitle: '۴۹x۴۴x۱۴.۴ میلی‌متر' },
-                            { title: 'قطر قاب', subtitle:'۴۹ میلی‌متر' },
-                            { title: 'عرض قاب', subtitle:'۱۴.۴ میلی متر' },
+                            { title: 'قطر قاب', subtitle: '۴۹ میلی‌متر' },
+                            { title: 'عرض قاب', subtitle: '۱۴.۴ میلی متر' },
                      ],
                      questions: [
                             'سیم کارت خور است؟',
-                           'بند ساعت سیلیکونی یا پارچه ای؟',
-                           'سلام من رنگ سبز اين ساعتو ميخوام سفارش بدم و فروشندش خود ديجي كالا هستش ،بندش چه سايزي هستش؟'
+                            'بند ساعت سیلیکونی یا پارچه ای؟',
+                            'سلام من رنگ سبز اين ساعتو ميخوام سفارش بدم و فروشندش خود ديجي كالا هستش ،بندش چه سايزي هستش؟'
                      ],
                      breadCrumb: [
                             'راد کالا',
                             'ساعت هوشمند',
                      ],
-                    
+
               },
               {
                      id: 2,
-                     cardName:'ساعت هوشمند شیائومی مدل Redmi Watch 2 Lite',
+                     cardName: 'ساعت هوشمند شیائومی مدل Redmi Watch 2 Lite',
                      name: 'ساعت هوشمند شیائومی مدل Redmi Watch 2 Lite طرح بند سلیکونی',
-
+                     mainImg: 'images/smartWatch/2/8c7d843d1d143250d7eb02fff08e10c149ac1dd6_1656931467.webp',
+                     allImages: [
+                            'images/smartWatch/2/a96e0f2188f8aa5ffb13d1a807f65d669e934a3d_1640503584.jpg',
+                            'images/smartWatch/2/61ab324d18e40dfdb4c8478d74979d66d41458d2_1640503585.jpg',
+                            'images/smartWatch/2/8acac923ac1043c218e6c75b4e6a761ea7915620_1640503586.jpg',
+                            'images/smartWatch/2/8c7d843d1d143250d7eb02fff08e10c149ac1dd6_1656931467.webp',
+                     ],
                      price: 2080000,
                      rate: 4.2,
                      comments: [
@@ -2523,32 +2828,32 @@ const products = {
                             }
 
                      ],
-                     colors:[
-                            {title:'سبز',subTitle:'green',ordered:false},         
-                            {title:'نارنجی',subTitle:'orange',ordered:false},         
-                            {title:'مشکی',subTitle:'black',ordered:false},         
+                     colors: [
+                            { title: 'سبز', subTitle: 'green', ordered: false },
+                            { title: 'نارنجی', subTitle: 'orange', ordered: false },
+                            { title: 'مشکی', subTitle: 'black', ordered: false },
                      ],
                      propertys: [
                             { title: 'نوع کاربری', subtitle: 'ورزشی، رسمی، روزمره' },
-                            { title: 'فرم صفحه', subtitle:'مستطیل' },
-                            { title: 'جنس بند', subtitle:'برزنت' },
-                            
+                            { title: 'فرم صفحه', subtitle: 'مستطیل' },
+                            { title: 'جنس بند', subtitle: 'برزنت' },
+
                      ],
                      moreInfo: {
                             title: 'ساعت هوشمند',
                             text: 'بدون شک ساعت‌های هوشمند اپل توانسته‌اند تا به امروز عملکرد بهتری به نسبت شرکت‌های دیگر داشته باشند. اما این بار اپل در کنار رونمایی از ساعت‌های هوشمند جدید خود، اپل واچ Ultra را معرفی کرد که مشخصات قدرتمند و قابلیت‌های بسیار جذاب و کاربردی را با خود به‌همراه داشته است. در نمای رو‌به‌رویی این گوشی به صفحه‌نمایش با ابعاد 1.92 اینچ و رزولوشن 410×520 پیکسل از نوع Retina LTPO OLED مجهز شده که بدون شک کیفیت تصاویر فوق العاده‌ای را ارائه می‌کند. از طرفی باید بدانید که این صفحه‌نمایش جذاب و دوست‌ داشتنی، توانایی ارائه حداکثر روشنایی 2000 نیت (شمع در متر مربع) را دارد. چنین میزان روشنایی را در هیچ ساعت هوشمندی پیش از این ندیده بودیم و همین روشنایی بسیار بالا سبب شده تا در شرایط نوری متنوع و زیر تابش مستقیم نور خورشید هم، وضوح تصویر بسیار خوبی را شاهد باشید. قابلیت‌های بسیار جذاب ECG که تمام فعالیت‌های بدنی شما را لحظه به لحظه بررسی می‌کند و در صورت مشاهده هرگونه فعالیت‌ بدنی که منجر به آسیب رسیدن به شما شود، به سرعت هشدار می‌دهد. قابلیت‌های Fall Detection و Crash Detectionfootnote این ساعت هم اگر برای مثال زمین بخورید و یا تصادفی داشته باشید، به سرعت متوجه می‌شود و در نهایت اقدامات لازم برای اطمینان از سلامت شما را انجام می‌دهد. باتری با میزان ظرفیت 542 میلی‌آمپر‌ساعت هم به ازای هر بار شارژ صد درصدی، توانایی ارائه طول عمر مفید (زمان آماده به‌کار) 36 ساعت را به ازای هر بار شارژ صد درصدی دارد'
                      },
                      Specifications: [
-                            { title: 'مناسب برای', subtitle:'ورزش' },
-                            { title: 'نوع کاربری', subtitle:'ورزشی / زسمی / روزمره'},
+                            { title: 'مناسب برای', subtitle: 'ورزش' },
+                            { title: 'نوع کاربری', subtitle: 'ورزشی / زسمی / روزمره' },
                             { title: 'ابعاد قاب', subtitle: '۴۹x۴۴x۱۴.۴ میلی‌متر' },
-                            { title: 'قطر قاب', subtitle:'۴۹ میلی‌متر' },
-                            { title: 'عرض قاب', subtitle:'۱۴.۴ میلی متر' },
+                            { title: 'قطر قاب', subtitle: '۴۹ میلی‌متر' },
+                            { title: 'عرض قاب', subtitle: '۱۴.۴ میلی متر' },
                      ],
                      questions: [
                             'سیم کارت خور است؟',
-                           'بند ساعت سیلیکونی یا پارچه ای؟',
-                           'سلام من رنگ سبز اين ساعتو ميخوام سفارش بدم و فروشندش خود ديجي كالا هستش ،بندش چه سايزي هستش؟'
+                            'بند ساعت سیلیکونی یا پارچه ای؟',
+                            'سلام من رنگ سبز اين ساعتو ميخوام سفارش بدم و فروشندش خود ديجي كالا هستش ،بندش چه سايزي هستش؟'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -2557,9 +2862,15 @@ const products = {
               },
               {
                      id: 3,
-                     cardName:'ساعت هوشمند سامسونگ مدل Galaxy Watch6',
+                     cardName: 'ساعت هوشمند سامسونگ مدل Galaxy Watch6',
                      name: 'ساعت هوشمند سامسونگ مدل Galaxy Watch6 Classic 47mm',
-
+                     mainImg: 'images/smartWatch/3/a88b419f47b74c34086751c0f44ffbb2225230f1_1690715344.webp',
+                     allImages: [
+                            'images/smartWatch/3/43a6177c39ec3a8bd854c50b1182bdd8105e94c9_1690715344.jpg',
+                            'images/smartWatch/3/c18bcce20f3ae8e4a38d11d4604bda8aa6676081_1690715346.jpg',
+                            'images/smartWatch/3/ade344a7ffd54f8ed997af21feef0c51637e565d_1690715344.jpg',
+                            'images/smartWatch/3/a88b419f47b74c34086751c0f44ffbb2225230f1_1690715344.webp',
+                     ],
                      price: 14690000,
                      rate: 4.8,
                      comments: [
@@ -2581,31 +2892,31 @@ const products = {
                             }
 
                      ],
-                     colors:[       
-                            {title:'نقره ای',subTitle:'sliver',ordered:false},         
-                            {title:'مشکی',subTitle:'black',ordered:true},         
+                     colors: [
+                            { title: 'نقره ای', subTitle: 'sliver', ordered: false },
+                            { title: 'مشکی', subTitle: 'black', ordered: true },
                      ],
                      propertys: [
                             { title: 'نوع کاربری', subtitle: 'ورزشی، رسمی، روزمره' },
-                            { title: 'فرم صفحه', subtitle:'مستطیل' },
-                            { title: 'جنس بند', subtitle:'برزنت' },
-                            
+                            { title: 'فرم صفحه', subtitle: 'مستطیل' },
+                            { title: 'جنس بند', subtitle: 'برزنت' },
+
                      ],
                      moreInfo: {
                             title: 'ساعت هوشمند',
                             text: 'بدون شک ساعت‌های هوشمند اپل توانسته‌اند تا به امروز عملکرد بهتری به نسبت شرکت‌های دیگر داشته باشند. اما این بار اپل در کنار رونمایی از ساعت‌های هوشمند جدید خود، اپل واچ Ultra را معرفی کرد که مشخصات قدرتمند و قابلیت‌های بسیار جذاب و کاربردی را با خود به‌همراه داشته است. در نمای رو‌به‌رویی این گوشی به صفحه‌نمایش با ابعاد 1.92 اینچ و رزولوشن 410×520 پیکسل از نوع Retina LTPO OLED مجهز شده که بدون شک کیفیت تصاویر فوق العاده‌ای را ارائه می‌کند. از طرفی باید بدانید که این صفحه‌نمایش جذاب و دوست‌ داشتنی، توانایی ارائه حداکثر روشنایی 2000 نیت (شمع در متر مربع) را دارد. چنین میزان روشنایی را در هیچ ساعت هوشمندی پیش از این ندیده بودیم و همین روشنایی بسیار بالا سبب شده تا در شرایط نوری متنوع و زیر تابش مستقیم نور خورشید هم، وضوح تصویر بسیار خوبی را شاهد باشید. قابلیت‌های بسیار جذاب ECG که تمام فعالیت‌های بدنی شما را لحظه به لحظه بررسی می‌کند و در صورت مشاهده هرگونه فعالیت‌ بدنی که منجر به آسیب رسیدن به شما شود، به سرعت هشدار می‌دهد. قابلیت‌های Fall Detection و Crash Detectionfootnote این ساعت هم اگر برای مثال زمین بخورید و یا تصادفی داشته باشید، به سرعت متوجه می‌شود و در نهایت اقدامات لازم برای اطمینان از سلامت شما را انجام می‌دهد. باتری با میزان ظرفیت 542 میلی‌آمپر‌ساعت هم به ازای هر بار شارژ صد درصدی، توانایی ارائه طول عمر مفید (زمان آماده به‌کار) 36 ساعت را به ازای هر بار شارژ صد درصدی دارد'
                      },
                      Specifications: [
-                            { title: 'مناسب برای', subtitle:'ورزش' },
-                            { title: 'نوع کاربری', subtitle:'ورزشی / زسمی / روزمره'},
+                            { title: 'مناسب برای', subtitle: 'ورزش' },
+                            { title: 'نوع کاربری', subtitle: 'ورزشی / زسمی / روزمره' },
                             { title: 'ابعاد قاب', subtitle: '۴۹x۴۴x۱۴.۴ میلی‌متر' },
-                            { title: 'قطر قاب', subtitle:'۴۹ میلی‌متر' },
-                            { title: 'عرض قاب', subtitle:'۱۴.۴ میلی متر' },
+                            { title: 'قطر قاب', subtitle: '۴۹ میلی‌متر' },
+                            { title: 'عرض قاب', subtitle: '۱۴.۴ میلی متر' },
                      ],
                      questions: [
                             'سیم کارت خور است؟',
-                           'بند ساعت سیلیکونی یا پارچه ای؟',
-                           'سلام من رنگ سبز اين ساعتو ميخوام سفارش بدم و فروشندش خود ديجي كالا هستش ،بندش چه سايزي هستش؟'
+                            'بند ساعت سیلیکونی یا پارچه ای؟',
+                            'سلام من رنگ سبز اين ساعتو ميخوام سفارش بدم و فروشندش خود ديجي كالا هستش ،بندش چه سايزي هستش؟'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -2614,9 +2925,15 @@ const products = {
               },
               {
                      id: 4,
-                     cardName:'ساعت هوشمند اپل مدل Series 8 Aluminum 45mm',
+                     cardName: 'ساعت هوشمند اپل مدل Series 8 Aluminum 45mm',
                      name: 'ساعت هوشمند اپل مدل Series 8 Aluminum 45mm',
-
+                     mainImg: 'images/smartWatch/4/be65552a8c3e709a7d49d2f1eb35b3882b1fdf18_1662792408.webp',
+                     allImages: [
+                            'images/smartWatch/4/7be7bc14eafdc081c7c9398c0316758b6979114d_1662792410.jpg',
+                            'images/smartWatch/4/4c493ac1383996e0b6452e9f78e09da28eceafa9_1662792412.jpg',
+                            'images/smartWatch/4/88f6a373093abe342337b240cd3875a78d491056_1662792413.jpg',
+                            'images/smartWatch/4/be65552a8c3e709a7d49d2f1eb35b3882b1fdf18_1662792408.webp',
+                     ],
                      price: 17350000,
                      rate: 4.3,
                      comments: [
@@ -2638,32 +2955,32 @@ const products = {
                             }
 
                      ],
-                     colors:[       
-                            {title:'نقره ای',subTitle:'sliver',ordered:false},         
-                            {title:'مشکی',subTitle:'black',ordered:true},         
-                            {title:'بژ',subTitle:'cream',ordered:false},         
+                     colors: [
+                            { title: 'نقره ای', subTitle: 'sliver', ordered: false },
+                            { title: 'مشکی', subTitle: 'black', ordered: true },
+                            { title: 'بژ', subTitle: 'cream', ordered: false },
                      ],
                      propertys: [
                             { title: 'نوع کاربری', subtitle: 'ورزشی، رسمی، روزمره' },
-                            { title: 'فرم صفحه', subtitle:'مستطیل' },
-                            { title: 'جنس بند', subtitle:'برزنت' },
-                            
+                            { title: 'فرم صفحه', subtitle: 'مستطیل' },
+                            { title: 'جنس بند', subtitle: 'برزنت' },
+
                      ],
                      moreInfo: {
                             title: 'ساعت هوشمند',
                             text: 'بدون شک ساعت‌های هوشمند اپل توانسته‌اند تا به امروز عملکرد بهتری به نسبت شرکت‌های دیگر داشته باشند. اما این بار اپل در کنار رونمایی از ساعت‌های هوشمند جدید خود، اپل واچ Ultra را معرفی کرد که مشخصات قدرتمند و قابلیت‌های بسیار جذاب و کاربردی را با خود به‌همراه داشته است. در نمای رو‌به‌رویی این گوشی به صفحه‌نمایش با ابعاد 1.92 اینچ و رزولوشن 410×520 پیکسل از نوع Retina LTPO OLED مجهز شده که بدون شک کیفیت تصاویر فوق العاده‌ای را ارائه می‌کند. از طرفی باید بدانید که این صفحه‌نمایش جذاب و دوست‌ داشتنی، توانایی ارائه حداکثر روشنایی 2000 نیت (شمع در متر مربع) را دارد. چنین میزان روشنایی را در هیچ ساعت هوشمندی پیش از این ندیده بودیم و همین روشنایی بسیار بالا سبب شده تا در شرایط نوری متنوع و زیر تابش مستقیم نور خورشید هم، وضوح تصویر بسیار خوبی را شاهد باشید. قابلیت‌های بسیار جذاب ECG که تمام فعالیت‌های بدنی شما را لحظه به لحظه بررسی می‌کند و در صورت مشاهده هرگونه فعالیت‌ بدنی که منجر به آسیب رسیدن به شما شود، به سرعت هشدار می‌دهد. قابلیت‌های Fall Detection و Crash Detectionfootnote این ساعت هم اگر برای مثال زمین بخورید و یا تصادفی داشته باشید، به سرعت متوجه می‌شود و در نهایت اقدامات لازم برای اطمینان از سلامت شما را انجام می‌دهد. باتری با میزان ظرفیت 542 میلی‌آمپر‌ساعت هم به ازای هر بار شارژ صد درصدی، توانایی ارائه طول عمر مفید (زمان آماده به‌کار) 36 ساعت را به ازای هر بار شارژ صد درصدی دارد'
                      },
                      Specifications: [
-                            { title: 'مناسب برای', subtitle:'ورزش' },
-                            { title: 'نوع کاربری', subtitle:'ورزشی / زسمی / روزمره'},
+                            { title: 'مناسب برای', subtitle: 'ورزش' },
+                            { title: 'نوع کاربری', subtitle: 'ورزشی / زسمی / روزمره' },
                             { title: 'ابعاد قاب', subtitle: '۴۹x۴۴x۱۴.۴ میلی‌متر' },
-                            { title: 'قطر قاب', subtitle:'۴۹ میلی‌متر' },
-                            { title: 'عرض قاب', subtitle:'۱۴.۴ میلی متر' },
+                            { title: 'قطر قاب', subtitle: '۴۹ میلی‌متر' },
+                            { title: 'عرض قاب', subtitle: '۱۴.۴ میلی متر' },
                      ],
                      questions: [
                             'سیم کارت خور است؟',
-                           'بند ساعت سیلیکونی یا پارچه ای؟',
-                           'سلام من رنگ سبز اين ساعتو ميخوام سفارش بدم و فروشندش خود ديجي كالا هستش ،بندش چه سايزي هستش؟'
+                            'بند ساعت سیلیکونی یا پارچه ای؟',
+                            'سلام من رنگ سبز اين ساعتو ميخوام سفارش بدم و فروشندش خود ديجي كالا هستش ،بندش چه سايزي هستش؟'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -2672,9 +2989,15 @@ const products = {
               },
               {
                      id: 5,
-                     cardName:'ساعت هوشمند سامسونگ مدل Galaxy Watch5',
+                     cardName: 'ساعت هوشمند سامسونگ مدل Galaxy Watch5',
                      name: 'ساعت هوشمند سامسونگ مدل Galaxy Watch5 44mm',
-
+                     mainImg: 'images/smartWatch/5/53b4feb9dead4898764793a7c21c71561d1775aa_1689578146.webp',
+                     allImages: [
+                            'images/smartWatch/5/7c908bdfc3421c06e38995908211318049b64d93_1689578146.jpg',
+                            'images/smartWatch/5/c3406f5fe71fb13126c8befb7ef0a35b04432829_1689578236.jpg',
+                            'images/smartWatch/5/94537b31e45edaf778a388e8265149c7a182b197_1661263831.jpg',
+                            'images/smartWatch/5/53b4feb9dead4898764793a7c21c71561d1775aa_1689578146.webp',
+                     ],
                      price: 8800000,
                      rate: 4.3,
                      comments: [
@@ -2696,31 +3019,31 @@ const products = {
                             }
 
                      ],
-                     colors:[       
-                            {title:'آبی',subTitle:'lightskyblue',ordered:false},         
-                            {title:'مشکی',subTitle:'black',ordered:true},         
+                     colors: [
+                            { title: 'آبی', subTitle: 'lightskyblue', ordered: false },
+                            { title: 'مشکی', subTitle: 'black', ordered: true },
                      ],
                      propertys: [
                             { title: 'نوع کاربری', subtitle: 'ورزشی، رسمی، روزمره' },
-                            { title: 'فرم صفحه', subtitle:'مستطیل' },
-                            { title: 'جنس بند', subtitle:'برزنت' },
-                            
+                            { title: 'فرم صفحه', subtitle: 'مستطیل' },
+                            { title: 'جنس بند', subtitle: 'برزنت' },
+
                      ],
                      moreInfo: {
                             title: 'ساعت هوشمند',
                             text: 'بدون شک ساعت‌های هوشمند اپل توانسته‌اند تا به امروز عملکرد بهتری به نسبت شرکت‌های دیگر داشته باشند. اما این بار اپل در کنار رونمایی از ساعت‌های هوشمند جدید خود، اپل واچ Ultra را معرفی کرد که مشخصات قدرتمند و قابلیت‌های بسیار جذاب و کاربردی را با خود به‌همراه داشته است. در نمای رو‌به‌رویی این گوشی به صفحه‌نمایش با ابعاد 1.92 اینچ و رزولوشن 410×520 پیکسل از نوع Retina LTPO OLED مجهز شده که بدون شک کیفیت تصاویر فوق العاده‌ای را ارائه می‌کند. از طرفی باید بدانید که این صفحه‌نمایش جذاب و دوست‌ داشتنی، توانایی ارائه حداکثر روشنایی 2000 نیت (شمع در متر مربع) را دارد. چنین میزان روشنایی را در هیچ ساعت هوشمندی پیش از این ندیده بودیم و همین روشنایی بسیار بالا سبب شده تا در شرایط نوری متنوع و زیر تابش مستقیم نور خورشید هم، وضوح تصویر بسیار خوبی را شاهد باشید. قابلیت‌های بسیار جذاب ECG که تمام فعالیت‌های بدنی شما را لحظه به لحظه بررسی می‌کند و در صورت مشاهده هرگونه فعالیت‌ بدنی که منجر به آسیب رسیدن به شما شود، به سرعت هشدار می‌دهد. قابلیت‌های Fall Detection و Crash Detectionfootnote این ساعت هم اگر برای مثال زمین بخورید و یا تصادفی داشته باشید، به سرعت متوجه می‌شود و در نهایت اقدامات لازم برای اطمینان از سلامت شما را انجام می‌دهد. باتری با میزان ظرفیت 542 میلی‌آمپر‌ساعت هم به ازای هر بار شارژ صد درصدی، توانایی ارائه طول عمر مفید (زمان آماده به‌کار) 36 ساعت را به ازای هر بار شارژ صد درصدی دارد'
                      },
                      Specifications: [
-                            { title: 'مناسب برای', subtitle:'ورزش' },
-                            { title: 'نوع کاربری', subtitle:'ورزشی / زسمی / روزمره'},
+                            { title: 'مناسب برای', subtitle: 'ورزش' },
+                            { title: 'نوع کاربری', subtitle: 'ورزشی / زسمی / روزمره' },
                             { title: 'ابعاد قاب', subtitle: '۴۹x۴۴x۱۴.۴ میلی‌متر' },
-                            { title: 'قطر قاب', subtitle:'۴۹ میلی‌متر' },
-                            { title: 'عرض قاب', subtitle:'۱۴.۴ میلی متر' },
+                            { title: 'قطر قاب', subtitle: '۴۹ میلی‌متر' },
+                            { title: 'عرض قاب', subtitle: '۱۴.۴ میلی متر' },
                      ],
                      questions: [
                             'سیم کارت خور است؟',
-                           'بند ساعت سیلیکونی یا پارچه ای؟',
-                           'سلام من رنگ سبز اين ساعتو ميخوام سفارش بدم و فروشندش خود ديجي كالا هستش ،بندش چه سايزي هستش؟'
+                            'بند ساعت سیلیکونی یا پارچه ای؟',
+                            'سلام من رنگ سبز اين ساعتو ميخوام سفارش بدم و فروشندش خود ديجي كالا هستش ،بندش چه سايزي هستش؟'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -2731,9 +3054,15 @@ const products = {
        camera: [
               {
                      id: 1,
-                     cardName:'دوربین دیجیتال کانن مدل EOS 90D',
+                     cardName: 'دوربین دیجیتال کانن مدل EOS 90D',
                      name: 'دوربین دیجیتال کانن مدل EOS 90D به همراه لنز 135-18 میلی متر IS USM',
-
+                     mainImg: 'images/camera/1/114000898.webp',
+                     allImages: [
+                            'images/camera/1/b913a006840394654f9700c23b5a0bb2370739d0_1632236125.jpg',
+                            'images/camera/1/7e1f1454e8208eb093b0cfcbaaa8eea882e9c076_1632236128.jpg',
+                            'images/camera/1/930bca714af049f0cefa5bc730e004e698bd7e1b_1632236131.jpg',
+                            'images/camera/1/114000898.webp',
+                     ],
                      price: 74000000,
                      rate: 4.4,
                      comments: [
@@ -2755,32 +3084,32 @@ const products = {
                             }
 
                      ],
-                     colors:[              
-                            {title:'مشکی',subTitle:'black',ordered:true},         
+                     colors: [
+                            { title: 'مشکی', subTitle: 'black', ordered: true },
                      ],
                      propertys: [
-                            { title:'محدوده دقت حسگر ', subtitle: '20.0 مگاپیکسل و بیشتر' },
-                            { title: 'نوع حسگر', subtitle:'CMOS'},
-                            { title: 'قطع حسگر ', subtitle:'Crop Frame' },
-                            { title: 'محدوده زوم', subtitle:'6 تا 10 برابر بزرگنمایی' },
-                            { title: 'رزولوشن فیلم', subtitle:'4K' },
-                            
+                            { title: 'محدوده دقت حسگر ', subtitle: '20.0 مگاپیکسل و بیشتر' },
+                            { title: 'نوع حسگر', subtitle: 'CMOS' },
+                            { title: 'قطع حسگر ', subtitle: 'Crop Frame' },
+                            { title: 'محدوده زوم', subtitle: '6 تا 10 برابر بزرگنمایی' },
+                            { title: 'رزولوشن فیلم', subtitle: '4K' },
+
                      ],
                      moreInfo: {
                             title: 'دوربین دیجیتال کانن',
                             text: 'شرکت‌های زیادی در زمینه طراحی و تولید دوربین‌های جدید و باکیفیت فعالیت دارند و بدون تردید، برند کانن یکی از محبوب‌ترین‌ها به حساب می‌آید. همواره این شرکت به دنبال تولید بهترین محصولات بوده و با پیشرفت تکنولوژی، مدل‌های جدیدتری با ویژگی‌های منحصر به فرد تولید کرده است. عکاسان زیادی که به صورت حرفه‌ای فعالیت می‌کنند، علاقه‌مند به در اختیار داشتن محصولات برند کانن هستند. دوربین دیجیتال کانن مدل EOS 90D یکی از بهترین دوربین‌های این برند بوده و ما قصد داریم ویژگی‌ها و قابلیت‌های آن را مورد بررسی و ارزیابی قرار دهیم.  '
                      },
                      Specifications: [
-                            { title: 'ابعاد', subtitle:'۱۴۱x۱۰۵x۷۷ میلی‌لیتر' },
-                            { title: 'وزن', subtitle:'۷۰۱ گرم'},
+                            { title: 'ابعاد', subtitle: '۱۴۱x۱۰۵x۷۷ میلی‌لیتر' },
+                            { title: 'وزن', subtitle: '۷۰۱ گرم' },
                             { title: 'جنس بدنه', subtitle: 'پلاستیک' },
-                            { title: 'محدوده دقت حسگر', subtitle:'۲۰.۰ مگاپیکسل و بیشتر' },
-                            { title: 'نوع حسگر', subtitle:'CMOS' },
+                            { title: 'محدوده دقت حسگر', subtitle: '۲۰.۰ مگاپیکسل و بیشتر' },
+                            { title: 'نوع حسگر', subtitle: 'CMOS' },
                      ],
                      questions: [
                             'سلام چه رمی برای این دوربین مناسبه',
-                           'برای عکاسی در شب مناسبه؟',
-                           'سلام برای شروع عکاسی در رشته فتوگرافیک 90D بهتره یا 700D؟'
+                            'برای عکاسی در شب مناسبه؟',
+                            'سلام برای شروع عکاسی در رشته فتوگرافیک 90D بهتره یا 700D؟'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -2789,9 +3118,15 @@ const products = {
               },
               {
                      id: 2,
-                     cardName:'دوربین دیجیتال کانن مدل EOS 850D ',
+                     cardName: 'دوربین دیجیتال کانن مدل EOS 850D ',
                      name: 'دوربین دیجیتال کانن مدل EOS 850D به همراه لنز 55-18 میلی متر IS STM',
-
+                     mainImg: 'images/camera/2/6a3f827d63533f8e8e7578b418fa41b4fd253a55_1602403080.webp',
+                     allImages: [
+                            'images/camera/2/b28d7aa8b7ae0c0612422b7c427bb1c50ca25d09_1602505014.jpg',
+                            'images/camera/2/1c177743edf96f7f974fc6b6369e3ef3919ebdba_1602505012.jpg',
+                            'images/camera/2/2c14ea0d22a6d145c5401c9e94323b89aeb84316_1602505013.jpg',
+                            'images/camera/2/6a3f827d63533f8e8e7578b418fa41b4fd253a55_1602403080.webp',
+                     ],
                      price: 80000000,
                      rate: 4.5,
                      comments: [
@@ -2813,32 +3148,32 @@ const products = {
                             }
 
                      ],
-                     colors:[              
-                            {title:'مشکی',subTitle:'black',ordered:true},         
+                     colors: [
+                            { title: 'مشکی', subTitle: 'black', ordered: true },
                      ],
                      propertys: [
-                            { title:'محدوده دقت حسگر ', subtitle: '20.0 مگاپیکسل و بیشتر' },
-                            { title: 'نوع حسگر', subtitle:'CMOS'},
-                            { title: 'قطع حسگر ', subtitle:'Crop Frame' },
-                            { title: 'محدوده زوم', subtitle:'6 تا 10 برابر بزرگنمایی' },
-                            { title: 'رزولوشن فیلم', subtitle:'4K' },
-                            
+                            { title: 'محدوده دقت حسگر ', subtitle: '20.0 مگاپیکسل و بیشتر' },
+                            { title: 'نوع حسگر', subtitle: 'CMOS' },
+                            { title: 'قطع حسگر ', subtitle: 'Crop Frame' },
+                            { title: 'محدوده زوم', subtitle: '6 تا 10 برابر بزرگنمایی' },
+                            { title: 'رزولوشن فیلم', subtitle: '4K' },
+
                      ],
                      moreInfo: {
                             title: 'دوربین دیجیتال کانن',
                             text: 'شرکت‌های زیادی در زمینه طراحی و تولید دوربین‌های جدید و باکیفیت فعالیت دارند و بدون تردید، برند کانن یکی از محبوب‌ترین‌ها به حساب می‌آید. همواره این شرکت به دنبال تولید بهترین محصولات بوده و با پیشرفت تکنولوژی، مدل‌های جدیدتری با ویژگی‌های منحصر به فرد تولید کرده است. عکاسان زیادی که به صورت حرفه‌ای فعالیت می‌کنند، علاقه‌مند به در اختیار داشتن محصولات برند کانن هستند. دوربین دیجیتال کانن مدل EOS 90D یکی از بهترین دوربین‌های این برند بوده و ما قصد داریم ویژگی‌ها و قابلیت‌های آن را مورد بررسی و ارزیابی قرار دهیم.  '
                      },
                      Specifications: [
-                            { title: 'ابعاد', subtitle:'۱۴۱x۱۰۵x۷۷ میلی‌لیتر' },
-                            { title: 'وزن', subtitle:'۷۰۱ گرم'},
+                            { title: 'ابعاد', subtitle: '۱۴۱x۱۰۵x۷۷ میلی‌لیتر' },
+                            { title: 'وزن', subtitle: '۷۰۱ گرم' },
                             { title: 'جنس بدنه', subtitle: 'پلاستیک' },
-                            { title: 'محدوده دقت حسگر', subtitle:'۲۰.۰ مگاپیکسل و بیشتر' },
-                            { title: 'نوع حسگر', subtitle:'CMOS' },
+                            { title: 'محدوده دقت حسگر', subtitle: '۲۰.۰ مگاپیکسل و بیشتر' },
+                            { title: 'نوع حسگر', subtitle: 'CMOS' },
                      ],
                      questions: [
                             'سلام چه رمی برای این دوربین مناسبه',
-                           'برای عکاسی در شب مناسبه؟',
-                           'سلام برای شروع عکاسی در رشته فتوگرافیک 90D بهتره یا 700D؟'
+                            'برای عکاسی در شب مناسبه؟',
+                            'سلام برای شروع عکاسی در رشته فتوگرافیک 90D بهتره یا 700D؟'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -2848,9 +3183,15 @@ const products = {
               },
               {
                      id: 3,
-                     cardName:'دوربین دیجیتال بدون آینه سونی مدل Alpha A6400',
-                     name:'دوربین دیجیتال بدون آینه سونی مدل Alpha A6400 به همراه لنز 16-50 میلی متر OSS',
-
+                     cardName: 'دوربین دیجیتال بدون آینه سونی مدل Alpha A6400',
+                     name: 'دوربین دیجیتال بدون آینه سونی مدل Alpha A6400 به همراه لنز 16-50 میلی متر OSS',
+                     mainImg: 'images/camera/3/112600870.webp',
+                     allImages: [
+                            'images/camera/3/112600941.jpg',
+                            'images/camera/3/112600946.jpg',
+                            'images/camera/3/112600947.jpg',
+                            'images/camera/3/112600870.webp',
+                     ],
                      price: 54000000,
                      rate: 4.8,
                      comments: [
@@ -2872,32 +3213,32 @@ const products = {
                             }
 
                      ],
-                     colors:[              
-                            {title:'مشکی',subTitle:'black',ordered:true},         
+                     colors: [
+                            { title: 'مشکی', subTitle: 'black', ordered: true },
                      ],
                      propertys: [
-                            { title:'محدوده دقت حسگر ', subtitle: '20.0 مگاپیکسل و بیشتر' },
-                            { title: 'نوع حسگر', subtitle:'CMOS'},
-                            { title: 'قطع حسگر ', subtitle:'Crop Frame' },
-                            { title: 'محدوده زوم', subtitle:'6 تا 10 برابر بزرگنمایی' },
-                            { title: 'رزولوشن فیلم', subtitle:'4K' },
-                            
+                            { title: 'محدوده دقت حسگر ', subtitle: '20.0 مگاپیکسل و بیشتر' },
+                            { title: 'نوع حسگر', subtitle: 'CMOS' },
+                            { title: 'قطع حسگر ', subtitle: 'Crop Frame' },
+                            { title: 'محدوده زوم', subtitle: '6 تا 10 برابر بزرگنمایی' },
+                            { title: 'رزولوشن فیلم', subtitle: '4K' },
+
                      ],
                      moreInfo: {
                             title: 'دوربین دیجیتال کانن',
                             text: 'شرکت‌های زیادی در زمینه طراحی و تولید دوربین‌های جدید و باکیفیت فعالیت دارند و بدون تردید، برند کانن یکی از محبوب‌ترین‌ها به حساب می‌آید. همواره این شرکت به دنبال تولید بهترین محصولات بوده و با پیشرفت تکنولوژی، مدل‌های جدیدتری با ویژگی‌های منحصر به فرد تولید کرده است. عکاسان زیادی که به صورت حرفه‌ای فعالیت می‌کنند، علاقه‌مند به در اختیار داشتن محصولات برند کانن هستند. دوربین دیجیتال کانن مدل EOS 90D یکی از بهترین دوربین‌های این برند بوده و ما قصد داریم ویژگی‌ها و قابلیت‌های آن را مورد بررسی و ارزیابی قرار دهیم.  '
                      },
                      Specifications: [
-                            { title: 'ابعاد', subtitle:'۱۴۱x۱۰۵x۷۷ میلی‌لیتر' },
-                            { title: 'وزن', subtitle:'۷۰۱ گرم'},
+                            { title: 'ابعاد', subtitle: '۱۴۱x۱۰۵x۷۷ میلی‌لیتر' },
+                            { title: 'وزن', subtitle: '۷۰۱ گرم' },
                             { title: 'جنس بدنه', subtitle: 'پلاستیک' },
-                            { title: 'محدوده دقت حسگر', subtitle:'۲۰.۰ مگاپیکسل و بیشتر' },
-                            { title: 'نوع حسگر', subtitle:'CMOS' },
+                            { title: 'محدوده دقت حسگر', subtitle: '۲۰.۰ مگاپیکسل و بیشتر' },
+                            { title: 'نوع حسگر', subtitle: 'CMOS' },
                      ],
                      questions: [
                             'سلام چه رمی برای این دوربین مناسبه',
-                           'برای عکاسی در شب مناسبه؟',
-                           'سلام برای شروع عکاسی در رشته فتوگرافیک 90D بهتره یا 700D؟'
+                            'برای عکاسی در شب مناسبه؟',
+                            'سلام برای شروع عکاسی در رشته فتوگرافیک 90D بهتره یا 700D؟'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -2906,9 +3247,16 @@ const products = {
               },
               {
                      id: 4,
-                     cardName:'دوربین دیجیتال کانن مدل EOS R5 C',
-                     name:'دوربین دیجیتال کانن مدل EOS R5 C Mirrorless Camera Body',
-
+                     cardName: 'دوربین دیجیتال کانن مدل EOS R5 C',
+                     name: 'دوربین دیجیتال کانن مدل EOS R5 C Mirrorless Camera Body',
+                     mainImg: 'images/camera/4/a77d9d5f523117e07c6dfddf086c34b37e339a14_1686400717.webp',
+                     allImages: [
+                            'images/camera/4/cb95c2bbae65763ec8c2aff8423470d0b925eff3_1686400720.jpg',
+                            'images/camera/4/ed36ea3b8fec260f70b18c2a7cd67c938cf05191_1686400721.jpg',
+                            'images/camera/4/2c95ebfedc41b6f11c421a6e1296a8725bd4a210_1686400724.jpg',
+                            'images/camera/4/57a97a66fa760e27fd59a7ba5753fa20ee103d01_1686400718.jpg',
+                            'images/camera/4/a77d9d5f523117e07c6dfddf086c34b37e339a14_1686400717.webp',
+                     ],
                      price: 198000000,
                      rate: 4.8,
                      comments: [
@@ -2930,32 +3278,32 @@ const products = {
                             }
 
                      ],
-                     colors:[              
-                            {title:'مشکی',subTitle:'black',ordered:true},         
+                     colors: [
+                            { title: 'مشکی', subTitle: 'black', ordered: true },
                      ],
                      propertys: [
-                            { title:'محدوده دقت حسگر ', subtitle: '20.0 مگاپیکسل و بیشتر' },
-                            { title: 'نوع حسگر', subtitle:'CMOS'},
-                            { title: 'قطع حسگر ', subtitle:'Crop Frame' },
-                            { title: 'محدوده زوم', subtitle:'6 تا 10 برابر بزرگنمایی' },
-                            { title: 'رزولوشن فیلم', subtitle:'4K' },
-                            
+                            { title: 'محدوده دقت حسگر ', subtitle: '20.0 مگاپیکسل و بیشتر' },
+                            { title: 'نوع حسگر', subtitle: 'CMOS' },
+                            { title: 'قطع حسگر ', subtitle: 'Crop Frame' },
+                            { title: 'محدوده زوم', subtitle: '6 تا 10 برابر بزرگنمایی' },
+                            { title: 'رزولوشن فیلم', subtitle: '4K' },
+
                      ],
                      moreInfo: {
                             title: 'دوربین دیجیتال کانن',
                             text: 'شرکت‌های زیادی در زمینه طراحی و تولید دوربین‌های جدید و باکیفیت فعالیت دارند و بدون تردید، برند کانن یکی از محبوب‌ترین‌ها به حساب می‌آید. همواره این شرکت به دنبال تولید بهترین محصولات بوده و با پیشرفت تکنولوژی، مدل‌های جدیدتری با ویژگی‌های منحصر به فرد تولید کرده است. عکاسان زیادی که به صورت حرفه‌ای فعالیت می‌کنند، علاقه‌مند به در اختیار داشتن محصولات برند کانن هستند. دوربین دیجیتال کانن مدل EOS 90D یکی از بهترین دوربین‌های این برند بوده و ما قصد داریم ویژگی‌ها و قابلیت‌های آن را مورد بررسی و ارزیابی قرار دهیم.  '
                      },
                      Specifications: [
-                            { title: 'ابعاد', subtitle:'۱۴۱x۱۰۵x۷۷ میلی‌لیتر' },
-                            { title: 'وزن', subtitle:'۷۰۱ گرم'},
+                            { title: 'ابعاد', subtitle: '۱۴۱x۱۰۵x۷۷ میلی‌لیتر' },
+                            { title: 'وزن', subtitle: '۷۰۱ گرم' },
                             { title: 'جنس بدنه', subtitle: 'پلاستیک' },
-                            { title: 'محدوده دقت حسگر', subtitle:'۲۰.۰ مگاپیکسل و بیشتر' },
-                            { title: 'نوع حسگر', subtitle:'CMOS' },
+                            { title: 'محدوده دقت حسگر', subtitle: '۲۰.۰ مگاپیکسل و بیشتر' },
+                            { title: 'نوع حسگر', subtitle: 'CMOS' },
                      ],
                      questions: [
                             'سلام چه رمی برای این دوربین مناسبه',
-                           'برای عکاسی در شب مناسبه؟',
-                           'سلام برای شروع عکاسی در رشته فتوگرافیک 90D بهتره یا 700D؟'
+                            'برای عکاسی در شب مناسبه؟',
+                            'سلام برای شروع عکاسی در رشته فتوگرافیک 90D بهتره یا 700D؟'
                      ],
                      breadCrumb: [
                             'راد کالا',
@@ -2967,7 +3315,7 @@ const products = {
 
 
 
-const ProductsReducer = (state = [], action) => {
+const ProductsReducer = (state = products, action) => {
        switch (action.type) {
 
               default: return state
