@@ -7,6 +7,7 @@ const products = {
                             cardName: 'گوشی موبایل اپل مدل iPhone 13 Pro Max A2644',
                             name: 'گوشی موبایل اپل مدل iPhone 13 Pro Max A2644 دو سیم‌ کارت ظرفیت 128 گیگابایت و رم 6 گیگابایت - اکتیو',
                             colors: ['lightskyblue', 'gray'],
+                            off:10,
                             price: 89000000,
                             rate: 4.5,
                             mainImg: 'images/phones/iphone/1/004b2ef1e85f619e9332b096626ff33cbfa44d9f_1634457491.webp',
@@ -65,6 +66,7 @@ const products = {
                             colors: ['white'],
                             price: 28413000,
                             rate: 4.4,
+                            off:0,
                             mainImg: 'images/phones/iphone/2/06f296efbe3ef2d9bd879942d79b81a5569873f1_1669196797.jpg',
                             allImages: ['images/phones/iphone/2/8e566ee59e86bdce202471c618d9b0361a25aa5f_1669196804.jpg', 'images/phones/iphone/2/6cd2f0c6197e2e872769c97c90ec58d027f2c41a_1669196791.jpg', 'images/phones/iphone/2/fd1907543c532985c82511fab9bd9d6bf4625f7d_1669196824.jpg', 'images/phones/iphone/2/06f296efbe3ef2d9bd879942d79b81a5569873f1_1669196797.jpg'],
                             comments: [
@@ -121,6 +123,7 @@ const products = {
                             colors: ['gray', 'lightseagreen', 'gold', 'lightskyblue'],
                             price: 95000000,
                             rate: 5,
+                            off:15,
                             mainImg: 'images/phones/iphone/3/dcd6e4e843bea3f070614a95d27b1181fdf23008_1677071626.webp',
                             allImages: [
                                    'images/phones/iphone/3/a5a5288fe2f1679583bf6b0370b341daec47c48a_1689485471.jpg',
@@ -182,6 +185,7 @@ const products = {
                             colors: ['gray'],
                             price: 45000000,
                             rate: 4.6,
+                            off:0,
                             mainImg: 'images/phones/iphone/4/1ca3790feb75619815625ba0a01cc949c6851523_1693122088.webp',
                             allImages: [
                                    'images/phones/iphone/4/05796dca6c85c53ac3afd089937b80d11d46e657_1693122091.jpg',
@@ -243,6 +247,7 @@ const products = {
                             colors: ['white'],
                             price: 30000000,
                             rate: 4.1,
+                            off:0,
                             mainImg: 'images/phones/iphone/5/f7f8ffb33f96cb971bec78e2ee1d84dbb09a2a00_1667123447.webp',
                             allImages: [
                                    'images/phones/iphone/5/7dfe8202716e74870f56046bd08ba239519f6ecd_1692528600.jpg',
@@ -304,6 +309,7 @@ const products = {
                             colors: ['teal'],
                             price: 55000000,
                             rate: 4.2,
+                            off:0,
                             mainImg: 'images/phones/iphone/6/6321937e1dbcceb9d9c9af6b1a05a767c3f91f49_1656423549.webp',
                             allImages: [
                                    'images/phones/iphone/6/b47a402ed5a05189400e2d650ebefa4979a3417d_1632115656.jpg',
@@ -365,6 +371,7 @@ const products = {
                             colors: ['gray'],
                             price: 60000000,
                             rate: 4.4,
+                            off:0,
                             mainImg: 'images/phones/iphone/7/40026b18c2b053ac4a68c3288556dc899a77aecd_1677070081.webp',
                             allImages: [
                                    'images/phones/iphone/7/cff12e0ff7292eb8e3e816962fe4adb7f929c7e4_1691492034.jpg',
@@ -430,6 +437,7 @@ const products = {
                             price: 39900000,
                             rate: 4.3,
                             mainImg: 'images/phones/samsung/1/7f721f6e724dc1039c1c452d3b7f2b78e3afb5e8_1675840217.webp',
+                            off:10,
                             allImages: [
                                    'images/phones/samsung/1/b363cac1236169ba67c70fdcee590eed94cb3dfc_1675840221.jpg',
                                    'images/phones/samsung/1/082fe0baa22bc99a1b0fe3cb884fb8cab4a1083b_1675754548.jpg',
@@ -491,6 +499,7 @@ const products = {
                             colors: ['black'],
                             price: 76399000,
                             rate: 4.5,
+                            off:0,
                             mainImg: 'images/phones/samsung/2/deeb10f86832cb8e7cc0152905e553c1f9b240c6_1690807189.webp',
                             allImages: [
                                    'images/phones/samsung/2/42f9b1cf130e01882b83bb123f6abd51c1077862_1690807189.jpg',
@@ -553,6 +562,7 @@ const products = {
                             colors: ['black'],
                             price: 7770000,
                             rate: 4.4,
+                            off:0,
                             mainImg: 'images/phones/samsung/3/fd1245cea9fe271a77b4ab11c0da9f679555f95a_1684074229.webp',
                             allImages: [
                                    'images/phones/samsung/3/630f123489dfed3c38b9c674961ee27067d3eb54_1684074224.jpg',
@@ -615,6 +625,7 @@ const products = {
                             colors: ['black'],
                             price: 7770000,
                             rate: 4.3,
+                            off:20,
                             mainImg: 'images/phones/samsung/4/f1c52ab36a753464bb6a17919f6b3f781acc44b5_1679766683.webp',
                             allImages: [
                                    'images/phones/samsung/4/e85a5bfd1b885220c6226b2f7da501458960aa19_1679766722.jpg',
@@ -677,6 +688,7 @@ const products = {
                             colors: ['black'],
                             price: 6899000,
                             rate: 4.3,
+                            off:0,
                             mainImg: 'images/phones/samsung/5/06aaa82b2af4b71992683701769b0afa4fa169bf_1666160815.webp',
                             allImages: [
                                    'images/phones/samsung/5/e55d865ccca88085d9969290dbfbd9a04516b219_1666160822.jpg',
@@ -740,6 +752,7 @@ const products = {
                             price: 6950000,
                             rate: 4.4,
                             mainImg: 'images/phones/samsung/6/373cf0add6b2964b30a9a59b2ce2f5f2c8ea976f_1681110679.webp',
+                            off:0,
                             allImages: [
                                    'images/phones/samsung/6/3f2d71e259f829c71dc418b930f77b08b36e2384_1681110746.jpg',
                                    'images/phones/samsung/6/3334e584f85affdfb8b6482a56267bc247e5baa9_1681110688.jpg',
@@ -802,6 +815,7 @@ const products = {
                             price: 10530000,
                             rate: 4.3,
                             mainImg: 'images/phones/samsung/7/1fafefa0ce8c0e6af33566ca8ac89c3893a65d17_1684153225.webp',
+                            off:10,
                             allImages: [
                                    'images/phones/samsung/7/3282611d07ac79cc52851ae7368a6649a2b284c7_1679767013.jpg',
                                    'images/phones/samsung/7/2c5d962c38276ea88bb81855f86bb9bcb3844054_1679767025.jpg',
@@ -865,6 +879,7 @@ const products = {
                             colors: ['yellow'],
                             price: 18199000,
                             rate: 4.6,
+                            off:10,
                             mainImg: 'images/phones/xiaomi/1/51008a33fca771176386054eeb8c3d7e6c38df64_1686050787.webp',
                             allImages: [
                                    'images/phones/xiaomi/1/dc437c14319cedc2071e68831e69c499d6db6bd4_1686050788.jpg',
@@ -926,6 +941,7 @@ const products = {
                             colors: ['lightgreen', 'black'],
                             price: 3850000,
                             rate: 4.3,
+                            off:0,
                             mainImg: 'images/phones/xiaomi/2/9195e7d7ca87e8dac34d10c2af9a7567a0048363_1663692449.webp',
                             allImages: [
                                    'images/phones/xiaomi/2/bf993f00a2f51c29a269457ff9fbf51302030545_1666777263.jpg',
@@ -988,6 +1004,7 @@ const products = {
                             colors: ['lightskyblue', 'gray', 'white'],
                             price: 10399000,
                             rate: 4.4,
+                            off:0,
                             mainImg: 'images/phones/xiaomi/3/17d3e3e2197e283e28d25813a962a48d101553cb_1683026595.webp',
                             allImages: [
                                    'images/phones/xiaomi/3/c40cc9c9083e1677053c277e4501f258115c34ae_1683026613.jpg',
@@ -1050,6 +1067,7 @@ const products = {
                             colors: ['lightskyblue', 'lightgreen', 'gray'],
                             price: 7199000,
                             rate: 4.4,
+                            off:15,
                             mainImg: 'images/phones/xiaomi/4/348e17f0fe855cb25127298fd5003460b3d29297_1682344501.webp',
                             allImages: [
                                    'images/phones/xiaomi/4/f1ac7f5da7a71d0c1bb7fe33e4162ad25b68d620_1682344498.jpg',
@@ -1112,6 +1130,7 @@ const products = {
                             name: 'گوشی موبایل شیائومی مدل Poco F5 Pro دو سیم کارت ظرفیت 512 گیگابایت و رم 12 گیگابایت - گلوبال',
                             colors: ['black'],
                             price: 24700000,
+                            off:0,
                             rate: 4.8,
                             mainImg: 'images/phones/xiaomi/5/4119f69945582b18ab9907ebe48201994716f1ab_1690266735.webp',
                             allImages: [
@@ -1174,6 +1193,7 @@ const products = {
                             name: 'گوشی موبایل شیائومی مدل Redmi Note 12 Pro Plus 5G دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت - پک چین',
                             colors: ['black'],
                             price: 21450000,
+                            off:0,
                             rate: 3.9,
                             mainImg: 'images/phones/xiaomi/6/a02408c516275b7f0d6eabcf6cd5a1c5ee568945_1681559157.webp',
                             allImages: [
@@ -1237,6 +1257,7 @@ const products = {
                             name: 'گوشی موبایل شیائومی مدل Redmi Note 12 Explorer دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - پک چین',
                             colors: ['black', 'gray'],
                             price: 17000000,
+                            off:10,
                             rate: 1,
                             mainImg: 'images/phones/xiaomi/7/8d35901240c395271a9d9a375c66949052356110_1691569607.webp',
                             allImages: [
@@ -1300,7 +1321,7 @@ const products = {
                      id: 1,
                      cardName: 'لپ تاپ 13.3 اینچی اپل مدل MacBook Air MGN63 2020 LLA',
                      name: 'لپ تاپ 13.3 اینچی اپل مدل MacBook Air MGN63 2020 LLA',
-
+                     off:0,
                      price: 44490000,
                      rate: 4.4,
                      mainImg: 'images/laptops/1/b2c0eb53f0eeacdefb8771155bf5e4887222a654_1672051046.webp',
@@ -1361,7 +1382,7 @@ const products = {
                      id: 2,
                      cardName: 'لپ تاپ 13.6 اینچی اپل مدل MacBook Air-B M2 2022',
                      name: 'لپ تاپ 13.6 اینچی اپل مدل MacBook Air-B M2 2022',
-
+                     off:10,
                      price: 56490000,
                      rate: 4.1,
                      mainImg: 'images/laptops/2/0453261f5778b624dae7dda88a414fe8fcf8d109_1671472045.webp',
@@ -1423,7 +1444,7 @@ const products = {
                      id: 3,
                      cardName: 'لپ تاپ 14.1 اینچی ایسوس مدل Vivobook R465EA-EB1592',
                      name: 'لپ تاپ 14.1 اینچی ایسوس مدل Vivobook R465EA-EB1592',
-
+                     off:0,
                      price: 18990000,
                      rate: 4.1,
                      mainImg: 'images/laptops/3/174590d431e79eba2df1d9792f4ae8a1bacda4db_1667123257.webp',
@@ -1486,7 +1507,7 @@ const products = {
                      id: 4,
                      cardName: 'لپ تاپ 15.6 اینچی ایسوس مدل R565EP-EJ617',
                      name: 'لپ تاپ 15.6 اینچی ایسوس مدل R565EP-EJ617',
-
+                     off:0,
                      price: 27400000,
                      rate: 3.9,
                      mainImg: 'images/laptops/4/f51582f001604b5c494e61e802d872fa923d5cab_1668337903.webp',
@@ -1548,6 +1569,7 @@ const products = {
                      id: 5,
                      cardName: 'لپ تاپ 12.4 اینچی مایکروسافت مدل Surface Laptop Go-i5 16GB 256SSD',
                      name: 'لپ تاپ 12.4 اینچی مایکروسافت مدل Surface Laptop Go-i5 16GB 256SSD',
+                     off:10,
                      mainImg: 'images/laptops/5/a0d2725ba7a8e257a92c77583788f54b8f16e8a2_1671477227.webp',
                      allImages: [
                             'images/laptops/5/a4f7efe6c227f4a5c6b349fe1a3741c5c2099fc9_1666696248.jpg',
@@ -1609,6 +1631,7 @@ const products = {
                      id: 6,
                      cardName: 'لپ تاپ 15.6 اینچی لنوو مدل IdeaPad 5 15ITL05-i5 8GB 512SSD MX450',
                      name: 'لپ تاپ 15.6 اینچی لنوو مدل IdeaPad 5 15ITL05-i5 8GB 512SSD MX450',
+                     off:0,
                      mainImg: 'images/laptops/6/1a9ee444e9ea094c62ff065da77cdbd78eb70641_1671471393.webp',
                      allImages: [
                             'images/laptops/6/9052189abe114041f9f37b8f93120a6a60c22128_1660548650.jpg',
@@ -1671,6 +1694,7 @@ const products = {
                      id: 7,
                      cardName: 'لپ تاپ 14.2 اینچی اپل مدل 2023 MacBook Pro MPHG3',
                      name: 'لپ تاپ 14.2 اینچی اپل مدل 2023 MacBook Pro MPHG3',
+                     off:5,
                      mainImg: 'images/laptops/7/c9ef6c9e1d515040259b0d765bbd06de2371a22d_1683360088.webp',
                      allImages: [
                             'images/laptops/7/fe96873e2a44b1f50de138050f62b0bb6f7b8133_1683360090.jpg',
@@ -1735,6 +1759,7 @@ const products = {
                      id: 1,
                      cardName: 'هارد اکسترنال ای دیتا مدل HD770G ظرفیت 2 ترابایت',
                      name: 'هارد اکسترنال ای دیتا مدل HD770G ظرفیت 2 ترابایت',
+                     off:0,
                      mainImg: 'images/hardExternal/1/119607459.webp',
                      allImages: [
                             'images/hardExternal/1/119607476.jpg',
@@ -1795,6 +1820,7 @@ const products = {
                      id: 2,
                      cardName: 'هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 1 ترابایت',
                      name: 'هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 1 ترابایت',
+                     off:5,
                      mainImg: 'images/hardExternal/2/728333.webp',
                      allImages: [
                             'images/hardExternal/2/728726.jpg',
@@ -1860,6 +1886,7 @@ const products = {
                      id: 3,
                      cardName: 'هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 2 ترابایت',
                      name: 'هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 2 ترابایت',
+                     off:0,
                      mainImg: 'images/hardExternal/3/826947.webp',
                      allImages: [
                             'images/hardExternal/3/981bb3f2b0435a0b9d1f050175745abfd105ec32_1672823607.jpg',
@@ -1921,6 +1948,7 @@ const products = {
                      id: 4,
                      cardName: 'هارد اکسترنال سیلیکون پاور مدل Armor A30 ظرفیت 1 ترابایت',
                      name: 'هارد اکسترنال سیلیکون پاور مدل Armor A30 ظرفیت 1 ترابایت',
+                     off:10,
                      mainImg: 'images/hardExternal/4/11712.webp',
                      allImages: [
                             'images/hardExternal/4/11810.jpg',
@@ -1985,6 +2013,7 @@ const products = {
                      id: 5,
                      cardName: 'هارد اکسترنال توشیبا مدل Canvio ‌‌Basics ظرفیت 4 ترابایت',
                      name: 'هارد اکسترنال توشیبا مدل Canvio ‌‌Basics ظرفیت 4 ترابایت',
+                     off:0,
                      mainImg: 'images/hardExternal/5/a7e54716106af00cf54d2676936338a6c63571e8_1614873165.webp',
                      allImages: [
                             'images/hardExternal/5/d84f1ae714d7fc3cd6a581c3a778bd732df3b4f5_1614873146.jpg',
@@ -2046,6 +2075,7 @@ const products = {
                      id: 6,
                      cardName: 'هارددیسک اکسترنال وسترن دیجیتال مدل My Book Desktop ظرفیت 4 ترابایت',
                      name: 'هارددیسک اکسترنال وسترن دیجیتال مدل My Book Desktop ظرفیت 4 ترابایت',
+                     off:0,
                      mainImg: 'images/hardExternal/6/1540506.webp',
                      allImages: [
                             'images/hardExternal/6/1540561.jpg',
@@ -2109,6 +2139,7 @@ const products = {
                      cardName: 'موس بی‌سیم اپل مدل Magic Mouse 2',
                      name: 'موس بی‌سیم اپل مدل Magic Mouse 2',
                      mainImg: 'images/mouseAndKeyboard/1/995853.webp',
+                     off:0,
                      allImages: [
                             'images/mouseAndKeyboard/1/995980.jpg',
                             'images/mouseAndKeyboard/1/996044.jpg',
@@ -2173,6 +2204,7 @@ const products = {
                      cardName: 'ماوس مخصوص بازی ایفورتک مدل V8M',
                      name: 'ماوس مخصوص بازی ایفورتک مدل V8M',
                      mainImg: 'images/mouseAndKeyboard/2/2369809.webp',
+                     off:0,
                      allImages: [
                             'images/mouseAndKeyboard/2/2369883.jpg',
                             'images/mouseAndKeyboard/2/2369920.jpg',
@@ -2236,6 +2268,7 @@ const products = {
                      id: 3,
                      cardName: 'ماوس مخصوص بازی لاجیتک مدل G402 Hyperion Fury',
                      name: 'ماوس مخصوص بازی لاجیتک مدل G402 Hyperion Fury',
+                     off:10,
                      mainImg: 'images/mouseAndKeyboard/3/26683.webp',
                      allImages: [
                             'images/mouseAndKeyboard/3/26752.jpg',
@@ -2302,6 +2335,7 @@ const products = {
                      id: 4,
                      cardName: 'کیبورد مخصوص بازی کورسیر مدل K100 RGB optical-mechanical',
                      name: 'کیبورد مخصوص بازی کورسیر مدل K100 RGB optical-mechanical',
+                     off:0,
                      mainImg: 'images/mouseAndKeyboard/4/2feb00723bb60108a6898b93de60b5d9b294cad7_1631627114.webp',
                      allImages: [
                             'images/mouseAndKeyboard/4/988820cb8f9fa9be8591dbe3f63d481432c70b10_1631627213.jpg',
@@ -2367,6 +2401,7 @@ const products = {
                      id: 5,
                      cardName: 'کیبورد بی سیم مدل I8 Backlit',
                      name: 'کیبورد بی سیم مدل I8 Backlit',
+                     off:10,
                      mainImg: 'images/mouseAndKeyboard/5/822859.webp',
                      allImages: [
                             'images/mouseAndKeyboard/5/833039.jpg',
@@ -2430,6 +2465,7 @@ const products = {
                      id: 6,
                      cardName: 'کیبورد مخصوص بازی پرودو مدل pdx212',
                      name: 'کیبورد مخصوص بازی پرودو مدل pdx212',
+                     off:0,
                      mainImg: 'images/mouseAndKeyboard/6/6b0b212bcd236c91c957114cc6be97a69775c4f9_1625059957.webp',
                      allImages: [
                             'images/mouseAndKeyboard/6/8a9ada7bfbcf11033e049305001ecd2314343238_1625060226.jpg',
@@ -2494,6 +2530,7 @@ const products = {
                      id: 1,
                      cardName: 'کنسول بازی سونی مدل Playstation 4 Slim',
                      name: 'کنسول بازی سونی مدل Playstation 4 Slim ریجن 3 کد CUH-2218B ظرفیت 1 ترابایت',
+                     off:10,
                      mainImg: 'images/gameConsule/1/111223356.jpg',
                      allImages: [
                             'images/gameConsule/1/111223510.jpg',
@@ -2553,6 +2590,7 @@ const products = {
               {
                      id: 2,
                      cardName: 'کنسول بازی سونی مدل Playstation 5 ',
+                     off:10,
                      name: 'کنسول بازی سونی مدل Playstation 5 سری 1216A ظرفیت 825 گیگابایت',
                      mainImg: 'images/gameConsule/2/e8db003acadad2a677e7bef5c7b73601b3e53d68_1674206472.webp',
                      allImages: [
@@ -2612,6 +2650,7 @@ const products = {
               {
                      id: 3,
                      cardName: 'دسته بازی پلی استیشن 5 سونی',
+                     off:0,
                      name: 'دسته بازی پلی استیشن 5 سونی مدل DUALSENSE CFI-ZCT1W',
                      mainImg: 'images/gameConsule/3/75cbfcfa869da4b8e602d5de8ce94be3afbff627_1634713820.jpg',
                      allImages: [
@@ -2672,6 +2711,7 @@ const products = {
               },
               {
                      id: 4,
+                     off:10,
                      cardName: 'کنسول بازی مایکروسافت مدل XBOX SERIES X',
                      name: 'کنسول بازی مایکروسافت مدل XBOX SERIES X ظرفیت 1 ترابایت',
                      mainImg: 'images/gameConsule/1/2df666aba8e4fd8ae4bd75c814b5ea1e2f076f00_1605103287.webp',
@@ -2736,6 +2776,7 @@ const products = {
                      id: 1,
                      cardName: 'ساعت هوشمند اپل واچ  مدل Alpine Loop',
                      name: 'ساعت هوشمند اپل واچ مدل Ultra 49 mm Alpine Loop',
+                     off:0,
                      mainImg: 'images/smartWatch/1/b0af2ec78668c85506c1edc260b42ff447f019c8_1667201885.webp',
                      allImages: [
                             'images/smartWatch/1/a58a7a518de6d1b3634003ba336e8195473dbafd_1689583216.jpg',
@@ -2800,6 +2841,7 @@ const products = {
                      id: 2,
                      cardName: 'ساعت هوشمند شیائومی مدل Redmi Watch 2 Lite',
                      name: 'ساعت هوشمند شیائومی مدل Redmi Watch 2 Lite طرح بند سلیکونی',
+                     off:10,
                      mainImg: 'images/smartWatch/2/8c7d843d1d143250d7eb02fff08e10c149ac1dd6_1656931467.webp',
                      allImages: [
                             'images/smartWatch/2/a96e0f2188f8aa5ffb13d1a807f65d669e934a3d_1640503584.jpg',
@@ -2864,6 +2906,7 @@ const products = {
                      id: 3,
                      cardName: 'ساعت هوشمند سامسونگ مدل Galaxy Watch6',
                      name: 'ساعت هوشمند سامسونگ مدل Galaxy Watch6 Classic 47mm',
+                     off:0,
                      mainImg: 'images/smartWatch/3/a88b419f47b74c34086751c0f44ffbb2225230f1_1690715344.webp',
                      allImages: [
                             'images/smartWatch/3/43a6177c39ec3a8bd854c50b1182bdd8105e94c9_1690715344.jpg',
@@ -2927,6 +2970,7 @@ const products = {
                      id: 4,
                      cardName: 'ساعت هوشمند اپل مدل Series 8 Aluminum 45mm',
                      name: 'ساعت هوشمند اپل مدل Series 8 Aluminum 45mm',
+                     off:10,
                      mainImg: 'images/smartWatch/4/be65552a8c3e709a7d49d2f1eb35b3882b1fdf18_1662792408.webp',
                      allImages: [
                             'images/smartWatch/4/7be7bc14eafdc081c7c9398c0316758b6979114d_1662792410.jpg',
@@ -2991,6 +3035,7 @@ const products = {
                      id: 5,
                      cardName: 'ساعت هوشمند سامسونگ مدل Galaxy Watch5',
                      name: 'ساعت هوشمند سامسونگ مدل Galaxy Watch5 44mm',
+                     off:5,
                      mainImg: 'images/smartWatch/5/53b4feb9dead4898764793a7c21c71561d1775aa_1689578146.webp',
                      allImages: [
                             'images/smartWatch/5/7c908bdfc3421c06e38995908211318049b64d93_1689578146.jpg',
@@ -3057,6 +3102,7 @@ const products = {
                      cardName: 'دوربین دیجیتال کانن مدل EOS 90D',
                      name: 'دوربین دیجیتال کانن مدل EOS 90D به همراه لنز 135-18 میلی متر IS USM',
                      mainImg: 'images/camera/1/114000898.webp',
+                     off:0,
                      allImages: [
                             'images/camera/1/b913a006840394654f9700c23b5a0bb2370739d0_1632236125.jpg',
                             'images/camera/1/7e1f1454e8208eb093b0cfcbaaa8eea882e9c076_1632236128.jpg',
@@ -3121,6 +3167,7 @@ const products = {
                      cardName: 'دوربین دیجیتال کانن مدل EOS 850D ',
                      name: 'دوربین دیجیتال کانن مدل EOS 850D به همراه لنز 55-18 میلی متر IS STM',
                      mainImg: 'images/camera/2/6a3f827d63533f8e8e7578b418fa41b4fd253a55_1602403080.webp',
+                     off:5,
                      allImages: [
                             'images/camera/2/b28d7aa8b7ae0c0612422b7c427bb1c50ca25d09_1602505014.jpg',
                             'images/camera/2/1c177743edf96f7f974fc6b6369e3ef3919ebdba_1602505012.jpg',
@@ -3185,6 +3232,7 @@ const products = {
                      id: 3,
                      cardName: 'دوربین دیجیتال بدون آینه سونی مدل Alpha A6400',
                      name: 'دوربین دیجیتال بدون آینه سونی مدل Alpha A6400 به همراه لنز 16-50 میلی متر OSS',
+                     off:10,
                      mainImg: 'images/camera/3/112600870.webp',
                      allImages: [
                             'images/camera/3/112600941.jpg',
@@ -3249,6 +3297,7 @@ const products = {
                      id: 4,
                      cardName: 'دوربین دیجیتال کانن مدل EOS R5 C',
                      name: 'دوربین دیجیتال کانن مدل EOS R5 C Mirrorless Camera Body',
+                     off:0,
                      mainImg: 'images/camera/4/a77d9d5f523117e07c6dfddf086c34b37e339a14_1686400717.webp',
                      allImages: [
                             'images/camera/4/cb95c2bbae65763ec8c2aff8423470d0b925eff3_1686400720.jpg',
