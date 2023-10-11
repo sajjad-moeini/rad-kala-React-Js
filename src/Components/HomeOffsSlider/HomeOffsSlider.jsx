@@ -99,7 +99,7 @@ export default function HomeOffsSlider() {
 <SwiperSlide className=' h-100 swiper-offCard-slide bg-light'>
        <Link to={'/products'}>
 <div className='w-100 h-50  d-flex-centering ' >
-<img src={product.mainImg} className=' offCard-img' alt="" />
+<img src={product.mainImg} className=' offCard-img mt-3' alt="" />
 </div>
 <div className="row mb-4  mt-5">
               <div className="col-6 d-flex justify-content-center align-items-start">
@@ -133,22 +133,3 @@ export default function HomeOffsSlider() {
        )
 }
 
-{/* <div className="offCard m-3">
-<div className="offCard-img-container">
-       <img src='images/laptops/1/b2c0eb53f0eeacdefb8771155bf5e4887222a654_1672051046.webp' className='img-fluid h-100 w-100' alt="" />
-</div>
-<div className="h-50">
-       <div className="row mb-4">
-              <div className="col-6 d-flex justify-content-center align-items-start">
-              <div className="offCard-off-count ms-2 rounded-pill text-light">%35</div>
-              </div>
-              <div className="col-6 d-flex flex-column justify-content-start align-items-center">
-              <div className="offCard-priceWithOff me-2">12345 تومان</div>
-
-       <div className="d-flex justify-content-end  offCard-main-price me-2 text-secondary mt-2">
-              155556645
-       </div>
-              </div>
-       </div>                                  
-</div>
-</div> */}

@@ -28,7 +28,9 @@ export default function Home() {
                             </div>
                      </div>
                      <HomeOffsSlider />
-                     {/* <Slider items={HomeBg.firstSlider} sliderHeight={'40vh'} /> */}
+                    <div className="home-second-bg mt-5">
+
+                    </div>
               </>
        )
 }
