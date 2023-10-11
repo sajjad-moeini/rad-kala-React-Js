@@ -1328,7 +1328,7 @@ const products = [
               title: 'لپ تاپ', products: [
                      {
                             id: 1,
-                            cardName: 'لپ تاپ 13.3 اینچی اپل مدل MacBook Air MGN63 2020 LLA',
+                            cardName: 'لپ تاپ 13.3 اینچی اپل مدل MacBook Air ',
                             name: 'لپ تاپ 13.3 اینچی اپل مدل MacBook Air MGN63 2020 LLA',
                             off: 0,
                             price: 44490000,

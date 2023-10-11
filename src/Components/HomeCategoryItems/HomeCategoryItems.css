@@ -1,0 +1,24 @@
+.home-categories{
+       width: 100%;
+}
+.home-category-box-img-container{
+       border-radius: 50%;
+       cursor: pointer;
+       width: 150px;
+       height: 150px;
+       padding: 2%;
+       box-shadow: 0px 0px 20px .2px rgb(155, 146, 146);
+       transition: all .7s;
+}
+.home-category-box-img-container:hover{
+       transform: scale(1.05)translateY(-15px);
+       box-shadow: 0px 0px 50px .2px rgb(155, 146, 146);
+}
+.home-category-box-img{
+     
+       margin: 2%;
+}
+.home-category-box-title{
+       font-size: 1.1rem;
+       font-weight: 400;
+}

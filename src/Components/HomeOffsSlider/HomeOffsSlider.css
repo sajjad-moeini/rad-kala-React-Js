@@ -6,7 +6,6 @@
 .offCards-wrapper{
        width: 100%;
        height: 45vh;
-       background-color: #ef394e;
        border-radius: 1.5rem;
        padding: 2% 1%;
 }
@@ -20,10 +19,7 @@
        width: 180px !important;
        height: 280px !important;
        background-color: aliceblue;
-       padding: 3% 1% 2% 1%;
-      
-       border-top-left-radius: .8rem;
-       border-bottom-left-radius: .8rem;
+       padding: 3% 1% 2% 1%;     
 }
 .swiper-offCard-last-slide-link{
        color: rgb(17, 79, 118);
@@ -52,13 +48,21 @@ margin: 0 auto;
 .off-swiper-first-slide-btn:hover{color: aliceblue;}
 
 
-.swiper-offCard-slide:nth-of-type(2){
+.which-card-get-border:nth-of-type(2){
        border-top-right-radius: .8rem;
        border-bottom-right-radius: .8rem;
+}
+.which-card-get-border:nth-last-of-type(1){
+       border-top-left-radius: .8rem;
+       border-bottom-left-radius: .8rem;
 }
 .offCard-img{
        width: 170px;
        height: 170px;
+}
+.offCard-product-name{
+       font-size: .6rem;
+       color: #444;
 }
 .offCard-off-count{
        background-color: #ef394e;

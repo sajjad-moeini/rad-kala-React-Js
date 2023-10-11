@@ -1,0 +1,41 @@
+.navbar {
+       background: #444444;
+       background-size: cover;
+       position: sticky;
+       top: 0;
+       width: 100%;
+       z-index: 2;
+}
+.navbar-toggler{   
+       background-color: #fff;
+}
+
+.nav-items{
+       font-size: 1.1rem;
+       font-weight: 500;
+       transition: all .7s;
+       color: aliceblue;
+       border-radius: .8rem;
+       padding: .7rem 1.5rem !important;
+       margin-right: .7rem;
+}
+.nav-items:hover{
+       color: #fff;
+       box-shadow: 0px 3px 10px 1px white;
+}
+.navbar-active-item{
+       color: #fff;
+       box-shadow: 0px 3px 10px 1px white;
+}
+.cart-icon{
+       font-size: 1.5rem;
+       color: aliceblue;
+}
+.navbar-search-icon{
+       height: 100%;
+       width: 2rem;
+       font-size: 1.1rem !important;
+       top: 0;
+       left: 10%;
+       color: #444;
+}

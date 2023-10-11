@@ -19,3 +19,14 @@
        background-size: cover;
        background-attachment: fixed;
 }
+.home-third-bg{
+       width: 100%;
+       height: 50vh;
+       background: url(../../../public/images/bg/macbook1.jpg);
+       background-size: cover;
+       background-attachment: fixed;
+}
+.new-product-header{
+       height: 15vh;
+       font-size: 2rem;
+}
