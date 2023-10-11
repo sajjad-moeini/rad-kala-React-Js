@@ -30,3 +30,6 @@
        height: 15vh;
        font-size: 2rem;
 }
+.news-register-btn{
+       white-space: nowrap;
+}

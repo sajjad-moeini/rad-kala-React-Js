@@ -6,16 +6,20 @@ import { AiOutlineArrowLeft } from 'react-icons/ai'
 import { BsArrowLeftCircle } from 'react-icons/bs'
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
 import { Link } from 'react-router-dom';
-export default function HomeOffsSlider({ products, offCard, bgColor }) {
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+export default function HomeOffsSlider({ products, offCard, bgColor }) {
+       useEffect(() => {
+              AOS.init();
+            }, [])
 
 
        return (
               <>
                      <div className="offCards-container">
-                            <div className="offCards-wrapper mx-auto overflow-hidden" style={{ backgroundColor: bgColor }}>
+                            <div className="offCards-wrapper mx-auto overflow-hidden" data-aos="flip-down" data-aos-duration="1500" style={{ backgroundColor: bgColor }}>
                                    <div className="container py-2">
                                           <Swiper
                                                  slidesPerView={'auto'}
@@ -48,7 +52,7 @@ export default function HomeOffsSlider({ products, offCard, bgColor }) {
                                                  )}
                                                  {
                                                         products && products.slice(0, 10).map((product, index) => (
-                                                               <SwiperSlide className=' h-100 swiper-offCard-slide bg-light which-card-get-border' key={index}>
+                                                               <SwiperSlide className=' h-100 swiper-offCard-slide bg-light which-card-get-border' key={index} data-aos="zoom-in" data-aos-duration="2000">
                                                                       <Link to={'/products'}>
                                                                              <div className='w-100 h-50  d-flex-centering ' >
                                                                                     <img src={product.mainImg} className=' offCard-img mt-3' alt="" />

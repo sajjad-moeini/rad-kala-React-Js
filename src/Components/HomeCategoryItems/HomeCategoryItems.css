@@ -1,5 +1,6 @@
 .home-categories{
        width: 100%;
+       overflow: hidden;
 }
 .home-category-box-img-container{
        border-radius: 50%;

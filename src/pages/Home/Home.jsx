@@ -59,6 +59,14 @@ export default function Home() {
                      </div>
                      <HomeOffsSlider products={newProducts} offCard={false} bgColor={'rgb(19, 52, 151)'} />
                      <HomeReadingSection />
+                     <div className="news-register-section p-5 my-5">
+                     <div className=' d-flex-centering my-5'>
+<input type="email" placeholder='ایمیل خود را وارد کنید ...' className='form-control' style={{width:'30%'}}  />
+<a href="#" className='btn btn-outline-primary news-register-btn ms-4'>
+       دریافت آخرین اخبار
+</a>
+                     </div>
+                     </div>
               </>
        )
 }
