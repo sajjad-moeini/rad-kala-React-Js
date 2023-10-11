@@ -5,6 +5,7 @@ import { useSelector } from 'react-redux/es/hooks/useSelector'
 import HomeOffsSlider from '../../Components/HomeOffsSlider/HomeOffsSlider'
 import HomeCategoryItems from '../../Components/HomeCategoryItems/HomeCategoryItems'
 import HomeReadingSection from '../../Components/HomeReadingSection/HomeReadingSection'
+import HomeCompanyLogos from '../../Components/HomeCompanyLogos/HomeCompanyLogos'
 export default function Home() {
        const allStoreProducts = useSelector(state => state.products)
        const allProducts = []
@@ -20,11 +21,11 @@ export default function Home() {
                             products.products.forEach(product => allProducts.push(product))
                      }
               })
-              allProducts.forEach((product,index) => {
+              allProducts.forEach((product, index) => {
                      if (product.off > 0) {
                             setOffProducts(prev => ([...prev, product]))
                      }
-                     if (index%7 == 0){
+                     if (index % 7 == 0) {
                             setNewProducts(prev => ([...prev, product]))
                      }
               })
@@ -60,13 +61,14 @@ export default function Home() {
                      <HomeOffsSlider products={newProducts} offCard={false} bgColor={'rgb(19, 52, 151)'} />
                      <HomeReadingSection />
                      <div className="news-register-section p-5 my-5">
-                     <div className=' d-flex-centering my-5'>
-<input type="email" placeholder='ایمیل خود را وارد کنید ...' className='form-control' style={{width:'30%'}}  />
-<a href="#" className='btn btn-outline-primary news-register-btn ms-4'>
-       دریافت آخرین اخبار
-</a>
+                            <div className=' d-flex-centering my-5'>
+                                   <input type="email" placeholder='ایمیل خود را وارد کنید ...' className='form-control' style={{ width: '30%' }} />
+                                   <a href="#" className='btn btn-outline-primary news-register-btn ms-4'>
+                                          دریافت آخرین اخبار
+                                   </a>
+                            </div>
                      </div>
-                     </div>
+                     <HomeCompanyLogos />
               </>
        )
 }
