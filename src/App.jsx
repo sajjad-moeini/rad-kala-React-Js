@@ -4,6 +4,7 @@ import './App.css'
 import NavBar from './Components/NavBar/NavBar'
 import { useRoutes } from 'react-router-dom';
 import Router from './Router';
+import Footer from './Components/Footer/Footer';
 function App() {
  const router = useRoutes(Router)
 
@@ -11,6 +12,7 @@ function App() {
     <>
     <NavBar />
     {router}
+    <Footer />
     </>
   )
 }

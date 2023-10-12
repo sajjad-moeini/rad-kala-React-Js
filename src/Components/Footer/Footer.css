@@ -1,0 +1,39 @@
+#footer{
+       background-color: #00000047;
+}
+.footer-ul{
+list-style: none;
+padding: 2vh 5vw;
+}
+.footer-ul-item{
+padding: 1vh 0;
+font-size: 1.1rem;
+cursor: pointer;
+transition: all .5s;
+}
+.footer-ul-item:hover{
+color: aliceblue !important;
+transform: scale(1.1);
+}
+.footer-ul-item:nth-of-type(1){
+       font-weight: 600;
+       font-size: 1.3rem;
+       color: aliceblue !important;
+       cursor:default;
+}
+.footer-ul-item:nth-of-type(1):hover{
+       transform: none;}
+
+
+.footer-ul-item-social{
+padding: 1vh 0;
+font-size: 1.1rem;
+transition: all .5s;
+}
+.footer-social-link{
+       color: aliceblue !important;
+      
+}
+.footer-ul-item-social:hover{
+       transform: translateX(3vw);
+}
