@@ -12,10 +12,14 @@ export default function Products() {
               allStoreProducts.map(products => {
                      if (products.title == 'گوشی موبایل') {
                             products.products.map(product => {
-                                   product.products.forEach(product => allProducts.push(product))
+                                   product.products.forEach(product => {
+                                          setAllProducts( prev =>([...prev , product]))
+                                   })
                             })
                      } else {
-                            products.products.forEach(product => allProducts.push(product))
+                            products.products.forEach(product =>{
+                                   setAllProducts( prev =>([...prev , product]))
+                            })
                      }
               })
               allProducts.forEach((product, index) => {
