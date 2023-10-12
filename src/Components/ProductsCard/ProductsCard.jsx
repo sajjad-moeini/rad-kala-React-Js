@@ -1,15 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './ProductsCard.css'
 import { Link } from 'react-router-dom'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 export default function ProductsCard({products}) {
-       console.log(products)
+       useEffect(() => {
+              AOS.init();
+            }, [])
   return (
     <>
     
      <div className='row products-cards-container mx-auto py-5'>
      { products.map((product,index)=>(
-       <div className="col-12 col-sm-6 col-md-4 col-lg-3 mt-3" key={index}>
-                            <Link>
+       <div className="col-12 col-md-6 col-lg-4 col-xl-3 mt-3" key={index}  data-aos={(((index+1)%4 == 0) && "fade-down-right") || (((index+1)%4 == 1) && "fade-down-left") || 'fade-up'} data-aos-duration="1500">
+                            <Link >
                             <div className="product-card p-1 px-2 position-relative">
                                    <div className="product-card-img-container mx-auto">
                                           <img src={product.mainImg} className='img-fluid product-card-img ' alt="" />

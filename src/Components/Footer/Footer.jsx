@@ -8,7 +8,6 @@ import {FaTelegram} from 'react-icons/fa'
 import {BsFillTelephonePlusFill} from 'react-icons/bs'
 export default function Footer() {
        const footerUls = useSelector(state => state.FooterItems)
-       console.log(footerUls)
        return (
               <>
                      <div className="row" id='footer'>

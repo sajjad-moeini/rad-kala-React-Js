@@ -1,5 +1,6 @@
 .products-cards-container{
        width: 85%;
+       overflow: hidden;
 }
 .product-card{
        width: 300px;
@@ -11,7 +12,7 @@
        cursor: pointer;
 }
 .product-card:hover{
-       transform: scale(1.1)translateY(-1vh);
+       transform: scale(1.05)translateY(-1vh);
        box-shadow: 0px 0px 30px 1px #ffffff;
 }
 .product-card-price-infos{

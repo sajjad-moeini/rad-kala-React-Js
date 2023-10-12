@@ -6,6 +6,7 @@ const products = [
                             title: 'اپل', products: [
                                    {
                                           id: 1,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل اپل مدل iPhone 13 Pro Max A2644',
                                           name: 'گوشی موبایل اپل مدل iPhone 13 Pro Max A2644 دو سیم‌ کارت ظرفیت 128 گیگابایت و رم 6 گیگابایت - اکتیو',
                                           colors: ['lightskyblue', 'gray'],
@@ -63,6 +64,7 @@ const products = [
                                    },
                                    {
                                           id: 2,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل اپل مدل iPhone 11 ZPA',
                                           name: 'گوشی موبایل اپل مدل iPhone 11 ZPA تک سیم‌ کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت',
                                           colors: ['white'],
@@ -120,6 +122,7 @@ const products = [
                                    },
                                    {
                                           id: 3,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل اپل مدل iPhone 13 Pro Max',
                                           name: 'گوشی موبایل اپل مدل iPhone 13 Pro Max تک سیم‌ کارت ظرفیت یک ترابایت و رم 6 گیگابایت - اروپا نات اکتیو',
                                           colors: ['gray', 'lightseagreen', 'gold', 'lightskyblue'],
@@ -182,6 +185,7 @@ const products = [
                                    },
                                    {
                                           id: 4,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل اپل مدل iPhone 12 Pro Max LLA',
                                           name: 'گوشی موبایل اپل مدل iPhone 12 Pro Max LLA تک سیم‌ کارت ظرفیت 256 گیگابایت و رم 6 گیگابایت - نات اکتیو',
                                           colors: ['gray'],
@@ -244,6 +248,7 @@ const products = [
                                    },
                                    {
                                           id: 5,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل اپل مدل iPhone SE 2022 JA',
                                           name: 'گوشی موبایل اپل مدل iPhone SE 2022 JA تک سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت',
                                           colors: ['white'],
@@ -306,6 +311,7 @@ const products = [
                                    },
                                    {
                                           id: 6,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل اپل مدل iPhone 13 Mini',
                                           name: 'گوشی موبایل اپل مدل iPhone 13 Mini ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو',
                                           colors: ['teal'],
@@ -368,6 +374,7 @@ const products = [
                                    },
                                    {
                                           id: 7,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل اپل مدل iPhone 13 Pro',
                                           name: 'گوشی موبایل اپل مدل iPhone 13 Pro تک سیم کارت ظرفیت یک ترابایت و رم 6 گیگابایت - اروپا نات اکتیو',
                                           colors: ['gray'],
@@ -435,6 +442,7 @@ const products = [
                             title: 'سامسونگ', products: [
                                    {
                                           id: 1,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل سامسونگ مدل Galaxy S23',
                                           name: 'گوشی موبایل سامسونگ مدل Galaxy S23 دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت',
                                           colors: ['black', 'green', 'cream'],
@@ -498,6 +506,7 @@ const products = [
                                    },
                                    {
                                           id: 2,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل سامسونگ مدل Galaxy Z Fold',
                                           name: 'گوشی موبایل سامسونگ مدل Galaxy Z Fold5 دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت - ویتنام',
                                           colors: ['black'],
@@ -561,6 +570,7 @@ const products = [
                                    },
                                    {
                                           id: 3,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل سامسونگ مدل Galaxy A24 4G',
                                           name: 'گوشی موبایل سامسونگ مدل Galaxy A24 4G دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - ویتنام',
                                           colors: ['black'],
@@ -624,6 +634,7 @@ const products = [
                                    },
                                    {
                                           id: 4,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل سامسونگ مدل Galaxy A54 5G',
                                           name: 'گوشی موبایل سامسونگ مدل Galaxy A54 5G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت',
                                           colors: ['black'],
@@ -687,6 +698,7 @@ const products = [
                                    },
                                    {
                                           id: 5,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل سامسونگ مدل Galaxy A13',
                                           name: 'گوشی موبایل سامسونگ مدل Galaxy A13 دو سیم کارت ظرفیت 64 گیگابایت و رم 4 گیگابایت به همراه شارژر',
                                           colors: ['black'],
@@ -750,6 +762,7 @@ const products = [
                                    },
                                    {
                                           id: 6,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل سامسونگ مدل Galaxy A14',
                                           name: 'گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت 64 گیگابایت و رم 4 گیگابایت به همراه شارژر',
                                           colors: ['black', 'silver', 'lightgreen'],
@@ -813,6 +826,7 @@ const products = [
                                    },
                                    {
                                           id: 7,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل سامسونگ مدل Galaxy A34 5G',
                                           name: 'گوشی موبایل سامسونگ مدل Galaxy A34 5G دو سیم کارت ظرفیت 128 گیگابایت و رم 8 گیگابایت ',
                                           colors: ['yellow'],
@@ -880,6 +894,7 @@ const products = [
                             title: 'شیائومی', products: [
                                    {
                                           id: 1,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل شیائومی مدل Poco F5 ',
                                           name: 'گوشی موبایل شیائومی مدل Poco F5 دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت - گلوبال',
                                           colors: ['yellow'],
@@ -942,6 +957,7 @@ const products = [
                                    },
                                    {
                                           id: 2,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل شیائومی مدل Poco C40  ',
                                           name: 'گوشی موبایل شیائومی مدل Poco C40 دو سیم کارت ظرفیت 64 گیگابایت و رم 4 گیگابایت- گلوبال',
                                           colors: ['lightgreen', 'black'],
@@ -1005,6 +1021,7 @@ const products = [
                                    },
                                    {
                                           id: 3,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل شیائومی مدل Redmi Note 12 Pro 4G',
                                           name: 'گوشی موبایل شیائومی مدل Redmi Note 12 Pro 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - گلوبال',
                                           colors: ['lightskyblue', 'gray', 'white'],
@@ -1068,6 +1085,7 @@ const products = [
                                    },
                                    {
                                           id: 4,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل شیائومی مدل Redmi Note 12 4G',
                                           name: 'گوشی موبایل شیائومی مدل Redmi Note 12 4G دو سیم کارت ظرفیت 128 گیگابایت و رم 8 گیگابایت - گلوبال',
                                           colors: ['lightskyblue', 'lightgreen', 'gray'],
@@ -1132,6 +1150,7 @@ const products = [
                                    },
                                    {
                                           id: 5,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل شیائومی مدل Poco F5 Pro',
                                           name: 'گوشی موبایل شیائومی مدل Poco F5 Pro دو سیم کارت ظرفیت 512 گیگابایت و رم 12 گیگابایت - گلوبال',
                                           colors: ['black'],
@@ -1195,6 +1214,7 @@ const products = [
                                    },
                                    {
                                           id: 6,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل شیائومی مدل Redmi Note 12 Pro Plus 5G',
                                           name: 'گوشی موبایل شیائومی مدل Redmi Note 12 Pro Plus 5G دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت - پک چین',
                                           colors: ['black'],
@@ -1259,6 +1279,7 @@ const products = [
                                    },
                                    {
                                           id: 7,
+                                          category: 'موبایل',
                                           cardName: 'گوشی موبایل شیائومی مدل Redmi Note 12 Explorer',
                                           name: 'گوشی موبایل شیائومی مدل Redmi Note 12 Explorer دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - پک چین',
                                           colors: ['black', 'gray'],
@@ -1328,6 +1349,7 @@ const products = [
               title: 'لپ تاپ', products: [
                      {
                             id: 1,
+                            category: 'لپ تاپ',
                             cardName: 'لپ تاپ 13.3 اینچی اپل مدل MacBook Air ',
                             name: 'لپ تاپ 13.3 اینچی اپل مدل MacBook Air MGN63 2020 LLA',
                             off: 0,
@@ -1389,6 +1411,7 @@ const products = [
                      },
                      {
                             id: 2,
+                            category: 'لپ تاپ',
                             cardName: 'لپ تاپ 13.6 اینچی اپل مدل MacBook Air-B M2 2022',
                             name: 'لپ تاپ 13.6 اینچی اپل مدل MacBook Air-B M2 2022',
                             off: 10,
@@ -1451,6 +1474,7 @@ const products = [
                      },
                      {
                             id: 3,
+                            category: 'لپ تاپ',
                             cardName: 'لپ تاپ 14.1 اینچی ایسوس مدل Vivobook R465EA-EB1592',
                             name: 'لپ تاپ 14.1 اینچی ایسوس مدل Vivobook R465EA-EB1592',
                             off: 0,
@@ -1514,6 +1538,7 @@ const products = [
                      },
                      {
                             id: 4,
+                            category: 'لپ تاپ',
                             cardName: 'لپ تاپ 15.6 اینچی ایسوس مدل R565EP-EJ617',
                             name: 'لپ تاپ 15.6 اینچی ایسوس مدل R565EP-EJ617',
                             off: 0,
@@ -1576,6 +1601,7 @@ const products = [
                      },
                      {
                             id: 5,
+                            category: 'لپ تاپ',
                             cardName: 'لپ تاپ 12.4 اینچی مایکروسافت مدل Surface Laptop Go-i5 16GB 256SSD',
                             name: 'لپ تاپ 12.4 اینچی مایکروسافت مدل Surface Laptop Go-i5 16GB 256SSD',
                             off: 10,
@@ -1638,6 +1664,7 @@ const products = [
                      },
                      {
                             id: 6,
+                            category: 'لپ تاپ',
                             cardName: 'لپ تاپ 15.6 اینچی لنوو مدل IdeaPad 5 15ITL05-i5 8GB 512SSD MX450',
                             name: 'لپ تاپ 15.6 اینچی لنوو مدل IdeaPad 5 15ITL05-i5 8GB 512SSD MX450',
                             off: 0,
@@ -1701,6 +1728,7 @@ const products = [
                      },
                      {
                             id: 7,
+                            category: 'لپ تاپ',
                             cardName: 'لپ تاپ 14.2 اینچی اپل مدل 2023 MacBook Pro MPHG3',
                             name: 'لپ تاپ 14.2 اینچی اپل مدل 2023 MacBook Pro MPHG3',
                             off: 5,
@@ -1768,6 +1796,7 @@ const products = [
               title: 'هارد اکسترنال', products: [
                      {
                             id: 1,
+                            category: 'هارد اکسترنال',
                             cardName: 'هارد اکسترنال ای دیتا مدل HD770G ظرفیت 2 ترابایت',
                             name: 'هارد اکسترنال ای دیتا مدل HD770G ظرفیت 2 ترابایت',
                             off: 0,
@@ -1829,6 +1858,7 @@ const products = [
                      },
                      {
                             id: 2,
+                            category: 'هارد اکسترنال',
                             cardName: 'هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 1 ترابایت',
                             name: 'هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 1 ترابایت',
                             off: 5,
@@ -1895,6 +1925,7 @@ const products = [
                      },
                      {
                             id: 3,
+                            category: 'هارد اکسترنال',
                             cardName: 'هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 2 ترابایت',
                             name: 'هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 2 ترابایت',
                             off: 0,
@@ -1957,6 +1988,7 @@ const products = [
                      },
                      {
                             id: 4,
+                            category: 'هارد اکسترنال',
                             cardName: 'هارد اکسترنال سیلیکون پاور مدل Armor A30 ظرفیت 1 ترابایت',
                             name: 'هارد اکسترنال سیلیکون پاور مدل Armor A30 ظرفیت 1 ترابایت',
                             off: 10,
@@ -2022,6 +2054,7 @@ const products = [
                      },
                      {
                             id: 5,
+                            category: 'هارد اکسترنال',
                             cardName: 'هارد اکسترنال توشیبا مدل Canvio ‌‌Basics ظرفیت 4 ترابایت',
                             name: 'هارد اکسترنال توشیبا مدل Canvio ‌‌Basics ظرفیت 4 ترابایت',
                             off: 0,
@@ -2084,6 +2117,7 @@ const products = [
                      },
                      {
                             id: 6,
+                            category: 'هارد اکسترنال',
                             cardName: 'هارددیسک اکسترنال وسترن دیجیتال مدل My Book Desktop ظرفیت 4 ترابایت',
                             name: 'هارددیسک اکسترنال وسترن دیجیتال مدل My Book Desktop ظرفیت 4 ترابایت',
                             off: 0,
@@ -2149,6 +2183,7 @@ const products = [
               title: 'موس و کیبورد', products: [
                      {
                             id: 1,
+                            category: 'موس و کیبورد',
                             cardName: 'موس بی‌سیم اپل مدل Magic Mouse 2',
                             name: 'موس بی‌سیم اپل مدل Magic Mouse 2',
                             mainImg: 'images/mouseAndKeyboard/1/995853.webp',
@@ -2214,6 +2249,7 @@ const products = [
                      },
                      {
                             id: 2,
+                            category: 'موس و کیبورد',
                             cardName: 'ماوس مخصوص بازی ایفورتک مدل V8M',
                             name: 'ماوس مخصوص بازی ایفورتک مدل V8M',
                             mainImg: 'images/mouseAndKeyboard/2/2369809.webp',
@@ -2279,6 +2315,7 @@ const products = [
                      },
                      {
                             id: 3,
+                            category: 'موس و کیبورد',
                             cardName: 'ماوس مخصوص بازی لاجیتک مدل G402 Hyperion Fury',
                             name: 'ماوس مخصوص بازی لاجیتک مدل G402 Hyperion Fury',
                             off: 10,
@@ -2346,6 +2383,7 @@ const products = [
                      },
                      {
                             id: 4,
+                            category: 'موس و کیبورد',
                             cardName: 'کیبورد مخصوص بازی کورسیر مدل K100 RGB optical-mechanical',
                             name: 'کیبورد مخصوص بازی کورسیر مدل K100 RGB optical-mechanical',
                             off: 0,
@@ -2412,6 +2450,7 @@ const products = [
                      },
                      {
                             id: 5,
+                            category: 'موس و کیبورد',
                             cardName: 'کیبورد بی سیم مدل I8 Backlit',
                             name: 'کیبورد بی سیم مدل I8 Backlit',
                             off: 10,
@@ -2476,6 +2515,7 @@ const products = [
                      },
                      {
                             id: 6,
+                            category: 'موس و کیبورد',
                             cardName: 'کیبورد مخصوص بازی پرودو مدل pdx212',
                             name: 'کیبورد مخصوص بازی پرودو مدل pdx212',
                             off: 0,
@@ -2543,6 +2583,7 @@ const products = [
               title: 'کنسول بازی', products: [
                      {
                             id: 1,
+                            category: 'کنسول بازی',
                             cardName: 'کنسول بازی سونی مدل Playstation 4 Slim',
                             name: 'کنسول بازی سونی مدل Playstation 4 Slim ریجن 3 کد CUH-2218B ظرفیت 1 ترابایت',
                             off: 10,
@@ -2604,6 +2645,7 @@ const products = [
                      },
                      {
                             id: 2,
+                            category: 'کنسول بازی',
                             cardName: 'کنسول بازی سونی مدل Playstation 5 ',
                             off: 10,
                             name: 'کنسول بازی سونی مدل Playstation 5 سری 1216A ظرفیت 825 گیگابایت',
@@ -2664,6 +2706,7 @@ const products = [
                      },
                      {
                             id: 3,
+                            category: 'کنسول بازی',
                             cardName: 'دسته بازی پلی استیشن 5 سونی',
                             off: 0,
                             name: 'دسته بازی پلی استیشن 5 سونی مدل DUALSENSE CFI-ZCT1W',
@@ -2726,15 +2769,16 @@ const products = [
                      },
                      {
                             id: 4,
+                            category: 'کنسول بازی',
                             off: 10,
                             cardName: 'کنسول بازی مایکروسافت مدل XBOX SERIES X',
                             name: 'کنسول بازی مایکروسافت مدل XBOX SERIES X ظرفیت 1 ترابایت',
-                            mainImg: 'images/gameConsule/1/2df666aba8e4fd8ae4bd75c814b5ea1e2f076f00_1605103287.webp',
+                            mainImg: 'images/gameConsule/4/2df666aba8e4fd8ae4bd75c814b5ea1e2f076f00_1605103287.webp',
                             allImages: [
-                                   'images/gameConsule/1/10e8b1e22f712cf6a38a2798c96d5d6e0f5573e5_1605102843.jpg',
-                                   'images/gameConsule/1/706497154c71b9478ec87317c64d117640b48e87_1605102844.jpg',
-                                   'images/gameConsule/1/e404cd1d8ccadb269fce210e72c94278605fb938_1609680211.jpg',
-                                   'images/gameConsule/1/2df666aba8e4fd8ae4bd75c814b5ea1e2f076f00_1605103287.webp',
+                                   'images/gameConsule/4/10e8b1e22f712cf6a38a2798c96d5d6e0f5573e5_1605102843.jpg',
+                                   'images/gameConsule/4/706497154c71b9478ec87317c64d117640b48e87_1605102844.jpg',
+                                   'images/gameConsule/4/e404cd1d8ccadb269fce210e72c94278605fb938_1609680211.jpg',
+                                   'images/gameConsule/4/2df666aba8e4fd8ae4bd75c814b5ea1e2f076f00_1605103287.webp',
                             ],
                             price: 26350000,
                             rate: 4.2,
@@ -2791,6 +2835,7 @@ const products = [
               title: 'ساعت هوشمند', products: [
                      {
                             id: 1,
+                            category: 'ساعت هوشمند',
                             cardName: 'ساعت هوشمند اپل واچ  مدل Alpine Loop',
                             name: 'ساعت هوشمند اپل واچ مدل Ultra 49 mm Alpine Loop',
                             off: 0,
@@ -2856,6 +2901,7 @@ const products = [
                      },
                      {
                             id: 2,
+                            category: 'ساعت هوشمند',
                             cardName: 'ساعت هوشمند شیائومی مدل Redmi Watch 2 Lite',
                             name: 'ساعت هوشمند شیائومی مدل Redmi Watch 2 Lite طرح بند سلیکونی',
                             off: 10,
@@ -2921,6 +2967,7 @@ const products = [
                      },
                      {
                             id: 3,
+                            category: 'ساعت هوشمند',
                             cardName: 'ساعت هوشمند سامسونگ مدل Galaxy Watch6',
                             name: 'ساعت هوشمند سامسونگ مدل Galaxy Watch6 Classic 47mm',
                             off: 0,
@@ -2985,6 +3032,7 @@ const products = [
                      },
                      {
                             id: 4,
+                            category: 'ساعت هوشمند',
                             cardName: 'ساعت هوشمند اپل مدل Series 8 Aluminum 45mm',
                             name: 'ساعت هوشمند اپل مدل Series 8 Aluminum 45mm',
                             off: 10,
@@ -3050,6 +3098,7 @@ const products = [
                      },
                      {
                             id: 5,
+                            category: 'ساعت هوشمند',
                             cardName: 'ساعت هوشمند سامسونگ مدل Galaxy Watch5',
                             name: 'ساعت هوشمند سامسونگ مدل Galaxy Watch5 44mm',
                             off: 5,
@@ -3118,6 +3167,7 @@ const products = [
               title: 'دوربین', products: [
                      {
                             id: 1,
+                            category: 'دوربین',
                             cardName: 'دوربین دیجیتال کانن مدل EOS 90D',
                             name: 'دوربین دیجیتال کانن مدل EOS 90D به همراه لنز 135-18 میلی متر IS USM',
                             mainImg: 'images/camera/1/114000898.webp',
@@ -3183,6 +3233,7 @@ const products = [
                      },
                      {
                             id: 2,
+                            category: 'دوربین',
                             cardName: 'دوربین دیجیتال کانن مدل EOS 850D ',
                             name: 'دوربین دیجیتال کانن مدل EOS 850D به همراه لنز 55-18 میلی متر IS STM',
                             mainImg: 'images/camera/2/6a3f827d63533f8e8e7578b418fa41b4fd253a55_1602403080.webp',
@@ -3249,6 +3300,7 @@ const products = [
                      },
                      {
                             id: 3,
+                            category: 'دوربین',
                             cardName: 'دوربین دیجیتال بدون آینه سونی مدل Alpha A6400',
                             name: 'دوربین دیجیتال بدون آینه سونی مدل Alpha A6400 به همراه لنز 16-50 میلی متر OSS',
                             off: 10,
@@ -3314,6 +3366,7 @@ const products = [
                      },
                      {
                             id: 4,
+                            category: 'دوربین',
                             cardName: 'دوربین دیجیتال کانن مدل EOS R5 C',
                             name: 'دوربین دیجیتال کانن مدل EOS R5 C Mirrorless Camera Body',
                             off: 0,
@@ -3381,24 +3434,38 @@ const products = [
               ]
        }
 ]
-
+let allProducts = []
+products.map(products => {
+       if (products.title == 'گوشی موبایل') {
+              products.products.map(product => {
+                     product.products.forEach(product => {
+                            allProducts.push(product)
+                     })
+              })
+       } else {
+              products.products.forEach(product => {
+                     allProducts.push(product)
+              })
+       }
+})
 
 
 const ProductsReducer = (state = products, action) => {
        switch (action.type) {
-              case getAllProduct :{
-                 const allProducts =[]
-                    state.map(products=>{
-                     if(products.title == 'گوشی موبایل'){
-                            products.products.map(product=>{
-                                    product.products.forEach(product=>allProducts.push(product))
-                            })
-                     }else{
-                             products.products.forEach(product=>allProducts.push(product))
-                     }
-                   })
-                   console.log(allProducts)
-                   return allProducts
+             
+              case getAllProduct: {
+                     const allProducts = []
+                     state.map(products => {
+                            if (products.title == 'گوشی موبایل') {
+                                   products.products.map(product => {
+                                          product.products.forEach(product => allProducts.push(product))
+                                   })
+                            } else {
+                                   products.products.forEach(product => allProducts.push(product))
+                            }
+                     })
+                     console.log(allProducts)
+                     return allProducts
               }
               default: return state
        }
