@@ -53,7 +53,7 @@ export default function HomeOffsSlider({ products, offCard, bgColor }) {
                                                  {
                                                         products && products.slice(0, 10).map((product, index) => (
                                                                <SwiperSlide className=' h-100 swiper-offCard-slide bg-light which-card-get-border' key={index} data-aos="zoom-in" data-aos-duration="2000">
-                                                                      <Link to={`/product/${product._id}`}>
+                                                                      <Link to={`products/product/${product._id}`}>
                                                                              <div className='w-100 h-50  d-flex-centering ' >
                                                                                     <img src={product.mainImg} className=' offCard-img mt-3' alt="" />
                                                                              </div>
