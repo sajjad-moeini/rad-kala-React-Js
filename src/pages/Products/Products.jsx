@@ -6,28 +6,19 @@ import ProductsCard from '../../Components/ProductsCard/ProductsCard'
 import { Link, NavLink } from 'react-router-dom';
 
 
+
 export default function Products() {
-       const allStoreProducts = useSelector(state => state.products)
+       const store = useSelector(state=>state)      
        const categories = useSelector(state => state.HomeCategories)
        const [allProducts, setAllProducts] = useState([])
        const [showProducts,setShowProducts]= useState('همه')
        const [filtredProducts,setFiltredProducts] = useState()
      
-       useEffect(() => {
-              allStoreProducts.map(products => {
-                     if (products.title == 'گوشی موبایل') {
-                            products.products.map(product => {
-                                   product.products.forEach(product => {
-                                          setAllProducts(prev => ([...prev, product]))
-                                   })
-                            })
-                     } else {
-                            products.products.forEach(product => {
-                                   setAllProducts(prev => ([...prev, product]))
-                            })
-                     }
-              })
-       }, [])
+
+              useEffect(()=>{
+                     setAllProducts([...store.products])
+              },[])
+      
        useEffect(()=>{
               if(showProducts == 'همه'){
                      setFiltredProducts([])

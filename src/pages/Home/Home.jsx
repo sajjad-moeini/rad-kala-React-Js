@@ -8,20 +8,10 @@ import HomeReadingSection from '../../Components/HomeReadingSection/HomeReadingS
 import HomeCompanyLogos from '../../Components/HomeCompanyLogos/HomeCompanyLogos'
 export default function Home() {
        const allStoreProducts = useSelector(state => state.products)
-       const allProducts = []
        const [offProducts, setOffProducts] = useState([])
        const [newProducts, setNewProducts] = useState([])
        useEffect(() => {
-              allStoreProducts.map(products => {
-                     if (products.title == 'گوشی موبایل') {
-                            products.products.map(product => {
-                                   product.products.forEach(product => allProducts.push(product))
-                            })
-                     } else {
-                            products.products.forEach(product => allProducts.push(product))
-                     }
-              })
-              allProducts.forEach((product, index) => {
+              allStoreProducts.forEach((product, index) => {
                      if (product.off > 0) {
                             setOffProducts(prev => ([...prev, product]))
                      }

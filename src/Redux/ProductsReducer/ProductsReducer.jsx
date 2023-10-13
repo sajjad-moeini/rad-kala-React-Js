@@ -1,4 +1,4 @@
-export const getAllProduct = 'GETALLPRODUCTS'
+// export const getAllProduct = 'GETALLPRODUCTS'
 const products = [
        {
               title: 'گوشی موبایل', products: [
@@ -3434,40 +3434,27 @@ const products = [
               ]
        }
 ]
-let allProducts = []
-products.map(products => {
-       if (products.title == 'گوشی موبایل') {
-              products.products.map(product => {
-                     product.products.forEach(product => {
-                            allProducts.push(product)
-                     })
-              })
-       } else {
-              products.products.forEach(product => {
-                     allProducts.push(product)
-              })
-       }
-})
+
 
 
 const ProductsReducer = (state = products, action) => {
        switch (action.type) {
              
-              case getAllProduct: {
-                     const allProducts = []
+              default: {
+                     let allProducts = []
                      state.map(products => {
                             if (products.title == 'گوشی موبایل') {
-                                   products.products.map(product => {
-                                          product.products.forEach(product => allProducts.push(product))
+                                      products.products.map(product => {
+                                          product.products &&   product.products.forEach(product => allProducts.push(product))
                                    })
                             } else {
-                                   products.products.forEach(product => allProducts.push(product))
+                                   products.products &&  products.products.forEach(product => allProducts.push(product))
                             }
                      })
-                     console.log(allProducts)
+                    
                      return allProducts
               }
-              default: return state
+              // default: return state
        }
 }
 
