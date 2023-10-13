@@ -1,4 +1,6 @@
-body{
-       width: 100vw;
-       overflow-x: hidden;
+
+#content{
+       overflow-x: hidden !important;
+       width: 100vw !important;
+       
 }

@@ -11,7 +11,9 @@ function App() {
   return (
     <>
     <NavBar />
+    <div id="content">
     {router}
+    </div>
     <Footer />
     </>
   )

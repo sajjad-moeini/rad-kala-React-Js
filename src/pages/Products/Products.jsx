@@ -50,7 +50,7 @@ export default function Products() {
 
        return (
               <>
-              <div className='d-flex w-50 mx-auto my-5 justify-content-between align-items-center'>
+              <div className='d-flex w-75 mx-auto my-5 justify-content-start align-items-center'>
                      <Dropdown className='product-page-category-selector mt-5'>
                             <Dropdown.Toggle variant="primary" id="dropdown-basic">
                                    دسته بندی مورد نظر را انتخاب کنید
@@ -74,31 +74,9 @@ export default function Products() {
                                    </Dropdown.Item>
                             </Dropdown.Menu>
                      </Dropdown>
-                     <Dropdown className='product-page-category-selector mt-5'>
-                            <Dropdown.Toggle variant="primary" id="dropdown-basic">
-                                  مرتب سازی بر اساس ...
-                            </Dropdown.Toggle>
-
-                            <Dropdown.Menu className='product-page-category-menu'>
-                                   {
-                                          categories.map((category, index) => (
-                                                 <Dropdown.Item key={index} onClick={()=>setShowProducts(category.title)}>
-                                                        {/* <NavLink to={category.path}> */}
-                                                           {category.title}
-                                                        {/* </NavLink> */}
-                                                 </Dropdown.Item>
-                                          ))
-                                   }
-                                   <Dropdown.Divider />
-                                   <Dropdown.Item onClick={()=>setShowProducts('همه')}>
-                                          {/* <NavLink to={'/products/all'}> */}
-                                                 همه
-                                          {/* </NavLink> */}
-                                   </Dropdown.Item>
-                            </Dropdown.Menu>
-                     </Dropdown>
-
+             
               </div>
+              
                      {filtredProducts && <ProductsCard products={filtredProducts} />}
 
               </>
