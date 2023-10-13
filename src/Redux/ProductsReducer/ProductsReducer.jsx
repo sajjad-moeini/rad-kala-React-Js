@@ -5,6 +5,7 @@ const products = [
                      {
                             title: 'اپل', products: [
                                    {
+                                          _id:1,
                                           id: 1,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل اپل مدل iPhone 13 Pro Max A2644',
@@ -63,6 +64,7 @@ const products = [
                                           ],
                                    },
                                    {
+                                          _id:2,
                                           id: 2,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل اپل مدل iPhone 11 ZPA',
@@ -121,6 +123,7 @@ const products = [
                                           ],
                                    },
                                    {
+                                          _id:3,
                                           id: 3,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل اپل مدل iPhone 13 Pro Max',
@@ -184,6 +187,7 @@ const products = [
                                           ],
                                    },
                                    {
+                                          _id:4,
                                           id: 4,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل اپل مدل iPhone 12 Pro Max LLA',
@@ -247,6 +251,7 @@ const products = [
                                           ],
                                    },
                                    {
+                                          _id:5,
                                           id: 5,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل اپل مدل iPhone SE 2022 JA',
@@ -310,6 +315,7 @@ const products = [
                                           ],
                                    },
                                    {
+                                          _id:6,
                                           id: 6,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل اپل مدل iPhone 13 Mini',
@@ -373,6 +379,7 @@ const products = [
                                           ],
                                    },
                                    {
+                                          _id:7,
                                           id: 7,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل اپل مدل iPhone 13 Pro',
@@ -441,6 +448,7 @@ const products = [
                      {
                             title: 'سامسونگ', products: [
                                    {
+                                          _id:8,
                                           id: 1,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل سامسونگ مدل Galaxy S23',
@@ -505,6 +513,7 @@ const products = [
 
                                    },
                                    {
+                                          _id:9,
                                           id: 2,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل سامسونگ مدل Galaxy Z Fold',
@@ -569,6 +578,7 @@ const products = [
 
                                    },
                                    {
+                                          _id:10,
                                           id: 3,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل سامسونگ مدل Galaxy A24 4G',
@@ -633,6 +643,7 @@ const products = [
 
                                    },
                                    {
+                                          _id:11,
                                           id: 4,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل سامسونگ مدل Galaxy A54 5G',
@@ -697,6 +708,7 @@ const products = [
                                           ],
                                    },
                                    {
+                                          _id:12,
                                           id: 5,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل سامسونگ مدل Galaxy A13',
@@ -761,6 +773,7 @@ const products = [
                                           ],
                                    },
                                    {
+                                          _id:13,
                                           id: 6,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل سامسونگ مدل Galaxy A14',
@@ -825,6 +838,7 @@ const products = [
                                           ],
                                    },
                                    {
+                                          _id:14,
                                           id: 7,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل سامسونگ مدل Galaxy A34 5G',
@@ -893,6 +907,7 @@ const products = [
                      {
                             title: 'شیائومی', products: [
                                    {
+                                          _id:15,
                                           id: 1,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل شیائومی مدل Poco F5 ',
@@ -956,6 +971,7 @@ const products = [
                                           ],
                                    },
                                    {
+                                          _id:16,
                                           id: 2,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل شیائومی مدل Poco C40  ',
@@ -1020,6 +1036,7 @@ const products = [
 
                                    },
                                    {
+                                          _id:17,
                                           id: 3,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل شیائومی مدل Redmi Note 12 Pro 4G',
@@ -1084,6 +1101,7 @@ const products = [
                                           ],
                                    },
                                    {
+                                          _id:18,
                                           id: 4,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل شیائومی مدل Redmi Note 12 4G',
@@ -1149,6 +1167,7 @@ const products = [
 
                                    },
                                    {
+                                          _id:19,
                                           id: 5,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل شیائومی مدل Poco F5 Pro',
@@ -1213,6 +1232,7 @@ const products = [
 
                                    },
                                    {
+                                          _id:20,
                                           id: 6,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل شیائومی مدل Redmi Note 12 Pro Plus 5G',
@@ -1278,6 +1298,7 @@ const products = [
 
                                    },
                                    {
+                                          _id:21,
                                           id: 7,
                                           category: 'موبایل',
                                           cardName: 'گوشی موبایل شیائومی مدل Redmi Note 12 Explorer',
@@ -1348,6 +1369,7 @@ const products = [
        {
               title: 'لپ تاپ', products: [
                      {
+                            _id:22,
                             id: 1,
                             category: 'لپ تاپ',
                             cardName: 'لپ تاپ 13.3 اینچی اپل مدل MacBook Air ',
@@ -1410,6 +1432,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:23,
                             id: 2,
                             category: 'لپ تاپ',
                             cardName: 'لپ تاپ 13.6 اینچی اپل مدل MacBook Air-B M2 2022',
@@ -1473,6 +1496,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:24,
                             id: 3,
                             category: 'لپ تاپ',
                             cardName: 'لپ تاپ 14.1 اینچی ایسوس مدل Vivobook R465EA-EB1592',
@@ -1537,6 +1561,7 @@ const products = [
 
                      },
                      {
+                            _id:25,
                             id: 4,
                             category: 'لپ تاپ',
                             cardName: 'لپ تاپ 15.6 اینچی ایسوس مدل R565EP-EJ617',
@@ -1600,6 +1625,7 @@ const products = [
 
                      },
                      {
+                            _id:26,
                             id: 5,
                             category: 'لپ تاپ',
                             cardName: 'لپ تاپ 12.4 اینچی مایکروسافت مدل Surface Laptop Go-i5 16GB 256SSD',
@@ -1663,6 +1689,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:27,
                             id: 6,
                             category: 'لپ تاپ',
                             cardName: 'لپ تاپ 15.6 اینچی لنوو مدل IdeaPad 5 15ITL05-i5 8GB 512SSD MX450',
@@ -1727,6 +1754,7 @@ const products = [
 
                      },
                      {
+                            _id:28,
                             id: 7,
                             category: 'لپ تاپ',
                             cardName: 'لپ تاپ 14.2 اینچی اپل مدل 2023 MacBook Pro MPHG3',
@@ -1795,6 +1823,7 @@ const products = [
        {
               title: 'هارد اکسترنال', products: [
                      {
+                            _id:29,
                             id: 1,
                             category: 'هارد اکسترنال',
                             cardName: 'هارد اکسترنال ای دیتا مدل HD770G ظرفیت 2 ترابایت',
@@ -1857,6 +1886,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:30,
                             id: 2,
                             category: 'هارد اکسترنال',
                             cardName: 'هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 1 ترابایت',
@@ -1924,6 +1954,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:31,
                             id: 3,
                             category: 'هارد اکسترنال',
                             cardName: 'هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 2 ترابایت',
@@ -1987,6 +2018,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:32,
                             id: 4,
                             category: 'هارد اکسترنال',
                             cardName: 'هارد اکسترنال سیلیکون پاور مدل Armor A30 ظرفیت 1 ترابایت',
@@ -2053,6 +2085,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:33,
                             id: 5,
                             category: 'هارد اکسترنال',
                             cardName: 'هارد اکسترنال توشیبا مدل Canvio ‌‌Basics ظرفیت 4 ترابایت',
@@ -2116,6 +2149,7 @@ const products = [
 
                      },
                      {
+                            _id:34,
                             id: 6,
                             category: 'هارد اکسترنال',
                             cardName: 'هارددیسک اکسترنال وسترن دیجیتال مدل My Book Desktop ظرفیت 4 ترابایت',
@@ -2182,6 +2216,7 @@ const products = [
        {
               title: 'موس و کیبورد', products: [
                      {
+                            _id:35,
                             id: 1,
                             category: 'موس و کیبورد',
                             cardName: 'موس بی‌سیم اپل مدل Magic Mouse 2',
@@ -2248,6 +2283,7 @@ const products = [
                             link: 'https://www.digikala.com/product/dkp-109563/%D9%85%D9%88%D8%B3-%D8%A8%DB%8C%D8%B3%DB%8C%D9%85-%D8%A7%D9%BE%D9%84-%D9%85%D8%AF%D9%84-magic-mouse-2/#'
                      },
                      {
+                            _id:36,
                             id: 2,
                             category: 'موس و کیبورد',
                             cardName: 'ماوس مخصوص بازی ایفورتک مدل V8M',
@@ -2314,6 +2350,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:37,
                             id: 3,
                             category: 'موس و کیبورد',
                             cardName: 'ماوس مخصوص بازی لاجیتک مدل G402 Hyperion Fury',
@@ -2382,6 +2419,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:38,
                             id: 4,
                             category: 'موس و کیبورد',
                             cardName: 'کیبورد مخصوص بازی کورسیر مدل K100 RGB optical-mechanical',
@@ -2449,6 +2487,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:39,
                             id: 5,
                             category: 'موس و کیبورد',
                             cardName: 'کیبورد بی سیم مدل I8 Backlit',
@@ -2514,6 +2553,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:40,
                             id: 6,
                             category: 'موس و کیبورد',
                             cardName: 'کیبورد مخصوص بازی پرودو مدل pdx212',
@@ -2582,6 +2622,7 @@ const products = [
        {
               title: 'کنسول بازی', products: [
                      {
+                            _id:41,
                             id: 1,
                             category: 'کنسول بازی',
                             cardName: 'کنسول بازی سونی مدل Playstation 4 Slim',
@@ -2644,6 +2685,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:42,
                             id: 2,
                             category: 'کنسول بازی',
                             cardName: 'کنسول بازی سونی مدل Playstation 5 ',
@@ -2705,6 +2747,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:43,
                             id: 3,
                             category: 'کنسول بازی',
                             cardName: 'دسته بازی پلی استیشن 5 سونی',
@@ -2768,6 +2811,7 @@ const products = [
                             link: 'https://www.digikala.com/product/dkp-4033272/%D8%AF%D8%B3%D8%AA%D9%87-%D8%A8%D8%A7%D8%B2%DB%8C-%D9%BE%D9%84%DB%8C-%D8%A7%D8%B3%D8%AA%DB%8C%D8%B4%D9%86-5-%D8%B3%D9%88%D9%86%DB%8C-%D9%85%D8%AF%D9%84-dualsense-cfi-zct1w/'
                      },
                      {
+                            _id:44,
                             id: 4,
                             category: 'کنسول بازی',
                             off: 10,
@@ -2834,6 +2878,7 @@ const products = [
        {
               title: 'ساعت هوشمند', products: [
                      {
+                            _id:45,
                             id: 1,
                             category: 'ساعت هوشمند',
                             cardName: 'ساعت هوشمند اپل واچ  مدل Alpine Loop',
@@ -2900,6 +2945,7 @@ const products = [
 
                      },
                      {
+                            _id:46,
                             id: 2,
                             category: 'ساعت هوشمند',
                             cardName: 'ساعت هوشمند شیائومی مدل Redmi Watch 2 Lite',
@@ -2966,6 +3012,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:47,
                             id: 3,
                             category: 'ساعت هوشمند',
                             cardName: 'ساعت هوشمند سامسونگ مدل Galaxy Watch6',
@@ -3031,6 +3078,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:48,
                             id: 4,
                             category: 'ساعت هوشمند',
                             cardName: 'ساعت هوشمند اپل مدل Series 8 Aluminum 45mm',
@@ -3097,6 +3145,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:49,
                             id: 5,
                             category: 'ساعت هوشمند',
                             cardName: 'ساعت هوشمند سامسونگ مدل Galaxy Watch5',
@@ -3166,6 +3215,7 @@ const products = [
        {
               title: 'دوربین', products: [
                      {
+                            _id:50,
                             id: 1,
                             category: 'دوربین',
                             cardName: 'دوربین دیجیتال کانن مدل EOS 90D',
@@ -3232,6 +3282,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:52,
                             id: 2,
                             category: 'دوربین',
                             cardName: 'دوربین دیجیتال کانن مدل EOS 850D ',
@@ -3299,6 +3350,7 @@ const products = [
 
                      },
                      {
+                            _id:53,
                             id: 3,
                             category: 'دوربین',
                             cardName: 'دوربین دیجیتال بدون آینه سونی مدل Alpha A6400',
@@ -3365,6 +3417,7 @@ const products = [
                             ],
                      },
                      {
+                            _id:54,
                             id: 4,
                             category: 'دوربین',
                             cardName: 'دوربین دیجیتال کانن مدل EOS R5 C',
