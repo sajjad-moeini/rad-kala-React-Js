@@ -1,0 +1,67 @@
+.product-page-contant{
+       width: 90%;
+       padding-bottom: 5vh;
+       border-bottom: 3px solid gray;
+}
+.product-page-images-container-box{
+       border-radius: 1rem;
+       background-color: rgba(137, 137, 137, 0.279);
+       box-shadow: 0px 0px 10px 1px snow;
+}
+.product-md-lg-img-container{
+border-top-right-radius: 1rem;
+border-top-left-radius: 1rem;
+}
+.product-md-sm-img{
+       border: 1px solid #eeecec89;
+       background-color: #fff;
+       cursor: pointer;
+}
+.product-title{
+       font-size: 1.2rem;
+}
+.product-mini-infos{
+       color: #909090;
+       font-size: .8rem;
+}
+.product-mini-infos a{
+       color: #909090;
+}
+.color-box-title{
+       font-size: 1.2rem;
+}
+.color-box{
+       width: 40px;
+       height: 40px;
+       padding: .2rem;
+       background-color: #fff;
+       cursor: pointer;
+}
+.up-property-space{
+       height: 2vh;
+       border-radius: 1rem;
+       background-color: #c1c0c02a;
+}
+.product-properties-container{
+       margin-top: 7vh;
+}
+.property-sub{
+       color: #d8d6d6;
+       font-weight: 500;
+}
+.back-product{
+       font-size: .8rem;
+}
+.free-delivery{
+       width: 50%;
+       border: 1px solid rgba(141, 140, 140, 0.575);
+       border-radius: 1rem;
+}
+.radkala-options-title{
+       color: #909090;
+}
+.radkala-options-container{
+       padding: 10vh 5vw;
+       font-size: 1.2rem;
+       border-bottom: 4px solid #90909094;
+}
