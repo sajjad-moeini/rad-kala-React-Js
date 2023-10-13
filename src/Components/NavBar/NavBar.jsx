@@ -10,13 +10,24 @@ import { BiSearchAlt } from 'react-icons/bi'
 import { NavLink } from 'react-router-dom'
 export default function NavBar() {
 
+       const [isProductPage,setIsProductPage]=useState()
+useEffect(()=>{
+       if(document.title == 'محصول'){
+              setIsProductPage(true)
+       }else{
+              setIsProductPage(false)
+       }
+        
+})
        const products = useSelector((state) => state.products)
        return (
               <>
                      <Navbar expand="lg" >
                             <Container>
                                    <Navbar.Brand href="#home">
-                                          <img src="images/logo1.png" className='img-fluid' style={{ width: '100px' }} alt="logo" />
+                                          <img src={
+                                                 isProductPage ? "../../images/logo1.png" : "images/logo1.png"
+                                          } className='img-fluid' style={{ width: '100px' }} alt="logo" />
                                    </Navbar.Brand>
                                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                    <Navbar.Collapse id="basic-navbar-nav">

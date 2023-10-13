@@ -10,14 +10,12 @@ import { Link, NavLink } from 'react-router-dom';
 export default function Products() {
        const store = useSelector(state=>state)      
        const categories = useSelector(state => state.HomeCategories)
-       const [allProducts, setAllProducts] = useState([])
+       const [allProducts, setAllProducts] = useState([...store.products])
        const [showProducts,setShowProducts]= useState('همه')
        const [filtredProducts,setFiltredProducts] = useState()
-     
-
-              useEffect(()=>{
-                     setAllProducts([...store.products])
-              },[])
+       useEffect(()=>{
+              document.title = 'محصولات'
+       })
       
        useEffect(()=>{
               if(showProducts == 'همه'){

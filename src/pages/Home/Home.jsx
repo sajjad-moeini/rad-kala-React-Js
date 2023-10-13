@@ -10,6 +10,9 @@ export default function Home() {
        const allStoreProducts = useSelector(state => state.products)
        const [offProducts, setOffProducts] = useState([])
        const [newProducts, setNewProducts] = useState([])
+       useEffect(()=>{
+              document.title = 'خانه'
+       })
        useEffect(() => {
               allStoreProducts.forEach((product, index) => {
                      if (product.off > 0) {
