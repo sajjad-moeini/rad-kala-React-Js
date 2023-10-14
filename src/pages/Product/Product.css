@@ -65,3 +65,20 @@ border-top-left-radius: 1rem;
        font-size: 1.2rem;
        border-bottom: 4px solid #90909094;
 }
+.product-page-sections-link{
+       color: #ffffff98;
+}
+.product-page-sections-link:hover{
+color: #fff;
+}
+.product-page-more-info-section-title{
+       color: #d8d6d6;
+       border-bottom:  4px solid rgba(255, 0, 0, 0.63);
+       width: fit-content;
+}
+.product-page-more-info-section-text{
+color: #d8d6d6;
+}
+#product-page-comments-container{
+       margin: 15vh 0;
+}

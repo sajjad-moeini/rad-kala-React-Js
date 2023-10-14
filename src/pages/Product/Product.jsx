@@ -136,7 +136,7 @@ export default function Product() {
                             </div>
                             <div className='mx-1 fw-bolder'> : </div>
                             <div className='property-sub'>
-                              {prop.subTitle}
+                              {prop.subtitle}
                             </div>
                           </div>
                         ))
@@ -178,6 +178,35 @@ export default function Product() {
             }
 
           </div>
+
+          <div className="product-page-sections-container my-5 ps-4">
+            <div className="d-flex w-25 justify-content-between">
+              <a className='product-page-sections-link' href="#product-page-more-info-section ">
+                اطلاعات 
+              </a>
+              <a className='product-page-sections-link' href="#">
+                کامنت ها
+              </a>
+              <a className='product-page-sections-link' href="#">
+                پرسش ها
+              </a>
+            </div>
+          </div>
+
+          <div id="product-page-more-info-section" className='px-4'>
+            <div className="h4 product-page-more-info-section-title my-4">
+              {product[0].moreInfo.title}
+            </div>
+            <p className='product-page-more-info-section-text'>
+            {product[0].moreInfo.text}
+            </p>
+          </div>
+
+          <div id='product-page-comments-container' className='px-4 '>
+<div className="h4 my-4 text-light">
+  نظرات کاربران
+</div>
+          </div >
         </>
       }
 
