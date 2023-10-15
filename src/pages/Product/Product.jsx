@@ -85,23 +85,25 @@ export default function Product() {
                     <BsInfoCircleFill />
                   </div>
                   <hr className=' d-md-none text-light' />
-                  <div className="product-color- mt-4 ps-3">
-                    <div className="row text-light color-box-title h2">
-                      رنگ :    {product[0].colors.length} رنگ
+                {
+                  product[0].colors && <div className="product-color- mt-4 ps-3">
+                  <div className="row text-light color-box-title h2">
+                    رنگ :    {product[0].colors.length} رنگ
 
-                    </div>
-                    <div className="all-color-boxes d-flex ">
-                      {
-                        product[0].colors.map((color, index) => (
-                          <div className="color-box rounded-circle me-2 my-2" key={index}>
-                            <div className='w-100 h-100 rounded-circle' style={{ background: color }} >
-                            </div>
-                          </div>
-                        ))
-                      }
-
-                    </div>
                   </div>
+                  <div className="all-color-boxes d-flex ">
+                    {
+                      product[0].colors.map((color, index) => (
+                        <div className="color-box rounded-circle me-2 my-2" key={index}>
+                          <div className='w-100 h-100 rounded-circle' style={{ background: color }} >
+                          </div>
+                        </div>
+                      ))
+                    }
+
+                  </div>
+                </div>
+                }  
                   <div className=' d-md-none up-property-space'></div>
 
                   <div className="d-flex justify-content-between">
@@ -297,8 +299,28 @@ export default function Product() {
           </div >
 
           <div className="product-price bg-danger d-flex justify-content-around align-items-center">
-            <div className="h4 text-light">
-              {product[0].price.toLocaleString()} تومان
+            <div className="peoduct-price-container">
+
+{
+   product[0].off > 0 ? (
+
+    <div className="h4 text-light product-page-final-price"> 
+    {(product[0].price * ((100-product[0].off)/100) ).toLocaleString()} تومان
+    </div>
+   ) : (
+    <div className="h4 text-light product-page-final-price"> 
+    {product[0].price.toLocaleString()} تومان
+    </div>
+   )
+}
+
+           {product[0].off > 0 &&
+           (
+            <div className='product-page-price h6 text-center'>
+            {product[0].price.toLocaleString()} تومان
+
+            </div>
+           )} 
             </div>
             <a href="#" className='btn btn-primary'>
               افزودن به سبد خرید
