@@ -82,3 +82,26 @@ color: #d8d6d6;
 #product-page-comments-container{
        margin: 15vh 0;
 }
+.comment-container{
+       border: 1px solid white;
+       padding: 1vh 2vw;
+       border-radius: 1rem;
+       background-color: #9090904e;
+}
+.comment-user-name{
+       font-size: 1rem;
+       color: #bcbaba;
+}
+.user-new-comment-container{
+       width: 80%;
+}
+.your-comment-title{
+       color: #d0cdcd;
+       font-size: 1.2rem;
+}
+.product-price{
+position: fixed;
+width: 100%;
+bottom: 0;
+height: 10vh;
+}

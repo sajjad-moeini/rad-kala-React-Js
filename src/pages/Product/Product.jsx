@@ -182,12 +182,12 @@ export default function Product() {
           <div className="product-page-sections-container my-5 ps-4">
             <div className="d-flex w-25 justify-content-between">
               <a className='product-page-sections-link' href="#product-page-more-info-section ">
-                اطلاعات 
+                اطلاعات
               </a>
-              <a className='product-page-sections-link' href="#">
+              <a className='product-page-sections-link' href="#product-page-comments-container">
                 کامنت ها
               </a>
-              <a className='product-page-sections-link' href="#">
+              <a className='product-page-sections-link' href="#product-page-question-container">
                 پرسش ها
               </a>
             </div>
@@ -198,15 +198,113 @@ export default function Product() {
               {product[0].moreInfo.title}
             </div>
             <p className='product-page-more-info-section-text'>
-            {product[0].moreInfo.text}
+              {product[0].moreInfo.text}
             </p>
           </div>
 
           <div id='product-page-comments-container' className='px-4 '>
-<div className="h4 my-4 text-light">
-  نظرات کاربران
-</div>
+            <div className="h4 my-4 text-light">
+              نظرات کاربران
+            </div>
+            <div className="row">
+              <div className="col-12 col-md-3">
+                <div className="your-comment-title">
+                  لطفا نظر خود را ثبت کنید
+                </div>
+                <div className="user-new-comment-container mx-auto">
+                  <select className='form-control my-4' >
+                    <option value="-1">
+                      امتیاز شما به کالا
+                    </option>
+                    <option value="1">
+                      بسیار بد
+                    </option>
+                    <option value="2">
+                      بد
+                    </option>
+                    <option value="3">
+                      متوسط
+                    </option>
+                    <option value="4">
+                      خوب
+                    </option>
+                    <option value="5">
+                      بسیار خوب
+                    </option>
+                  </select>
+                  <textarea cols="30" rows="10" className='form-control' placeholder='نظر شما ...'></textarea>
+                  <div className=' d-flex justify-content-end mt-4'>
+                    <a href="#" className='btn btn-primary ms-auto'>
+                      ثبت نظر
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-9">
+                {product[0].comments.map((comment, index) => (
+                  <div className='comment-container mt-2' key={index}>
+                    <div className="comment-rate text-light d-flex justify-content-start align-items-center fs-5">
+                      <AiFillStar className='text-warning ms-3' />
+                      <div className='me-3'>   {comment.rate} </div>
+                      <div className="comment-user-name ms-5">
+                        سجاد معینی راد
+                      </div>
+                    </div>
+                    <div className="comment text-light my-3">
+                      {comment.title}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div >
+
+          <div id='product-page-question-container ' className='px-4 my-5'>
+            <div className="h4 my-4 text-light">
+              پرسش کاربران
+            </div>
+            <div className="row">
+              <div className="col-12 col-md-3">
+                <div className="your-comment-title">
+                  لطفا پرسش خود را ثبت کنید
+                </div>
+                <div className="user-new-comment-container mx-auto mt-3">
+                  <textarea cols="30" rows="10" className='form-control' placeholder='پرسش شما ...'></textarea>
+                  <div className=' d-flex justify-content-end mt-4'>
+                    <a href="#" className='btn btn-primary ms-auto'>
+                      ثبت پرسش
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-9">
+                {product[0].questions.map((quez, index) => (
+                  <div className='comment-container mt-2' key={index}>
+                    <div className="comment-rate text-light d-flex justify-content-start align-items-center fs-5">
+                      <div className="comment-user-name ms-5">
+                        سجاد معینی راد
+                      </div>
+                    </div>
+                    <div className="comment text-light my-3">
+                      {quez}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div >
+
+          <div className="product-price bg-danger d-flex justify-content-around align-items-center">
+            <div className="h4 text-light">
+              {product[0].price.toLocaleString()} تومان
+            </div>
+            <a href="#" className='btn btn-primary'>
+              افزودن به سبد خرید
+            </a>
+          </div>
+          
         </>
       }
 
