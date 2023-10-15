@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Products.css'
 import { useDispatch, useSelector } from 'react-redux'
-import Dropdown from 'react-bootstrap/Dropdown';
-import ProductsCard from '../../Components/ProductsCard/ProductsCard'
 import { Link, NavLink,Outlet } from 'react-router-dom';
 
 

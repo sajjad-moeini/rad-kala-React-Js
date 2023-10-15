@@ -4,6 +4,9 @@ import { useSelector } from 'react-redux'
 import { AiFillStar, AiFillLike } from 'react-icons/ai'
 import { BsInfoCircleFill } from 'react-icons/bs'
 import { BiCheck } from 'react-icons/bi'
+import {Link} from 'react-router-dom'
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 export default function Product() {
   const [productId, setProductId] = useState()
   const products = useSelector(state => (state.products))
@@ -11,6 +14,7 @@ export default function Product() {
   const [product, setProduct] = useState({})
   const [largeImgSrc, setLargeImgSrc] = useState('')
   const [colorFlg, setColorFlg] = useState(true)
+  const MySwal = withReactContent(Swal)
   useEffect(() => {
     document.title = 'محصول'
     setProductId(document.location.pathname.slice(18))
@@ -95,7 +99,9 @@ export default function Product() {
                     {
                       product[0].colors.map((color, index) => (
                         <div className="color-box rounded-circle me-2 my-2" key={index}>
-                          <div className='w-100 h-100 rounded-circle' style={{ background: color }} >
+                          <div className='w-100 h-100 rounded-circle d-flex-centering' style={{ background: color }} onClick={(e)=>{
+                             !e.target.innerHTML ? (e.target.innerHTML= `✔`) :(e.target.innerHTML= ``) 
+                          }} >
                           </div>
                         </div>
                       ))
@@ -322,7 +328,18 @@ export default function Product() {
             </div>
            )} 
             </div>
-            <a href="#" className='btn btn-primary'>
+            <a  onClick={()=>{
+             MySwal.fire({
+              title: 
+               ' محصول با موفقیت به سبد خرید اضافه شد'
+              ,
+              icon:'success',
+              confirmButtonText:'ممنون',
+              confirmButtonColor:'#0d50b5'
+              
+             
+            })
+            }}  className='btn btn-primary'>
               افزودن به سبد خرید
             </a>
           </div>
