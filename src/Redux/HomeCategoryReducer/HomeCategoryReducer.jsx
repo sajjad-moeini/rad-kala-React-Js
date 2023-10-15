@@ -3,43 +3,43 @@ const categories =[
        {
               title:'لپ تاپ' ,
               imgSrc: 'images/category/laptop.jpg',
-              path:'/products/laptops',
+              path:'laptops',
               anim:'fade-down'
        },
        {
               title:'موبایل' ,
               imgSrc: 'images/category/phones.png',
-              path:'/products/mobile',
+              path:'mobile',
               anim:'fade-up'
        },
        {
               title:'ساعت هوشمند',
               imgSrc: 'images/category/smartWatch.jpg',
-              path:'/products/smartWatch',
+              path:'smartWatch',
               anim:'fade-down'
        },
        {
               title:'دوربین',
               imgSrc: 'images/category/camera.jpg',
-              path:'/products/camera',
+              path:'camera',
               anim:'fade-up'
        },
        {
               title:'هارد اکسترنال',
               imgSrc: 'images/category/hardExternal.webp',
-              path:'/products/hardExternal',
+              path:'hardExternal',
               anim:'fade-down'
        },
        {
               title:'موس و کیبورد',
               imgSrc: 'images/category/mouse.webp',
-              path:'/products/mouseAndKeyBoard',
+              path:'mouseAndKeyBoard',
               anim:'fade-up'
        },
        {
               title:'کنسول بازی' ,
               imgSrc: 'images/category/consule.jpg',
-              path:'/products/consule',
+              path:'consule',
               anim:'fade-down'
        },
 ]

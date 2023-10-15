@@ -1,3 +1,25 @@
 body{
        overflow-x: hidden !important;
 }
+.products-page-categories{
+       width: 90%;
+       flex-wrap: wrap !important;
+}
+.products-page-category-item{
+       text-wrap: nowrap;
+       transition: all .5s;
+       font-size: 1.2rem;
+       font-weight: 500;
+}
+.products-page-category-item-active{
+       text-wrap: nowrap;
+       transition: all .5s;
+       background-color: aliceblue !important;
+       color: royalblue !important;  
+       font-size: 1.2rem;
+       font-weight: 500;
+}
+.products-page-category-item:hover{
+       background-color: aliceblue !important;
+       color: royalblue !important;
+}
