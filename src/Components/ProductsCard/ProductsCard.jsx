@@ -4,13 +4,15 @@ import { Link } from 'react-router-dom'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useSelector } from 'react-redux';
+import { useContext } from 'react';
+import ProjectContext from '../../Contexts/ProjectContext';
 
 export default function ProductsCard({ category }) {
-
+       const projectContext = useContext(ProjectContext)
        const products = useSelector((state) => (state.products))
        const [filtredProducts, setFiltredProduct] = useState([])
 useEffect(()=>{
-       document.title = 'فروشگاه'
+       projectContext.setLogoSrc('../images/logo1.png')
 })
        useEffect(()=>{
                AOS.init();

@@ -6,11 +6,9 @@ import { Link, NavLink,Outlet } from 'react-router-dom';
 
 
 export default function Products() {
-       const store = useSelector(state=>state)      
+       
        const categories = useSelector(state => state.HomeCategories)
-       useEffect(()=>{
-              document.title = 'محصولات'
-       })
+    
       
       
 

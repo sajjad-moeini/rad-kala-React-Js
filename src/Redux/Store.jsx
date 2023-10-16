@@ -6,6 +6,8 @@ import HomeReadingSectionReducer from "./HomeReadingSectionReducer/HomeReadingSe
 import HomeCompanyLogoReducer from "./HomeCompanyLogoReducer/HomeCompanyLogoReducer";
 import FooterUlLinks from "./FooterUlLinks/FooterUlLinks";
 import RadKalaProductOptionsReducer from "./RadKalaProductOptionsReducer/RadKalaProductOptionsReducer";
+import UsersReducer from "./UsersReducer/UsersReducer";
+import CartProductsReducer from "./CartProductsReducer/CartProductsReducer";
 const Store = legacy_createStore(combineReducers({
        products : ProductsReducer,
        HomeBg : HomeBgReducer,
@@ -13,6 +15,8 @@ const Store = legacy_createStore(combineReducers({
        HomeReadingSection: HomeReadingSectionReducer,
        HomeCompanyLogo : HomeCompanyLogoReducer,
        FooterItems : FooterUlLinks,
-       RadKalaOption : RadKalaProductOptionsReducer
+       RadKalaOption : RadKalaProductOptionsReducer,
+       Users:UsersReducer,
+       CartItems:CartProductsReducer
 }))
 export default Store

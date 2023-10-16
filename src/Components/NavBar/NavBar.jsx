@@ -4,43 +4,73 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Dropdown from 'react-bootstrap/Dropdown';
 import { useSelector } from 'react-redux/es/hooks/useSelector.js';
 import { BsCart3 } from 'react-icons/bs'
 import { BiSearchAlt } from 'react-icons/bi'
-import { NavLink } from 'react-router-dom'
-export default function NavBar() {
+import { NavLink, useNavigate } from 'react-router-dom'
+import { useContext } from 'react';
+import ProjectContext from '../../Contexts/ProjectContext';
 
+export default function NavBar() {
+       const projectContex = useContext(ProjectContext)
        const products = useSelector((state) => state.products)
+const navigate = useNavigate()
+const logOutHandler =() =>{
+       projectContex.setIsLogin(false)
+navigate('/')
+}
+
        return (
               <>
                      <Navbar expand="lg" >
                             <Container>
                                    <Navbar.Brand href="#home">
-                                          <img src={
-                                                ((document.title == 'محصول') && ("../../images/logo1.png")) || ((document.title == 'فروشگاه') && ("../../../images/logo1.png")) || ((document.title == 'حساب کاربری') && ("../../../images/logo1.png"))|| ("images/logo1.png")
-                                          } className='img-fluid' style={{ width: '100px' }} alt="logo" />
+                                          <img src={projectContex.logoSrc} className='img-fluid' style={{ width: '100px' }} alt="logo" />
                                    </Navbar.Brand>
                                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                    <Navbar.Collapse id="basic-navbar-nav">
                                           <Nav className="me-auto d-flex-centering ms-4">
-                                                 
-                                                        <NavLink className={(item)=>(item.isActive ? 'nav-items navbar-active-item' :'nav-items')} to={'/'}>
-                                                               صفحه اصلی
-                                                        </NavLink>
 
-                                                 
-                                                        <NavLink className={(item)=>(item.isActive ? 'nav-items navbar-active-item' :'nav-items')} to={'/products/all'}>
-                                                               محصولات
-                                                        </NavLink>
-                                                 
+                                                 <NavLink className={'nav-items'} to={'/'}>
+                                                        صفحه اصلی
+                                                 </NavLink>
 
-                                                 
-                                                        <NavLink className={(item)=>(item.isActive ? 'nav-items navbar-active-item' :'nav-items')} to={'/account/login'}>
-                                                               ورود | عضویت
-                                                        </NavLink>
-                                                 
+
+                                                 <NavLink className={'nav-items'} to={'/products/all'}>
+                                                        محصولات
+                                                 </NavLink>
+
+                                                 {
+                                                  projectContex.isLogin && projectContex.isLogin ? (<Dropdown>
+                                                        <Dropdown.Toggle className={'nav-items'} style={{ background: 'transparent', border: 'none' }} id="dropdown-basic">
+                                                               حساب کاربری
+                                                        </Dropdown.Toggle>
+
+                                                        <Dropdown.Menu>
+                                                               <Dropdown.Item >
+                                                                      اطلاعات حساب کاربری
+                                                               </Dropdown.Item>
+                                                               <Dropdown.Item >
+                                                                      سابقه خرید
+                                                               </Dropdown.Item>
+                                                               <Dropdown.Item >
+                                                                      پیگیری خرید
+                                                               </Dropdown.Item>
+                                                               <Dropdown.Item onClick={()=>{logOutHandler()}}>
+                                                                      خروج
+                                                               </Dropdown.Item>
+                                                        </Dropdown.Menu>
+                                                 </Dropdown>) : (<NavLink className={'nav-items'} to={'/account/login'}>
+                                                                      ورود | عضویت
+                                                               </NavLink>)
+                                                        
+                                                 }
+
+
+
                                                  <Nav.Link >
-                                                        <BsCart3 className='cart-icon' />
+                                                        <BsCart3 className='cart-icon' onClick={()=>navigate('/cart')} />
                                                  </Nav.Link>
                                           </Nav>
                                           <Nav  >

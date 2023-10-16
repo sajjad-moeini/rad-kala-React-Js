@@ -1,23 +1,34 @@
 import React, { useEffect, useState } from 'react'
 import './Product.css'
-import { useSelector } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import { AiFillStar, AiFillLike } from 'react-icons/ai'
 import { BsInfoCircleFill } from 'react-icons/bs'
 import { BiCheck } from 'react-icons/bi'
-import {Link} from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
+import ProjectContext from '../../Contexts/ProjectContext'
+import { useContext } from 'react'
+
+
+
 export default function Product() {
   const [productId, setProductId] = useState()
   const products = useSelector(state => (state.products))
   const radKalaOptions = useSelector(state => (state.RadKalaOption))
+  const cart = useSelector((state) => (state.CartItems))
   const [product, setProduct] = useState({})
   const [largeImgSrc, setLargeImgSrc] = useState('')
-  const [colorFlg, setColorFlg] = useState(true)
   const MySwal = withReactContent(Swal)
+  const navigate = useNavigate()
+  const dispatch = useDispatch()
+
+
+  const projectConte = useContext(ProjectContext)
   useEffect(() => {
     document.title = 'محصول'
     setProductId(document.location.pathname.slice(18))
+    projectConte.setLogoSrc('../../images/logo1.png')
 
   })
   useEffect(() => {
@@ -27,7 +38,6 @@ export default function Product() {
     product[0] && setLargeImgSrc(`../../${product[0].mainImg}`)
   }, [product])
 
-  product[0] && console.log(product[0])
 
 
   return (
@@ -89,27 +99,27 @@ export default function Product() {
                     <BsInfoCircleFill />
                   </div>
                   <hr className=' d-md-none text-light' />
-                {
-                  product[0].colors && <div className="product-color- mt-4 ps-3">
-                  <div className="row text-light color-box-title h2">
-                    رنگ :    {product[0].colors.length} رنگ
+                  {
+                    product[0].colors && <div className="product-color- mt-4 ps-3">
+                      <div className="row text-light color-box-title h2">
+                        رنگ :    {product[0].colors.length} رنگ
 
-                  </div>
-                  <div className="all-color-boxes d-flex ">
-                    {
-                      product[0].colors.map((color, index) => (
-                        <div className="color-box rounded-circle me-2 my-2" key={index}>
-                          <div className='w-100 h-100 rounded-circle d-flex-centering' style={{ background: color }} onClick={(e)=>{
-                             !e.target.innerHTML ? (e.target.innerHTML= `✔`) :(e.target.innerHTML= ``) 
-                          }} >
-                          </div>
-                        </div>
-                      ))
-                    }
+                      </div>
+                      <div className="all-color-boxes d-flex ">
+                        {
+                          product[0].colors.map((color, index) => (
+                            <div className="color-box rounded-circle me-2 my-2" key={index}>
+                              <div className='w-100 h-100 rounded-circle d-flex-centering' style={{ background: color }} onClick={(e) => {
+                                !e.target.innerHTML ? (e.target.innerHTML = `✔`) : (e.target.innerHTML = ``)
+                              }} >
+                              </div>
+                            </div>
+                          ))
+                        }
 
-                  </div>
-                </div>
-                }  
+                      </div>
+                    </div>
+                  }
                   <div className=' d-md-none up-property-space'></div>
 
                   <div className="d-flex justify-content-between">
@@ -307,43 +317,57 @@ export default function Product() {
           <div className="product-price bg-danger d-flex justify-content-around align-items-center">
             <div className="peoduct-price-container">
 
-{
-   product[0].off > 0 ? (
+              {
+                product[0].off > 0 ? (
 
-    <div className="h4 text-light product-page-final-price"> 
-    {(product[0].price * ((100-product[0].off)/100) ).toLocaleString()} تومان
-    </div>
-   ) : (
-    <div className="h4 text-light product-page-final-price"> 
-    {product[0].price.toLocaleString()} تومان
-    </div>
-   )
-}
+                  <div className="h4 text-light product-page-final-price">
+                    {(product[0].price * ((100 - product[0].off) / 100)).toLocaleString()} تومان
+                  </div>
+                ) : (
+                  <div className="h4 text-light product-page-final-price">
+                    {product[0].price.toLocaleString()} تومان
+                  </div>
+                )
+              }
 
-           {product[0].off > 0 &&
-           (
-            <div className='product-page-price h6 text-center'>
-            {product[0].price.toLocaleString()} تومان
+              {product[0].off > 0 &&
+                (
+                  <div className='product-page-price h6 text-center'>
+                    {product[0].price.toLocaleString()} تومان
 
+                  </div>
+                )}
             </div>
-           )} 
-            </div>
-            <a  onClick={()=>{
-             MySwal.fire({
-              title: 
-               ' محصول با موفقیت به سبد خرید اضافه شد'
-              ,
-              icon:'success',
-              confirmButtonText:'ممنون',
-              confirmButtonColor:'#0d50b5'
-              
-             
-            })
-            }}  className='btn btn-primary'>
+            <button onClick={() => {
+
+              let newCartItem = {
+                id: projectConte.cartItems.length + 1,
+                name: product[0].cardName,
+                count: 1,
+                price: product[0].price,
+                off: product[0].off
+              }
+              projectConte.setCartItems(prev => ([...prev, newCartItem]))
+
+              MySwal.fire({
+                title:
+                  ' محصول با موفقیت به سبد خرید اضافه شد'
+                ,
+                icon: 'success',
+                confirmButtonText: 'ممنون',
+                confirmButtonColor: '#0d50b5'
+
+
+              }).then(res => {
+                if (res.isConfirmed) {
+                  navigate('/products/all')
+                }
+              })
+            }} className='btn btn-primary'>
               افزودن به سبد خرید
-            </a>
+            </button>
           </div>
-          
+
         </>
       }
 

@@ -2,6 +2,7 @@ import Login from "./Components/Login/Login";
 import ProductsCard from "./Components/ProductsCard/ProductsCard";
 import Register from "./Components/Register/Register";
 import Account from "./pages/Account/Account";
+import Cart from "./pages/Cart/Cart";
 import Home from "./pages/Home/Home";
 import Product from "./pages/Product/Product";
 import Products from "./pages/Products/Products";
@@ -23,6 +24,7 @@ const Router =[
               { path: 'login' , element: <Login />},
               { path: 'register' , element: <Register />},
        ]},
+       { path: '/cart' , element: <Cart />},
 ]
 
 export default Router
