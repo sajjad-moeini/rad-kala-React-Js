@@ -1,4 +1,7 @@
+import Login from "./Components/Login/Login";
 import ProductsCard from "./Components/ProductsCard/ProductsCard";
+import Register from "./Components/Register/Register";
+import Account from "./pages/Account/Account";
 import Home from "./pages/Home/Home";
 import Product from "./pages/Product/Product";
 import Products from "./pages/Products/Products";
@@ -16,6 +19,10 @@ const Router =[
               { path: 'laptops' , element: <ProductsCard category={'laptops'} />},
        ]},
        { path: '/products/product/*' , element: <Product />},
+       { path: '/account/login' , element: <Account /> , children:[
+              { path: 'login' , element: <Login />},
+              { path: 'register' , element: <Register />},
+       ]},
 ]
 
 export default Router

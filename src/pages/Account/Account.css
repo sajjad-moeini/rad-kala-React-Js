@@ -1,0 +1,18 @@
+.account-sections-container{
+       height: 10vh;
+       width: 100vw;
+     
+}
+
+.account-sections-title{
+       border-radius: 1rem;
+       color: #777777;
+       background-color: #7777771c;
+}
+.account-sections-title:hover{
+       color: aliceblue;
+}
+.account-sections-title-active{
+       color: aliceblue;
+       background-color: transparent !important;
+}
