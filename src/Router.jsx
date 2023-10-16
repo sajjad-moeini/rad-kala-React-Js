@@ -19,7 +19,7 @@ const Router =[
               { path: 'laptops' , element: <ProductsCard category={'laptops'} />},
        ]},
        { path: '/products/product/*' , element: <Product />},
-       { path: '/account/login' , element: <Account /> , children:[
+       { path: '/account' , element: <Account /> , children:[
               { path: 'login' , element: <Login />},
               { path: 'register' , element: <Register />},
        ]},

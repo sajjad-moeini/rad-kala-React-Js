@@ -1,7 +1,11 @@
 import React from 'react'
 import './Account.css'
 import { NavLink, Outlet } from 'react-router-dom'
+import { useEffect } from 'react'
 export default function Account() {
+  useEffect(()=>{
+    document.title ='حساب کاربری'
+  })
   return (
     <>
     <div className="row account-sections-container mt-5">

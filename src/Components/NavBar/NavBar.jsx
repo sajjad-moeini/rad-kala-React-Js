@@ -17,7 +17,7 @@ export default function NavBar() {
                             <Container>
                                    <Navbar.Brand href="#home">
                                           <img src={
-                                                ((document.title == 'محصول') && ("../../images/logo1.png")) || ((document.title == 'فروشگاه') && ("../../../images/logo1.png")) || ("images/logo1.png")
+                                                ((document.title == 'محصول') && ("../../images/logo1.png")) || ((document.title == 'فروشگاه') && ("../../../images/logo1.png")) || ((document.title == 'حساب کاربری') && ("../../../images/logo1.png"))|| ("images/logo1.png")
                                           } className='img-fluid' style={{ width: '100px' }} alt="logo" />
                                    </Navbar.Brand>
                                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -35,7 +35,7 @@ export default function NavBar() {
                                                  
 
                                                  
-                                                        <NavLink className={(item)=>(item.isActive ? 'nav-items navbar-active-item' :'nav-items')} to={'/account'}>
+                                                        <NavLink className={(item)=>(item.isActive ? 'nav-items navbar-active-item' :'nav-items')} to={'/account/login'}>
                                                                ورود | عضویت
                                                         </NavLink>
                                                  
