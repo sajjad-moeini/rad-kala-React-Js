@@ -16,15 +16,14 @@ export default function Product() {
   const [productId, setProductId] = useState()
   const products = useSelector(state => (state.products))
   const radKalaOptions = useSelector(state => (state.RadKalaOption))
-  const cart = useSelector((state) => (state.CartItems))
   const [product, setProduct] = useState({})
   const [largeImgSrc, setLargeImgSrc] = useState('')
   const MySwal = withReactContent(Swal)
   const navigate = useNavigate()
   const dispatch = useDispatch()
   const [choosenColor, setChoosenColor] = useState('')
-
   const projectConte = useContext(ProjectContext)
+
   useEffect(() => {
     document.title = 'محصول'
     setProductId(document.location.pathname.slice(18))
@@ -38,7 +37,46 @@ export default function Product() {
     product[0] && setLargeImgSrc(`../../${product[0].mainImg}`)
   }, [product])
 
+const addToCartAction =()=>{
+let addToCartFlg = true
+let cartItems = [...projectConte.cartItems]
+cartItems.forEach(item =>{
+  if(item._id == product[0]._id){
+    item.count += 1
+    addToCartFlg=false
+  }
+})
 
+console.log(cartItems)
+
+  let newCartItem = {
+    _id:product[0]._id,
+    id: projectConte.cartItems.length + 1,
+    name: product[0].cardName,
+    count: 1,
+    price: product[0].price,
+    off: product[0].off,
+    color: choosenColor,
+    image: product[0].mainImg
+  }
+  addToCartFlg ? projectConte.setCartItems(prev => ([...prev, newCartItem])): projectConte.setCartItems([...cartItems])
+
+ 
+  MySwal.fire({
+    title:
+      ' محصول با موفقیت به سبد خرید اضافه شد'
+    ,
+    icon: 'success',
+    confirmButtonText: 'ممنون',
+    confirmButtonColor: '#0d50b5'
+
+
+  }).then(res => {
+    if (res.isConfirmed) {
+      navigate('/products/all')
+    }
+  })
+}
 
   return (
     <>
@@ -339,39 +377,7 @@ export default function Product() {
                   </div>
                 )}
             </div>
-            <button onClick={() => {
-
-              let newCartItem = {
-                _id:product[0]._id,
-                id: projectConte.cartItems.length + 1,
-                name: product[0].cardName,
-                count: 1,
-                price: product[0].price,
-                off: product[0].off,
-                color: choosenColor,
-                image: product[0].mainImg
-              }
-              
-              projectConte.setCartItems(prev => ([...prev, newCartItem]))
-              
-                
-
-
-              MySwal.fire({
-                title:
-                  ' محصول با موفقیت به سبد خرید اضافه شد'
-                ,
-                icon: 'success',
-                confirmButtonText: 'ممنون',
-                confirmButtonColor: '#0d50b5'
-
-
-              }).then(res => {
-                if (res.isConfirmed) {
-                  navigate('/products/all')
-                }
-              })
-            }} className='btn btn-primary'>
+            <button onClick={addToCartAction} className='btn btn-primary'>
               افزودن به سبد خرید
             </button>
           </div>
