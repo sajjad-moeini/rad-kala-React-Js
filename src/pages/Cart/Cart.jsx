@@ -6,17 +6,8 @@ import CardProduct from '../../Components/CardProduct/CardProduct'
 export default function Cart() {
   const projectContex = useContext(ProjectContext)
   const cartItems = projectContex.cartItems
-  const [allPrice,setAllPrice ]= useState([])
-  const [alloffs,setAlloffs ]= useState([])
-  const [payCoast,setPayCoast] =useState([])
-const  getAllPrice = (price,id)=>{
-  let newPrice = {price,id}
-  allPrice.forEach(pricee=>{
-    pricee && pricee.id !== id ? setAllPrice( (prev) => ([...prev , newPrice])) : pricee.price = price
-   
-  })
-  console.log(allPrice)
-}
+ 
+
   return (
     <>
       <div className="container px-4">
@@ -30,7 +21,7 @@ const  getAllPrice = (price,id)=>{
                 قیمت کالاها ({cartItems.length})
               </div>
               <div className='all-products-price'>
-                {allPrice.toLocaleString()} تومان
+                {projectContex.allPayPrice.toLocaleString()} تومان
               </div>
             </div>
             <div className="d-flex justify-content-around align-items-center">
@@ -38,7 +29,7 @@ const  getAllPrice = (price,id)=>{
                 جمع سبد خرید
               </div>
               <div className='all-products-final-price text-light'>
-                {payCoast.toLocaleString()} تومان
+                {projectContex.payCoast.toLocaleString()} تومان
               </div>
             </div>
             <div className="d-flex justify-content-around align-items-center">
@@ -46,13 +37,13 @@ const  getAllPrice = (price,id)=>{
                 سود شما از خرید
               </div>
               <div className='all-products-final-price text-danger'>
-                {alloffs.toLocaleString()} تومان
+                {projectContex.alloffsPrice.toLocaleString()} تومان
               </div>
             </div>
           </div>
           <div className="col-12 col-md-8 order-1 order-md-1 mt-5">
-            {cartItems.map((product,index)=>(
-              <CardProduct getAllPrice={getAllPrice} {...product} key={index} />
+            {cartItems.map((product, index) => (
+              <CardProduct  {...product} key={index} />
             ))}
           </div>
         </div>
