@@ -41,7 +41,7 @@ const addToCartAction =()=>{
 let addToCartFlg = true
 let cartItems = [...projectConte.cartItems]
 cartItems.forEach(item =>{
-  if(item._id == product[0]._id){
+  if(item._id == product[0]._id && item.color == choosenColor){
     item.count += 1
     addToCartFlg=false
   }
