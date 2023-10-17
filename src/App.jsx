@@ -23,14 +23,14 @@ function App() {
     getAllPrice(cartItems)
   }, [cartItems])
   const getAllPrice = (cartProducts) => {
-    const cardPrices = []
-    const cardOffPrices = []
+    const cardPrices = [0]
+    const cardOffPrices = [0]
     cartProducts.forEach(product => {
       cardPrices.push(Number(product.price * product.count))
       cardOffPrices.push(Number((product.price * ((100 - product.off) / 100)) * product.count))
     })
-    setAllPayPrice(cardPrices.reduce((prev, current) => (prev + current)))
-    setPayCoast(cardOffPrices.reduce((prev, current) => (prev + current)))
+     setAllPayPrice(cardPrices.reduce((prev, current) => (prev + current)))
+     setPayCoast(cardOffPrices.reduce((prev, current) => (prev + current)))
   }
 
 
