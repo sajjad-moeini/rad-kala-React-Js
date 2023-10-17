@@ -22,7 +22,7 @@ export default function Product() {
   const MySwal = withReactContent(Swal)
   const navigate = useNavigate()
   const dispatch = useDispatch()
-
+  const [choosenColor, setChoosenColor] = useState('')
 
   const projectConte = useContext(ProjectContext)
   useEffect(() => {
@@ -111,6 +111,7 @@ export default function Product() {
                             <div className="color-box rounded-circle me-2 my-2" key={index}>
                               <div className='w-100 h-100 rounded-circle d-flex-centering' style={{ background: color }} onClick={(e) => {
                                 !e.target.innerHTML ? (e.target.innerHTML = `✔`) : (e.target.innerHTML = ``)
+                                setChoosenColor(color)
                               }} >
                               </div>
                             </div>
@@ -341,13 +342,20 @@ export default function Product() {
             <button onClick={() => {
 
               let newCartItem = {
+                _id:product[0]._id,
                 id: projectConte.cartItems.length + 1,
                 name: product[0].cardName,
                 count: 1,
                 price: product[0].price,
-                off: product[0].off
+                off: product[0].off,
+                color: choosenColor,
+                image: product[0].mainImg
               }
+              
               projectConte.setCartItems(prev => ([...prev, newCartItem]))
+              
+                
+
 
               MySwal.fire({
                 title:

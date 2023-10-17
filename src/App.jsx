@@ -20,7 +20,7 @@ function App() {
         isLogin,
         setIsLogin,
         cartItems,
-        setCartItems
+        setCartItems,
       }}>
         <NavBar />
         <div id="content">

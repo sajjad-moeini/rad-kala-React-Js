@@ -34,3 +34,19 @@
        left: 10%;
        color: #444;
 }
+.cart-badge{
+width: 70%;
+       padding: .05rem;
+       top: 0;
+       right: -15%;
+       font-weight: 500;
+       animation: cartAnim 2s alternate infinite ;
+}
+@keyframes cartAnim{
+       0%{
+              transform: scale(.5)rotate(-10deg);
+       }
+       100%{
+              transform: scale(1)rotate(10deg);
+       }
+}

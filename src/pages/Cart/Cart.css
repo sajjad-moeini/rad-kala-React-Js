@@ -1,0 +1,30 @@
+.cp{cursor: pointer;}
+.count-container{
+       border: 1px solid #999;
+       border-radius: 1rem;
+}
+.color-layout{
+       width: 20px;
+       height: 20px;
+}
+.cart-product-price{
+       margin-top: 10vh;
+}
+.off-count-price{
+       font-size: .8rem;
+       font-weight: 500;
+}
+.all-products-price-title,.all-products-price{
+       color: #a2a0a0;
+}
+.factor-container{
+       box-shadow: 0px 0px 10px 1px white;
+       padding: 2rem 1rem;
+       border-radius: 1rem;
+       background-color: #99999944;
+       height: fit-content;
+}
+.cart-product{
+       border-bottom: 1px solid #777;
+       padding: 2rem;
+}

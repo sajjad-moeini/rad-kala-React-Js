@@ -69,8 +69,9 @@ navigate('/')
 
 
 
-                                                 <Nav.Link >
+                                                 <Nav.Link className=' position-relative'>
                                                         <BsCart3 className='cart-icon' onClick={()=>navigate('/cart')} />
+                                                      {projectContex.cartItems.length > 0 && <div className=' position-absolute cart-badge bg-danger rounded-circle text-light d-flex-centering'>{projectContex.cartItems.length}</div>}  
                                                  </Nav.Link>
                                           </Nav>
                                           <Nav  >
