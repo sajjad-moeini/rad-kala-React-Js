@@ -54,7 +54,7 @@ MySwal.fire({
       const errors = {}
       projectContext.users.forEach(user=>{
         if(user.userName == values.userName){
-          errors.userName = '  این نام کاربری تکراری است'
+          errors.userName = '   نام کاربری تکراری است'
         }
         if(user.email == values.email){
           errors.email ='این ایمیل قبلا ثبت نام شده'
