@@ -3,6 +3,7 @@ import './Cart.css'
 import { useContext } from 'react'
 import ProjectContext from '../../Contexts/ProjectContext'
 import CardProduct from '../../Components/CardProduct/CardProduct'
+import { Link } from 'react-router-dom'
 export default function Cart() {
   const projectContex = useContext(ProjectContext)
   const cartItems = projectContex.cartItems
@@ -46,6 +47,10 @@ export default function Cart() {
               <CardProduct  {...product} key={index} />
             ))}
           </div>
+        </div>
+        <div className="d-flex justify-content-end my-5">
+       {projectContex.cartItems.length > 0 && <Link to={'/'} className='btn btn-primary' onClick={()=>{projectContex.setCartItems([])}}>
+پرداخت</Link>}  
         </div>
       </div>
     </>
