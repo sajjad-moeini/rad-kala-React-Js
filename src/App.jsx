@@ -13,6 +13,14 @@ function App() {
   const [allPayPrice, setAllPayPrice] = useState(0)
   const [alloffsPrice, setAlloffsPrice] = useState(0)
   const [payCoast, setPayCoast] = useState(0)
+  const [users,setUsers] =useState([   {
+    id: 1,
+    name: 'سجاد معینی',
+    userName: 'sajjad-moeini',
+    password: '12345678',
+    email: 'sajjadmoeini@gmail.com',
+    phone: '09195805686'
+}])
   const router = useRoutes(Router)
 
   useEffect(() => {
@@ -47,7 +55,9 @@ function App() {
         setCartItems,
         allPayPrice,
         payCoast,
-        alloffsPrice
+        alloffsPrice,
+        users,
+        setUsers
       }}>
         <NavBar />
         <div id="content">

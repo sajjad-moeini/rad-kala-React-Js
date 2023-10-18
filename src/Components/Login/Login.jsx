@@ -8,15 +8,15 @@ import { useState } from 'react'
 import { useSelector } from 'react-redux'
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
-const MySwal = withReactContent(Swal)
 
 
 export default function Login() {
+  const MySwal = withReactContent(Swal)
   const projectContext = useContext(ProjectContext)
 const [userName,setUserName]=useState('')
 const [passsword,setPassword]=useState('')
 const navigate = useNavigate()
-const allUsers = useSelector((state)=>(state.Users))
+const allUsers = projectContext.users
 
 
 const loginHandler =()=>{
