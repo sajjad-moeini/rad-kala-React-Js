@@ -80,7 +80,7 @@ export default function CardProduct({ _id, name, count, price, off, color, image
             {off > 0 ? (
               <div className="product-final-price h5 text-light">{finalPrice.toLocaleString()} تومان</div>
             ) : (
-              <div className="product-final-price h5 text-light" data-price={`${allPrice}`} >{allPrice} تومان</div>
+              <div className="product-final-price h5 text-light" data-price={`${allPrice}`} >{allPrice.toLocaleString()} تومان</div>
             )}
 
 

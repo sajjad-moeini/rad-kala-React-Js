@@ -47,7 +47,6 @@ cartItems.forEach(item =>{
   }
 })
 
-console.log(cartItems)
 
   let newCartItem = {
     _id:product[0]._id,
