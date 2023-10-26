@@ -43,7 +43,7 @@ export default function HomeOffsSlider({ products, offCard, bgColor }) {
                                                                </div>
                                                                <img src="images/offBox/offBox.webp"
                                                                       className='off-swiper-first-slide-img my-1' alt="" />
-                                                               <Link className='off-swiper-first-slide-btn' to={'/products'}>
+                                                               <Link className='off-swiper-first-slide-btn' to={'/products/all'}>
                                                                       مشاهده همه <AiOutlineArrowLeft />
                                                                </Link>
                                                         </div>
@@ -52,7 +52,7 @@ export default function HomeOffsSlider({ products, offCard, bgColor }) {
                                                  )}
                                                  {
                                                         products && products.slice(0, 10).map((product, index) => (
-                                                               <SwiperSlide className=' h-100 swiper-offCard-slide bg-light which-card-get-border' key={index} data-aos="zoom-in" data-aos-duration="2000">
+                                                               <SwiperSlide className=' h-100 swiper-offCard-slide bg-light which-card-get-border' key={index} >
                                                                       <Link to={`products/product/${product._id}`}>
                                                                              <div className='w-100 h-50  d-flex-centering ' >
                                                                                     <img src={product.mainImg} className=' offCard-img mt-3' alt="" />
@@ -87,7 +87,7 @@ export default function HomeOffsSlider({ products, offCard, bgColor }) {
                                                  {
                                                         offCard ? (
                                                                <SwiperSlide className=' h-100 swiper-offCard-last-slide bg-light which-card-get-border'>
-                                                                      <Link to={'/products'} className='d-flex-centering flex-column h-100 w-100 swiper-offCard-last-slide-link'>
+                                                                      <Link to={'/products/all'} className='d-flex-centering flex-column h-100 w-100 swiper-offCard-last-slide-link'>
                                                                              <BsArrowLeftCircle className='last-offCardIcon mb-3' />
                                                                              مشاهده همه
                                                                       </Link>

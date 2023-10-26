@@ -18,7 +18,7 @@ function App() {
     name: 'سجاد معینی',
     userName: 'sajjad-moeini',
     password: '12345678',
-    email: 'sajjadmoeini@gmail.com',
+    email: 'sajjadmoeini97@gmail.com',
     phone: '09195805686'
 }])
   const router = useRoutes(Router)

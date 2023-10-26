@@ -53,12 +53,14 @@ export default function Home() {
                      </div>
                      <HomeOffsSlider products={newProducts} offCard={false} bgColor={'rgb(19, 52, 151)'} />
                      <HomeReadingSection />
-                     <div className="news-register-section p-5 my-5">
-                            <div className=' d-flex-centering my-5'>
-                                   <input type="email" placeholder='ایمیل خود را وارد کنید ...' className='form-control' style={{ width: '30%' }} />
-                                   <a href="#" className='btn btn-outline-primary news-register-btn ms-4'>
+                     <div className=" news-register-section p-5 my-5">
+                            <div className=' row my-5 w-50 mx-auto'>
+                                   <div className='col-12 col-md-9 d-flex-centering'> <input type="text"  placeholder='ایمیل خود را وارد کنید ...' className=' form-control w-100'  /></div>
+                                   <div className='col-12 col-md-3 d-flex-centering'>  <a href="#" className='  btn btn-outline-primary news-register-btn mt-3 mt-md-0'>
                                           دریافت آخرین اخبار
-                                   </a>
+                                   </a></div>
+                                  
+                                 
                             </div>
                      </div>
                      <HomeCompanyLogos />

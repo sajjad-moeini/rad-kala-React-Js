@@ -8,16 +8,19 @@
        width: 150px;
        height: 150px;
        padding: 2%;
-       box-shadow: 0px 0px 20px .2px rgb(155, 146, 146);
+       box-shadow: 0px 0px 20px .2px rgba(155, 146, 146, 0.352);
        transition: all .7s;
 }
 .home-category-box-img-container:hover{
-       transform: scale(1.05)translateY(-15px);
-       box-shadow: 0px 0px 50px .2px rgb(155, 146, 146);
+       transform: scale(1.05)translateY(-10px);
+       box-shadow: 0px 0px 15px .2px rgba(155, 146, 146, 0.498);
 }
-.home-category-box-img{
-     
+.home-category-box-img{    
        margin: 2%;
+       transition: all .5s;
+}
+.home-category-box-img-container:hover .home-category-box-img{
+       transform: scale(1.1);
 }
 .home-category-box-title{
        font-size: 1.1rem;

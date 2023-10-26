@@ -20,7 +20,7 @@
 }
 .nav-items:hover{
        color: #fff;
-       box-shadow: 0px 3px 10px 1px white;
+       box-shadow: 0px 3px 10px 1px rgba(255, 255, 255, 0.089);
 }
 .cart-icon{
        font-size: 1.5rem;
@@ -55,14 +55,14 @@ width: 70%;
        height: 40vh;
        overflow-y: auto;
        padding: .5rem;
-       background-color: #d6d4d446;
+       background-color: #bbdcf1;
        top: 100%;
        border-radius: 1rem;
 }
 .filtred-pr-title{
        color: #000000;
 }
-.search-result:hover .filtred-pr-title{color: #fff;}
+.search-result:hover .filtred-pr-title{color: #034a95;}
 .searchbar-filtred-product-img{
        width: 40px;
 }
